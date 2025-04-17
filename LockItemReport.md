@@ -331,11 +331,46 @@ Segmento de los empleados de tiendas de ropa:
 
 ## 3.3. Impact Mapping
 
-
+![](assets/chapter3/impactmap.png)
 
 ## 3.4. Product Backlog
 
+Enlace del Trello: 
 
+| Orden | ID    | Título                                      | Descripción breve                                                                             | Story Points |
+|-------|-------|----------------------------------------------|-----------------------------------------------------------------------------------------------|--------------|
+| 1     | US01  | Localización de prendas                      | Cliente busca prenda en app y ve ubicación exacta.                                            | 3            |
+| 2     | US04  | Mapas interactivos de la tienda              | App guía a cliente hasta prenda mediante mapa.                                                | 5            |
+| 3     | US03  | Búsqueda rápida en la app                    | Resultados de prendas en menos de 3 segundos.                                                 | 2            |
+| 4     | US27  | Notificación al personal por prenda movida   | Alerta inmediata a personal si prenda está fuera de lugar.                                   | 3            |
+| 5     | US26  | Detección de prenda fuera de lugar           | El sistema detecta prenda movida y genera alerta.                                             | 5            |
+| 6     | US06  | Monitor de stock en tiempo real              | Encargado ve cantidad exacta disponible en tiempo real.                                       | 3            |
+| 7     | US32  | Control de concurrencia de reservas          | Evita doble reserva de la misma prenda.                                                       | 5            |
+| 8     | US02  | Notificaciones de disponibilidad             | Cliente recibe alertas cuando prenda vuelve a stock.                                          | 2            |
+| 9     | US05  | Reserva de prendas                           | Cliente puede reservar desde la app.                                                          | 3            |
+| 10    | US07  | Alertas de stock bajo                        | Alertas cuando una prenda baja del mínimo.                                                    | 2            |
+| 11    | US28  | Registro de eventos de sensores              | Auditoría y análisis de eventos de sensores con logs.                                         | 3            |
+| 12    | US10  | Integración con sistemas ERP                 | Sincronización fluida con sistema ERP.                                                        | 5            |
+| 13    | US08  | Seguimiento de prendas robadas               | Sistema muestra última ubicación de prenda robada.                                            | 3            |
+| 14    | US29  | Dashboard de estado de sensores              | Visualizar estado (activo/inactivo/batería) de sensores.                                     | 5            |
+| 15    | US30  | Mantenimiento preventivo                     | Planificación de chequeos periódicos.                                                         | 3            |
+| 16    | US13  | Soporte técnico continuo                     | Soporte técnico responde en menos de 2h.                                                      | 2            |
+| 17    | US11  | Implementación de hardware IoT               | Instalación sin interrumpir ventas.                                                           | 5            |
+| 18    | US14  | Capacitación del personal                    | Formación del equipo en el uso del sistema.                                                   | 3            |
+| 19    | US16  | Inicio de Sesión Seguro                      | Inicio de sesión con seguridad.                                                               | 2            |
+| 20    | US17  | Cerrar Sesión                                | Cierre de sesión seguro.                                                                      | 1            |
+| 21    | US18  | Gestión de privacidad de datos               | Modificar preferencias de privacidad.                                                         | 3            |
+| 22    | US20  | Alertas de Seguridad                         | Notificación por actividad sospechosa.                                                        | 3            |
+| 23    | US21  | Personalización de notificaciones            | Usuario define qué alertas desea recibir.                                                     | 3            |
+| 24    | US23  | Configuración de perfil                      | Perfil fácil de configurar.                                                                   | 2            |
+| 25    | US24  | Favoritos y listas de deseos                 | Guardar prendas favoritas.                                                                    | 2            |
+| 26    | US22  | Temas y colores de la app                    | Cambiar aspecto visual de la app.                                                             | 2            |
+| 27    | US25  | Feedback y valoraciones                      | Usuario puede dejar opiniones.                                                                | 1            |
+| 28    | US09  | Reportes de inventario                       | Generación de reportes automáticos.                                                           | 3            |
+| 29    | US15  | Evaluación de impacto tecnológico            | Medir impacto de IoT después de 1 trimestre.                                                  | 3            |
+| 30    | US12  | Pruebas de sistema en la tienda              | Validar funcionamiento en entorno real.                                                       | 3            |
+| 31    | US31  | Escalabilidad del backend                    | Sistema debe escalar para múltiples tiendas.                                                  | 5            |
+| 32    | US19  | Verificación de Seguridad en Cambios Críticos| Autenticación adicional para cambios importantes.                                             | 3            |
 
 # Capítulo IV: Strategic-Level Software Design
 
