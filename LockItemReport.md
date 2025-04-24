@@ -178,7 +178,55 @@ en la industria minorista peruana y contribuyendo al crecimiento de un ecosistem
 
 ### 1.2.1 Antecedentes y problemática
 
+El solution profile utilizando la metodología **5W2H** (What, Why, Where, When, Who, How, How much) te ayudará a
+estructurar claramente tu propuesta de LockItem. A continuación te doy una guía detallada para que puedas desarrollarlo:
 
+**1. What (Qué):**
+
+LockItem es una solución tecnológica basada en IoT que permite a los clientes localizar prendas de ropa dentro de
+tiendas físicas, mejorando la experiencia de compra. Utiliza sensores integrados en las etiquetas de seguridad de las
+prendas para identificar en tiempo real su ubicación dentro de la tienda, y presenta esa información a través de una
+aplicación móvil conectada.
+
+**2. Why (Por qué):**
+
+El problema que se busca resolver es la dificultad que enfrentan los clientes cuando las prendas son movidas de su
+ubicación original. Esto puede resultar en una experiencia de compra frustrante, pérdida de tiempo y, en algunos casos,
+en la decisión del cliente de no realizar la compra. Además, ayuda a las tiendas a optimizar la gestión de inventario y
+mejorar la eficiencia operativa.
+
+**3. Where (Dónde):**
+
+LockItem está pensado para el mercado minorista de ropa en el Perú. Las tiendas afiliadas serían aquellas que buscan
+optimizar la experiencia de compra física mediante tecnología, principalmente en grandes centros comerciales y tiendas
+de departamentos en áreas urbanas.
+
+**4. When (Cuándo):**
+
+La solución está diseñada para ser implementada durante las etapas de alta demanda en las tiendas, como temporadas de
+rebajas, campañas navideñas o de vuelta a clases, cuando la búsqueda de productos es más caótica. Además, puede
+funcionar de manera continua para mejorar la experiencia del cliente en cualquier momento del año.
+
+**5. Who (Quiénes):**
+
+Los usuarios principales de LockItem son los clientes de las tiendas afiliadas, quienes podrán localizar sus productos
+de manera eficiente. Por otro lado, los empleados de las tiendas también se beneficiarán al poder tener un mayor control
+sobre el inventario en tiempo real. Los socios comerciales incluyen las tiendas minoristas que buscan mejorar la
+experiencia de compra y optimizar la gestión de sus productos.
+
+**6. How (Cómo):**
+
+La solución utiliza tecnología IoT mediante sensores instalados en las etiquetas de seguridad de las prendas. Estos
+sensores están conectados a una plataforma que se integra con una app móvil. Los clientes usan la app para buscar una
+prenda, y la app les muestra la ubicación exacta dentro de la tienda en tiempo real. Las tiendas afiliadas podrán
+implementar los sensores en sus sistemas de seguridad y vincularlos a la base de datos de productos.
+
+**7. How much (Cuánto cuesta):**
+
+El costo del sistema dependerá del tamaño de la tienda y la cantidad de productos a sensar. Se contemplan costos
+iniciales de implementación de los sensores y la infraestructura IoT, junto con una suscripción mensual o anual para el
+mantenimiento de la plataforma y la app. Además, el precio puede variar dependiendo del nivel de personalización que
+requiera cada tienda afiliada.
 
 ### 1.2.2 Lean UX Process
 
