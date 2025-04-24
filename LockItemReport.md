@@ -282,7 +282,7 @@ Esperamos que esto mejore la eficiencia operativa y como resultado, disminuya la
 
 #### 1.2.2.4. Lean UX Canvas
 
-![LocItem Canvas](assets/chapter1/images/LockItem_Canvas.png)
+![LocItem Canvas](assets/chapter1/LockItem_Canvas.png)
 
 ## 1.3. Segmentos objetivo
 
