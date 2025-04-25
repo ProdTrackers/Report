@@ -340,15 +340,26 @@ ___
 
 **Trabajador de tiendas de ropa:**
 
-|                        | **Descripcion**      |
-|------------------------|--------------------------------|
-| **Nombre y apellidos** | Sebastian Cordova     |
-| **Edad**               | 21             |
-| **Evidencia**          | ![Comprador 2](assets/chapter2/entrevista_eduardo.png) |
-| **Duracion del video** | 03:41                   |
-| **Timing del video**                | |
-| **Entrevistador**      | Eduardo André Chero Emé                                                                                                                                                                                                                                                                                                                                |
-| **Resumen**            | Sebastian es un trabajador de una tienda de ropa que entiende bien el problema que es buscar la ropa fuera e su lugar cuando debe ordenar y le parece atractivo la idea de una ayuda por medio de neustro dispositivo.                                                                   |
+|                        | **Descripcion**                                                                                                                                                                                                        |
+|------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Nombre y apellidos** | Sebastian Cordova                                                                                                                                                                                                      |
+| **Edad**               | 21                                                                                                                                                                                                                     |
+| **Evidencia**          | ![Trabajador 1](assets/chapter2/entrevista_eduardo.png)                                                                                                                                                                |
+| **Duracion del video** | 03:41                                                                                                                                                                                                                  |
+| **Timing del video**   |                                                                                                                                                                                                                        |
+| **Entrevistador**      | Eduardo André Chero Emé                                                                                                                                                                                                |
+| **Resumen**            | Sebastian es un trabajador de una tienda de ropa que entiende bien el problema que es buscar la ropa fuera e su lugar cuando debe ordenar y le parece atractivo la idea de una ayuda por medio de neustro dispositivo. |
+
+
+|                        | **Descripcion**                                                                                                                                                                                                      |
+|------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Nombre y apellidos** | María Cabrejos                                                                                                                                                                                                       |
+| **Edad**               | 21                                                                                                                                                                                                                   |
+| **Evidencia**          | ![Trabajador 2](assets/chapter2/entrevista_josue.png)                                                                                                                                                                |
+| **Duracion del video** | 03:45                                                                                                                                                                                                                |
+| **Timing del video**   |                                                                                                                                                                                                                      |
+| **Entrevistador**      | Josué David Arrunátegui Aguilar                                                                                                                                                                                      |
+| **Resumen**            | María trabaja en una tienda de ropa y conoce bien el problema que representa encontrar prendas fuera de su lugar. Esto le quita tiempo y dificulta mantener la tienda ordenada, sobre todo en días con mucho movimiento. Por eso, le pareció muy atractiva la idea de contar con un dispositivo que le ayude a identificar y reorganizar la ropa de forma más eficiente. |
 
 
 ### 2.2.3. Análisis de entrevistas
