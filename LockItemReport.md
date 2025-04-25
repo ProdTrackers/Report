@@ -151,7 +151,79 @@ TB1: El equipo ha cumplido con éxito los puntos solicitados para la entrega. Du
 ---
 
 # Student Outcome
-
+<table border="1">
+  <tr>
+    <th>Criterio específico</th>
+    <th>Acciones realizadas</th>
+    <th>Conclusiones</th>
+  </tr>
+  <tr>
+    <td>Trabaja en equipo para 
+proporcionar liderazgo en 
+forma conjunta </td>
+    <td>
+      <p>Márquez, Piero Stefano <br> 
+      TB1:<br> 
+      Organicé y gestioné los documentos clave, incluyendo la publicación del video de las entrevistas y su analisis. Además, desarrollé estrategias y tácticas competitivas para posicionarnos frente a los competidores, y participé activamente en el diseño, análisis y registro de entrevistas. También trabajé en la creación y priorización del product backlog, asegurando que todas las tareas estuvieran alineadas con los objetivos del proyecto. Por último, colaboré en los capítulos 3 y 4 del proyecto, contribuyendo de manera significativa a su desarrollo y asegurando el avance según lo planificado.<br>
+      </p>
+      <p>Arrunátegui Aguilar, Josué David<br> 
+      TB1:<br>
+	  Aca escribe 
+      <br>
+      </p>
+      <p>Chero Eme, Eduardo Andre<br> 
+      TB1:<br> 
+      Aca escribe<br>
+      </p>
+      <p>Cortes Hidalgo, Nicolas Andres <br> 
+      TB1:<br> 
+      Aca escribe<br>
+      </p>
+      <p>Olivera Guerra, Santiago Mickelle <br> 
+      TB1:<br> 
+      Aca escribe<br>
+      </p>
+      <p>Surco Reyes, Franco<br> 
+      TB1:<br> 
+      Aca escribe<br>
+      </p>
+    </td>
+    <td>En conclusión, un enfoque colaborativo y multidisciplinario es clave en el desarrollo de soluciones de ingeniería de software. Los estudiantes han destacado la importancia de integrar diversas disciplinas y conocimientos para mejorar cada fase del proceso, desde el diseño inicial y el análisis competitivo hasta la interacción con los usuarios y la arquitectura de software. Este enfoque no solo garantiza que los productos finales sean técnicamente robustos y alineados con las necesidades del mercado, sino que también resalta la importancia de la colaboración y la comunicación efectiva entre áreas especializadas para superar desafíos complejos y alcanzar soluciones innovadoras. Este modelo interdisciplinario no solo eleva la calidad del desarrollo de productos, sino que también prepara a los futuros ingenieros para liderar proyectos en entornos más integrados y tecnológicamente avanzados. Liderazgo Colaborativo en Equipo: El equipo adopta un liderazgo compartido, donde cada miembro asume roles de liderazgo según sus habilidades y el momento del proyecto, fomentando la toma de decisiones conjunta y el compromiso. Este enfoque dinámico permite que todos contribuyan a la coordinación y ejecución de tareas clave.</td>
+  </tr>
+  <tr>
+    <td>Crea un entorno colaborativo e 
+inclusivo, establece metas, 
+planifica tareas y cumple 
+objetivos.</td>
+    <td>
+      <p>Márquez, Piero Stefano <br> 
+      TB1:<br> 
+      Durante la primera entrega, organicé y gestioné documentos clave, como el video de entrevistas y analisis de la mismas. También participé en el diseño y priorización del product backlog, asegurando que todas las tareas estuvieran alineadas con los objetivos. Gracias a una planificación clara, el equipo avanzó de manera colaborativa en los capítulos 3 y 4, cumpliendo con los plazos establecidos.<br>
+      </p>
+      <p>Arrunátegui Aguilar, Josué David<br> 
+      TB1:<br> 
+      Aca escribe<br>
+      </p>
+      <p>Chero Eme, Eduardo Andre<br> 
+      TB1:<br> 
+   	  Aca escribe<br>
+      </p>
+      <p>Cortes Hidalgo, Nicolas Andres <br> 
+      TB1:<br> 
+      Aca escribe<br>
+      </p>
+      <p>Olivera Guerra, Santiago Mickelle <br> 
+      TB1:<br> 
+      Aca escribe<br>
+      </p>
+      <p>Surco Reyes, Franco <br> 
+      TB1:<br> 
+	  Aca escribe<br>
+      </p>
+    </td>
+    <td>El equipo consolidó un entorno altamente colaborativo e inclusivo. Se reforzó la comunicación efectiva mediante herramientas como WhatsApp y Discord, manteniendo reuniones interdiarias que facilitaron la coordinación y resolución de dudas. Cada miembro del equipo contribuyó activamente, estableciendo metas concretas y organizando las tareas de manera precisa, lo que permitió un trabajo fluido y alineado con los objetivos del proyecto. Además, la mejora en la planificación y distribución de responsabilidades, sumada al apoyo mutuo, fue clave para cumplir con los plazos y lograr los resultados esperados. El equipo mostró una notable capacidad para trabajar en conjunto, corregir errores y cumplir los objetivos establecidos de manera eficiente. Entorno Inclusivo y Cumplimiento de Objetivos: El equipo promueve un ambiente inclusivo y abierto a diversas ideas, planificando metas claras en un tablero Kanban en Trello. Esta herramienta organiza y prioriza tareas, facilita el seguimiento del progreso y asegura el cumplimiento de objetivos mediante la responsabilidad compartida.</td>
+  </tr>
+</table>
 
 
 ---
