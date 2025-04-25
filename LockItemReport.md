@@ -1253,3 +1253,27 @@ Esta capa contiene la implementación del repositorio de sincronización (`JpaER
 
 # Conclusiones
 
+1. **Solución IoT bien fundamentada en necesidades reales del usuario**  
+   A partir del análisis de entrevistas y actividades de _Needfinding_, se identificó que tanto los clientes como los trabajadores de tiendas de ropa enfrentan dificultades significativas en la localización de prendas. LockItem responde directamente a estas problemáticas, ofreciendo trazabilidad en tiempo real mediante sensores IoT, lo que valida la hipótesis de mejora en eficiencia operativa y experiencia de usuario.
+
+2. **Arquitectura técnica escalable y alineada al dominio**  
+   El diseño de software aplicó principios de Domain-Driven Design a nivel estratégico y táctico, lo cual permitió establecer *Bounded Contexts* bien definidos (`User`, `Inventory`, `IoT Device`, `ERP`). La arquitectura planteada es modular, desacoplada y preparada para escalar horizontalmente con múltiples instancias por tienda (`multi-tenancy`), garantizando la mantenibilidad del sistema y su extensibilidad.
+
+3. **Cohesión entre requisitos funcionales y técnicos**  
+   El mapeo de escenarios _as-is_ y _to-be_, junto con la especificación de más de 30 historias de usuario detalladas en formato Gherkin, permitió garantizar que los requerimientos del negocio están correctamente traducidos a funcionalidades implementables. Esto asegura que el backlog técnico tiene trazabilidad directa con los objetivos del producto.
+
+4. **Ventaja competitiva frente a soluciones similares**  
+   LockItem se diferencia de competidores como Pricer o Neurolabs al combinar sensores IoT con integración directa a etiquetas de seguridad y sistemas ERP. Esto permite una adopción más inmediata y menos invasiva en tiendas ya operativas, además de ofrecer un modelo de suscripción flexible que se adapta al tamaño de cada tienda.
+
+5. **Fuerte enfoque en colaboración y gobernanza técnica del proyecto**  
+   El equipo logró una ejecución ágil y organizada del proyecto, con planificación mediante Trello y herramientas de comunicación asincrónica como Discord. Cada integrante asumió roles específicos, destacando liderazgo compartido y trabajo interdisciplinario en el desarrollo de componentes críticos como los diagramas C4, diseño de historias de usuario y pruebas de integración.
+
+# Anexos
+
+- Repositorio del informe (Markdown): [https://github.com/ProdTrackers/Report](https://github.com/ProdTrackers/Report)
+- Video de entrevistas: [Entrevistas-IOT](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201816402_upc_edu_pe/EeaTmTaKrQpBm0ctmxVHrvgBotE0Nhb8_Xx2Cl7MrlXVcg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=fJyUaC)
+
+# Bibliografía
+
+- Evans, E. (2004). *Domain-Driven Design: Tackling Complexity in the Heart of Software*. Addison-Wesley.
+- [Structurizr](https://c4model.com)
