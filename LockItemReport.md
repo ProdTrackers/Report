@@ -168,7 +168,7 @@ forma conjunta </td>
       </p>
       <p>Arrunátegui Aguilar, Josué David<br> 
       TB1:<br>
-	  Aca escribe 
+	  Me encargué de la elaboración de los Domain Message Flow Models para los distintos eventos que gestionará el sistema, asegurando la correcta 	representación de la interacción entre actores, servicios y dispositivos IoT dentro de la arquitectura propuesta. Asimismo, desarrollé los Bounded Context Canvas para los principales módulos del sistema, lo que permitió delimitar responsabilidades, identificar eventos clave y establecer límites claros entre dominios. Estas tareas facilitaron una comprensión compartida dentro del equipo, promoviendo una mejor coordinación técnica y una toma de decisiones colaborativa. Mi participación activa en estas actividades fue clave para ejercer un liderazgo conjunto y establecer una base sólida para el desarrollo distribuido del sistema. 
       <br>
       </p>
       <p>Chero Eme, Eduardo Andre<br> 
@@ -202,7 +202,7 @@ objetivos.</td>
       </p>
       <p>Arrunátegui Aguilar, Josué David<br> 
       TB1:<br> 
-      Aca escribe<br>
+      Fomenté un entorno colaborativo al coordinar con los distintos miembros del equipo la elaboración de los Domain Message Flow Models y los Bounded Context Canvas, asegurando que todos comprendieran su propósito y pudieran aportar desde sus áreas. Establecí metas claras para la entrega de estos artefactos y organicé las tareas de forma que se alinearan con los plazos generales del proyecto. Gracias a esta planificación y al trabajo conjunto, se logró integrar de manera efectiva estos elementos en el diseño del sistema, cumpliendo con los objetivos técnicos y facilitando una comunicación fluida entre los distintos roles del equipo.
       </p>
       <p>Chero Eme, Eduardo Andre<br> 
       TB1:<br> 
