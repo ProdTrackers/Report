@@ -177,11 +177,11 @@ Me encargué de la elaboración de las historias de usuario (user stories) para 
 </p>
       <p>Cortes Hidalgo, Nicolas Andres <br> 
       TB1:<br> 
-      Aca escribe<br>
+      Me encargué de la elaboracion de los bounded context de Usuario, Dispositivos IoT, Inventarios y ERP, enfocandome en la elbaoracion de los diagramas tanto de componente como de clases, para tener una base principal en lo que sera el desarrollo a profundidad de la arquitectura del sistema en el cual nos estamos enfocando. Del mismo modo, realize mi video de exposicion complerando las partes necesarias en el canvas desarollado.<br>
       </p>
       <p>Olivera Guerra, Santiago Mickelle <br> 
       TB1:<br> 
-      Aca escribe<br>
+      Durante esta primera entrega trabajé con el software de miro y mediante Gooogle meet coordine con mi compañero la arquitectura de los cuatro bounded context y la cocherencia entre sus 4 capas y su arquitectura.<br>
       </p>
       <p>Surco Reyes, Franco<br> 
       TB1:<br> 
@@ -210,7 +210,7 @@ Contribuí a generar un entorno colaborativo mediante la creación de historias 
 </p>
       <p>Cortes Hidalgo, Nicolas Andres <br> 
       TB1:<br> 
-      Aca escribe<br>
+      Durante esta primera entrega, tuve que profundizar en lo que son los diagramas c4, para asi poder construir de forma adecuada cada uno de los diagramas de componentes necesarios para los 4 bounded context que hemos definido para este sistema. Del mismo modo, realice una investigacion profunda en lo que corresponde a los diagramas de clase, para asi poder realizar de forma apropiada los diagramas respectivos de cada uno de los bounded context mencionados anteriormente.<br>
       </p>
       <p>Olivera Guerra, Santiago Mickelle <br> 
       TB1:<br> 
@@ -277,8 +277,11 @@ en la industria minorista peruana y contribuyendo al crecimiento de un ecosistem
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
 | **Código:** U202015132 <br> **Carrera:** Ingeniería de Software <br> **Acerca de mí:** Soy estudiante de la carrera de ingeniería de Software en la universidad Peruana de Ciencias Aplicadas, elegí esta carrera por mi pasión por la programación e interés por la tecnología. Me considero una persona responsable y colaborativa, por lo que apoyaré al grupo en lo que se necesite. Además, tengo conocimientos de programación en C++, Python, HTML, CSS, JavaScript y modelado de base de datos en SQL Server. | ![Franco Perfil](assets/chapter1/members/franco.jpg) |
 
+| Integrante                                                                                                                                                                                                                                                                                                                               | Cortés Hidalgo, Nicolás                   |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
+| **Código:** U202016311 <br> **Carrera:** Ingeniería de Software <br> **Acerca de mí:** Estudiante de la carrera de ingeniería de Software en la UPC, me apasiona la tecnolgía, y me encantra programar en Angular. Me considero una persona proactiva la cual siempre esta dispuesta a colaborar a quien lo necesita, ademas de siempre dar lo maximo en los proyectos en los que me veo involucrado. | ![Nicolas Perfil](assets/chapter1/members/Nicolas.png) |
 
-| Integrante                                                                                                                                                                                                                                                                                                                               | SSantiago Mickelle, Olivera Guerra                   |
+| Integrante                                                                                                                                                                                                                                                                                                                               | Santiago Mickelle, Olivera Guerra                   |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
 | **Código:** U20201a821 <br> **Carrera:** Ingeniería de Software <br> **Acerca de mí:** Me considero un estudiante comprometido con el trabajo y desenvolvimiento en el campo profesional con mucho foco para cada uno de los proyectos en los cuales participo y detallisata con los temas a arreglar. Domino tecnologías como Java para Backend como sus frameworks tales como Spring para el desarrollo de APIs , en Front con Angular y Android Studio, por ultimo, SQL a nivel avanzado para inserción y extracción de datos específicos. | ![Santiago Perfil](assets/Santiago.jpg) |
 
