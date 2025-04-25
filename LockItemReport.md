@@ -302,19 +302,19 @@ Escenario: Reservar Prenda  <br>
 
 #### User bounded context canvas
 
-
+![user context](./assets/ContextCanvases/user.png)
 
 #### Iot device management bounded context canvas
 
-
+![iot context](./assets/ContextCanvases/iot.png)
 
 #### Inventory management bounded context canvas
 
-
+![inventory context](./assets/ContextCanvases/inventory.png)
 
 #### ERP integration bounded context canvas
 
-
+![erp context](./assets/ContextCanvases/erp.png)
 
 ### 4.1.5. Context Mapping
 
