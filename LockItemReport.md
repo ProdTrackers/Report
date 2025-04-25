@@ -344,12 +344,17 @@ Escenario: Localizar Prenda  <br>
 
 ### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
 
+![UserBoundedContext](assets/UserBoundedContextDiagram.png)
+
 ### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
 
 #### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
 
+![UserBoundedContextDomainLayerClassDiagram](assets/UserFirstDiagram.png)
+
 #### 4.2.1.6.2. Bounded Context Database Design Diagram
 
+![UserBoundedContextDatabaseDesignDiagram](assets/UserSecondDiagram.png)
 
 ## 4.2.2. Bounded Context: IoT Device
 
@@ -363,12 +368,17 @@ Escenario: Localizar Prenda  <br>
 
 ### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
 
+![IoTDeviceBoundedContext](assets/IoTDeviceBoundedContext.png)
+
 ### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
 
 #### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
 
+![IoTDeviceBoundedContextDomainLayerClassDiagram](assets/IoTDeviceFirstDiagram.png)
+
 #### 4.2.2.6.2. Bounded Context Database Design Diagram
 
+![IoTDeviceBoundedContextDatabaseDesignDiagram](assets/IotDeviceSecondDiagram.png)
 
 ## 4.2.3. Bounded Context: Inventory
 
@@ -382,11 +392,17 @@ Escenario: Localizar Prenda  <br>
 
 ### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
 
+![InventoryBoundedContext](assets/BoundedContextInventory.png)
+
 ### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
 
 #### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
 
+![InventoryBoundedContextDomainLayerClassDiagram](assets/InventoryFirstDiagram.jpg)
+
 #### 4.2.3.6.2. Bounded Context Database Design Diagram
+
+![InventoryBoundedContextDatabaseDesignDiagram](assets/InventorySecondDiagram.jpg)
 
 ## 4.2.4. Bounded Context: ERP
 
@@ -400,13 +416,17 @@ Escenario: Localizar Prenda  <br>
 
 ### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
 
+![ERPBoundedContext](assets/ERPBoundedContext.png)
+
 ### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
 
 #### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams
 
+![ERPBoundedContextDomainLayerClassDiagram](assets/ERPFirstDiagram.png)
+
 #### 4.2.4.6.2. Bounded Context Database Design Diagram
 
-
+![ERPBoundedContextDatabaseDesignDiagram](assets/ERPSecondDiagram.png)
 
 # Conclusiones
 
