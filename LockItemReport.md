@@ -214,7 +214,7 @@ objetivos.</td>
       </p>
       <p>Olivera Guerra, Santiago Mickelle <br> 
       TB1:<br> 
-      Aca escribe<br>
+      Durante la primera entrega, me encargué de los layers para los principales Bounded Context: User, Inventory, Device y ERP, para planificar unn correcto desarrollo de Backend siguiendo respetando el core del negocio y aplicando ddd correctamente. <br>
       </p>
       <p>Surco Reyes, Franco <br> 
       TB1:<br> 
