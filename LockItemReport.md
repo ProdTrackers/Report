@@ -371,6 +371,17 @@ ___
 | **Entrevistador**      | Josué David Arrunátegui Aguilar                                                                                                                                                                                      |
 | **Resumen**            | María trabaja en una tienda de ropa y conoce bien el problema que representa encontrar prendas fuera de su lugar. Esto le quita tiempo y dificulta mantener la tienda ordenada, sobre todo en días con mucho movimiento. Por eso, le pareció muy atractiva la idea de contar con un dispositivo que le ayude a identificar y reorganizar la ropa de forma más eficiente. |
 
+|                        | **Descripcion**                                                                                                                                                                                                      |
+|------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Nombre y apellidos** | Abel Montoya                                                                                                                                                                                                       |
+| **Edad**               | 23                                                                                                                                                                                                                   |
+| **Evidencia**          | ![Trabajador 3](assets/chapter2/entrevista_Abel.png)                                                                                                                                                                |
+| **Duracion del video** | 06:07                                                                                                                                                                                                                |
+| **Timing del video**   |                                                                                                                                                                                                                      |
+| **Entrevistador**      | Piero Stefano Márquez                                                                                                                                                                                      |
+| **Resumen**            | Abel es un joven universitario que hace part-time en una tienda de ropa, nos habla con un poco de como es el como persona y dentro de su trabajo. Al proponerle la idea de LockItem le parecio interesante y una solución a una problematica que sufren en su tienda hace mucho que es el robo de prendas, abel piensa que nuestro solución agilizaria algunos procesos pero añadio que se le podria poner una alarma extra al dispositivo iot para que cuando el sensor sienta cruzo la puerta la alarma se active y se pueda detener al ladron. Tambien nos compartio que como herramienta podria ser bastante util en tema de retail ya que la empresa se ahorraria los gastos operatvios. Cree que si se lo propone a su gerente pueda aceptar la implementación, nos menciona que vendria genial una capacitación para el manejo del dispositivo y software y mantenimiento constante tambien. |
+
+
 
 ### 2.2.3. Análisis de entrevistas
 
