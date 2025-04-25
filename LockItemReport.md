@@ -173,8 +173,8 @@ forma conjunta </td>
       </p>
       <p>Chero Eme, Eduardo Andre<br> 
       TB1:<br> 
-      Aca escribe<br>
-      </p>
+Me encargué de la elaboración de las historias de usuario (user stories) para los distintos actores del sistema, asegurando su alineación con los objetivos del producto y aplicando buenas prácticas de redacción técnica y criterios de aceptación en formato Gherkin. También desarrollé las secciones correspondientes al enfoque Lean UX, lo que permitió integrar la perspectiva del usuario en las fases tempranas del diseño. Estas tareas fueron clave para establecer una base funcional clara y centrada en el valor del usuario.<br>
+</p>
       <p>Cortes Hidalgo, Nicolas Andres <br> 
       TB1:<br> 
       Aca escribe<br>
@@ -206,8 +206,8 @@ objetivos.</td>
       </p>
       <p>Chero Eme, Eduardo Andre<br> 
       TB1:<br> 
-   	  Aca escribe<br>
-      </p>
+Contribuí a generar un entorno colaborativo mediante la creación de historias de usuario que guiaron el trabajo del equipo y facilitaron la planificación en el backlog. Además, elaboré las secciones de Lean UX, lo que ayudó a que el equipo tuviera una comprensión compartida de las necesidades de los usuarios. Estas acciones permitieron que el equipo priorizara de forma efectiva y avanzara de manera alineada con los objetivos planteados.<br>
+</p>
       <p>Cortes Hidalgo, Nicolas Andres <br> 
       TB1:<br> 
       Aca escribe<br>
