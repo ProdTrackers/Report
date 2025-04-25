@@ -337,6 +337,16 @@ ___
 
 **Clientes de tiendas de ropa:**
 
+|                        | **Descripcion**                                                                                                                                                                                                        |
+|------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Nombre y apellidos** | Brad Segovia                                                                                                                                                                                                      |
+| **Edad**               | 22                                                                                                                                                                                                                     |
+| **Evidencia**          | ![Cliente 1](assets/chapter2/entrevista_franco.png)                                                                                                                                                                |
+| **Duracion del video** | 07:59                                                                                                                                                                                                                   |
+| **Timing del video**   |                                                                                                                                                                                                                        |
+| **Entrevistador**      | Franco Surco Reyes                                                                                                                                                                                                |
+| **Resumen**            | Brad Segovia, comprador habitual en tiendas de ropa, comparte sus experiencias de compra y los desafíos que ha enfrentado, como la desorganización en el diseño de las tiendas y la falta de precisión en los precios. Considera que el proceso puede ser frustrante y consumir demasiado tiempo. Por ello, sugiere mejoras en una aplicación de compras, como la ubicación precisa de los artículos según su color y tamaño dentro de la tienda. Además, destaca la importancia de una aplicación basada en la ubicación para optimizar las compras y, finalmente, propone la incorporación de mapas interactivos que muestren la ubicación exacta de los productos. |
+
 
 **Trabajador de tiendas de ropa:**
 
