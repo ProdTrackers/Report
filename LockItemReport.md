@@ -40,10 +40,10 @@ ___
 Project Report Collaboration Insights
 # Project Report Collaboration Insights
 
-<img src="assets\insights-tb1.PNG">
+<img src="assets\project-report-tb1.PNG">
 
 ## Project Report
-<img src="assets/images/report.PNG">
+<img src="assets\project-report2-tb1.PNG">
 
 Link: https://github.com/ProdTrackers/Report
 
@@ -51,7 +51,7 @@ TB1: El equipo ha cumplido con éxito los puntos solicitados para la entrega. Du
 
 ### Analiticos para el TB1
 
-<img src="assets/images/Analiticos TB1.PNG">
+<img src="assets\project-report-tb1.PNG">
 
 
 
@@ -621,7 +621,7 @@ y mantenerse competitivos en el mercado minorista peruano.
 | **Edad**               | 22                                                                                                                                                                                                                     |
 | **Evidencia**          | ![Cliente 1](assets/chapter2/entrevista_franco.png)                                                                                                                                                                |
 | **Duracion del video** | 07:59                                                                                                                                                                                                                   |
-| **Timing del video**   |                                                                                                                                                                                                                        |
+| **Timing del video**   |        22:18 - 30:17                                                                                                                                                                                                                |
 | **Entrevistador**      | Franco Surco Reyes                                                                                                                                                                                                |
 | **Resumen**            | Brad Segovia, comprador habitual en tiendas de ropa, comparte sus experiencias de compra y los desafíos que ha enfrentado, como la desorganización en el diseño de las tiendas y la falta de precisión en los precios. Considera que el proceso puede ser frustrante y consumir demasiado tiempo. Por ello, sugiere mejoras en una aplicación de compras, como la ubicación precisa de los artículos según su color y tamaño dentro de la tienda. Además, destaca la importancia de una aplicación basada en la ubicación para optimizar las compras y, finalmente, propone la incorporación de mapas interactivos que muestren la ubicación exacta de los productos. |
 
@@ -631,7 +631,7 @@ y mantenerse competitivos en el mercado minorista peruano.
 | **Edad**               | 21                                                                                                                                                                                                                     |
 | **Evidencia**          | ![Cliente 2](assets/chapter2/Entrevista_Nicolas.png)                                                                                                                                                                |
 | **Duracion del video** | 07:59                                                                                                                                                                                                                   |
-| **Timing del video**   |                                                                                                                                                                                                                        |
+| **Timing del video**   |       13:15 - 17:41                                                                                                                                                                                                                 |
 | **Entrevistador**      | Nicolás Cortés Hidalgo                                                                                                                                                                                                |
 | **Resumen**            | Alessandra Alvarado es una estudiante de 21 años de la carrera de Derecho en la Pontificia Universidad Católica del Perú. A pesar de que cuando quiere comprarse algún tipo de prenda, lo suele realizar de manera online, cuando suele salir a algún sitio, no pierde la oportunidad de entrar a alguna tienda departamental y revisar ciertas prendas que le llaman la atención. Uno de los aspectos que mas le molesta de comprar en las mismas tiendas es el tiempo que le tarda encontrar una ropa en particular, por lo que valoraría la implementación de una solución que le ayude a reducir el tiempo que empeña en buscar y comprar prendas. |
 
@@ -642,7 +642,7 @@ y mantenerse competitivos en el mercado minorista peruano.
 | **Edad**               | 22                                                                                                                                                                                                                   |
 | **Evidencia**          | ![Cliente 3](assets/chapter2/ESant.jpg)                                                                                                                                                                |
 | **Duracion del video** | 05 : 37                                                                                                                                                                                                               |
-| **Timing del video**   |                                                                                                                                                                                                                      |
+| **Timing del video**   |      17:42 - 22:17                                                                                                                                                                                                                |
 | **Entrevistador**      | Santiago Mickelle Olivera Gueera                                                                                                                                                                                     |
 | **Resumen**            | Angelo es un cliente conservador que suele ir en presencial a cada una de las tiendas de ropa o de bienes. Este en la entrevista nos relata que lo que resaltaría de una solución es la facilidad de encontrar cada producto dentro de una tienda gigante con exactitud, con numero de pasillo y que se muestre su ubicación reflejada en el mapa, incluso si es solo un producto el que quede en las estanterías, a él le gustaría poder encontrarlo si es de su agrado. La razón de esto es simple, las aplicaciones indican en qué pasillo se encuentran los productos, pero en verdad te indican solamente la estantería, no el producto, en caso de que quede solo unas unidades y no se encuentren, el cliente no podría encontrarlo, este tema es el eje principal de la entrevista con Angelo. |
 
@@ -655,7 +655,7 @@ y mantenerse competitivos en el mercado minorista peruano.
 | **Edad**               | 21                                                                                                                                                                                                                     |
 | **Evidencia**          | ![Trabajador 1](assets/chapter2/entrevista_eduardo.png)                                                                                                                                                                |
 | **Duracion del video** | 03:41                                                                                                                                                                                                                  |
-| **Timing del video**   |                                                                                                                                                                                                                        |
+| **Timing del video**   |      06:08 - 09:48                                                                                                                                                                                                                  |
 | **Entrevistador**      | Eduardo André Chero Emé                                                                                                                                                                                                |
 | **Resumen**            | Sebastián, trabajador de una tienda de ropa, identifica como principal problema la dificultad de encontrar prendas fuera de lugar durante el orden y control de inventario, ya que el proceso actual es manual y poco eficiente. Ve con interés la incorporación de tecnología IoT para localizar prendas, destacando que podría ahorrar tiempo, mejorar la precisión del inventario y optimizar la reposición. Considera clave que la solución permita ubicar prendas rápidamente, detectar ubicaciones incorrectas y generar reportes. También enfatiza la importancia de una implementación simple, capacitación adecuada y soporte técnico continuo. |
 
@@ -666,7 +666,7 @@ y mantenerse competitivos en el mercado minorista peruano.
 | **Edad**               | 21                                                                                                                                                                                                                   |
 | **Evidencia**          | ![Trabajador 2](assets/chapter2/entrevista_josue.png)                                                                                                                                                                |
 | **Duracion del video** | 03:45                                                                                                                                                                                                                |
-| **Timing del video**   |                                                                                                                                                                                                                      |
+| **Timing del video**   |        09:49 - 13:34                                                                                                                                                                                                              |
 | **Entrevistador**      | Josué David Arrunátegui Aguilar                                                                                                                                                                                      |
 | **Resumen**            | María trabaja en una tienda de ropa y conoce bien el problema que representa encontrar prendas fuera de su lugar. Cada día, especialmente en horarios con gran afluencia de clientes, se enfrenta al desafío de reorganizar constantemente artículos que han sido dejados en estantes incorrectos o abandonados en los probadores. Esta tarea no solo le consume tiempo valioso que podría dedicar a asesorar mejor a los compradores, sino que también complica el control del inventario y afecta la imagen general del local. Por eso, cuando escuchó sobre una solución que permite ubicar rápidamente las prendas mediante sensores conectados a una app móvil, le pareció una idea innovadora y muy útil para facilitar su trabajo diario y mejorar la experiencia del cliente. Por eso, le pareció muy atractiva la idea de contar con un dispositivo que le ayude a identificar y reorganizar la ropa de forma más eficiente. |
 
@@ -676,7 +676,7 @@ y mantenerse competitivos en el mercado minorista peruano.
 | **Edad**               | 23                                                                                                                                                                                                                   |
 | **Evidencia**          | ![Trabajador 3](assets/chapter2/entrevista_Abel.PNG)                                                                                                                                                                |
 | **Duracion del video** | 06:07                                                                                                                                                                                                                |
-| **Timing del video**   |                                                                                                                                                                                                                      |
+| **Timing del video**   |     00:00 - 06:07                                                                                                                                                                                                                 |
 | **Entrevistador**      | Piero Stefano Márquez                                                                                                                                                                                      |
 | **Resumen**            | Abel es un joven universitario que hace part-time en una tienda de ropa, nos habla con un poco de como es el como persona y dentro de su trabajo. Al proponerle la idea de LockItem le parecio interesante y una solución a una problematica que sufren en su tienda hace mucho que es el robo de prendas, abel piensa que nuestro solución agilizaria algunos procesos pero añadio que se le podria poner una alarma extra al dispositivo iot para que cuando el sensor sienta cruzo la puerta la alarma se active y se pueda detener al ladron. Tambien nos compartio que como herramienta podria ser bastante util en tema de retail ya que la empresa se ahorraria los gastos operatvios. Cree que si se lo propone a su gerente pueda aceptar la implementación, nos menciona que vendria genial una capacitación para el manejo del dispositivo y software y mantenimiento constante tambien. |
 
