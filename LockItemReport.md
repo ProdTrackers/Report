@@ -37,6 +37,23 @@ ___
 | 1.0     | 10/04/2025 | Eduardo Chero     | Creación del archivo base en Markdown para el desarrollo del Final Project                            |
 
 ---
+Project Report Collaboration Insights
+# Project Report Collaboration Insights
+
+<img src="assets\insights-tb1.PNG">
+
+## Project Report
+<img src="assets/images/report.PNG">
+
+Link: https://github.com/ProdTrackers/Report
+
+TB1: El equipo ha cumplido con éxito los puntos solicitados para la entrega. Durante el proceso de adaptación al entorno documental, enfrentamos algunos desafíos al planear correctamente el proyecto al inicio pero al final logramos encontrar nuestro enfoque. Como equipos nos sentimos satisfechos de haber alcanzado los objetivos propuestos.
+
+### Analiticos para el TB1
+
+<img src="assets/images/Analiticos TB1.PNG">
+
+
 
 # Contenido
 
