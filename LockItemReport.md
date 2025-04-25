@@ -281,10 +281,24 @@ ___
 
 ### 4.1.1. EventStorming
 
-
+![EventStorming](./assets/CandidateContextDiscovery/step7.jpg)
 
 ### 4.1.2. Candidate Context Discovery
 
+Paso 1: <br>
+![Step 1](./assets/CandidateContextDiscovery/step2.jpg)
+Paso 2:<br>
+![Step 2](./assets/CandidateContextDiscovery/step2.jpg)
+Paso 3:<br>
+![Step 3](./assets/CandidateContextDiscovery/step3.jpg)
+Paso 4:<br>
+![Step 4](./assets/CandidateContextDiscovery/step4.jpg)
+Paso 5:<br>
+![Step 5](./assets/CandidateContextDiscovery/step5.jpg)
+Paso 6:<br>
+![Step 6](./assets/CandidateContextDiscovery/step6.jpg)
+Paso 7:<br>
+![Step 7](./assets/CandidateContextDiscovery/step7.jpg)
 
 
 ### 4.1.3. Domain Message Flows Modeling
