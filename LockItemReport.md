@@ -338,13 +338,34 @@ Este diagrama representa una arquitectura de software distribuida en la nube
 
 # 4.2. Tactical-Level Domain-Driven Design
 
+## 4.2.1. Bounded Context: User
+
+Este bounded context se encarga de la gestión de los usuarios del sistema LockItem. Administra los perfiles, roles, estados y datos esenciales de cada usuario que interactúa con la plataforma, ya sea personal de tienda o clientes. La lógica cubre desde el registro y edición de usuarios hasta su autenticación y validación dentro del sistema.
+
 ### 4.2.1.1. Domain Layer
+
+El Domain Layer define la entidad `User` junto con sus objetos de valor como `EmailAddress`, `FullName`, `UserRole` y `UserStatus`. Se encapsulan reglas de negocio como validación de correos, activación/inactivación de usuarios y verificación de permisos administrativos.
+
+![UserDomainLayer](assets/DomainUser.png)
 
 ### 4.2.1.2. Interface Layer
 
+El Interface Layer expone la lógica de usuario a través de un controlador REST (`UserController`). Este controlador permite registrar, actualizar, obtener o eliminar usuarios, utilizando el servicio de dominio `UserService`.
+
+![UserInterfaceLayer](assets/InterfaceUser.png)
+
 ### 4.2.1.3. Application Layer
 
+En esta capa se encuentran los casos de uso que orquestan la lógica del dominio. Los `CommandHandler` y `QueryHandler` permiten registrar usuarios, actualizarlos, eliminarlos y obtener información según el contexto de la solicitud.
+
+![UserApplicationLayer](assets/ApplicationUser.png)
+
 ### 4.2.1.4. Infrastructure Layer
+
+Esta capa contiene la implementación concreta del repositorio de usuarios usando JPA y MySQL. Se define el `JpaUserRepository`, encargado de las operaciones CRUD contra la base de datos, además de posibles integraciones externas como servicios de autenticación.
+
+![UserInfrastructureLayer](assets/InfrastructureUser.png)
+
 
 ### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
 
@@ -362,13 +383,31 @@ Este diagrama representa una arquitectura de software distribuida en la nube
 
 ## 4.2.2. Bounded Context: IoT Device
 
+Este bounded context gestiona los dispositivos IoT que permiten rastrear las prendas en LockItem. Cada sensor se registra con su número de serie, estado, ubicación y relación con un ítem de inventario. Se encarga de recibir señales de los dispositivos, verificar su estado y asignarlos dinámicamente.
+
 ### 4.2.2.1. Domain Layer
+
+El Domain Layer define el agregado `Device`, que encapsula la lógica de estado del sensor, su ubicación y asociación con ítems. Los objetos de valor como `SerialNumber`, `DeviceStatus` y `DeviceLocation` ayudan a mantener la integridad del modelo.
+
+![DeviceDomainLayer](assets/DomainDevice.png)
 
 ### 4.2.2.2. Interface Layer
 
+El Interface Layer expone las operaciones relacionadas con los dispositivos IoT a través del `DeviceController`. Permite registrar dispositivos, actualizar su estado, consultarlos o asignarlos a un ítem del inventario.
+
+![DeviceInterfaceLayer](assets/InterfaceDevice.png)
+
 ### 4.2.2.3. Application Layer
 
+En esta capa se orquestan los casos de uso relacionados con dispositivos. Los handlers coordinan las operaciones de registro, actualización y consulta de estado, asegurando la persistencia y consistencia del dispositivo.
+
+![DeviceApplicationLayer](assets/ApplicationDevice.png)
+
 ### 4.2.2.4. Infrastructure Layer
+
+Aquí se implementa el repositorio de dispositivos utilizando JPA con MySQL. Además, se puede incluir un adaptador externo (`IoTGatewayAdapter`) para recibir eventos desde los sensores físicos a través de protocolos como MQTT o HTTP.
+
+![DeviceInfrastructureLayer](assets/InfrastructureDevice.png)
 
 ### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
 
@@ -386,13 +425,32 @@ Este diagrama representa una arquitectura de software distribuida en la nube
 
 ## 4.2.3. Bounded Context: Inventory
 
+El bounded context de Inventory se encarga de la gestión completa del inventario de prendas en LockItem. Permite registrar y consultar ítems, así como actualizar sus cantidades mediante movimientos de entrada o salida. También mantiene la relación con los dispositivos IoT que monitorean cada prenda en tiempo real.
+
 ### 4.2.3.1. Domain Layer
+
+El Domain Layer contiene el agregado `InventoryItem`, que representa a cada ítem en stock. Incorpora reglas para validar el mínimo de stock (`threshold`), registrar movimientos y asociarse a dispositivos. Los objetos de valor `Quantity` y `StorageLocation` encapsulan la lógica de cantidades y ubicación física.
+
+![InventoryDomainLayer](assets/DomainInventory.png)
 
 ### 4.2.3.2. Interface Layer
 
+El Interface Layer permite acceder a la funcionalidad del inventario desde el exterior. El `InventoryController` proporciona endpoints REST para consultar ítems, registrar movimientos de stock y asignar dispositivos IoT.
+
+![InventoryInterfaceLayer](assets/InterfaceInventory.png)
+
 ### 4.2.3.3. Application Layer
 
+Aquí se implementan los casos de uso que gestionan el stock. Los command handlers permiten registrar movimientos o asignar sensores a ítems, mientras que los query handlers exponen funcionalidades de consulta y monitoreo de estado.
+
+![InventoryApplicationLayer](assets/ApplicationInventory.png)
+
 ### 4.2.3.4. Infrastructure Layer
+
+Esta capa contiene la implementación del repositorio usando JPA con MySQL (`JpaInventoryRepository`). También incluye adaptadores opcionales como `ERPInventorySyncAdapter` para sincronizar datos con sistemas ERP externos.
+
+![InventoryInfrastructureLayer](assets/InfrastructureInventory.png)
+
 
 ### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
 
@@ -410,13 +468,32 @@ Este diagrama representa una arquitectura de software distribuida en la nube
 
 ## 4.2.4. Bounded Context: ERP
 
+Este bounded context se encarga de la integración del sistema LockItem con sistemas ERP externos. Permite sincronizar los datos de inventario con plataformas de gestión empresarial, manteniendo consistencia en los niveles de stock y el estado de los productos tanto dentro como fuera de LockItem.
+
 ### 4.2.4.1. Domain Layer
+
+El Domain Layer define el agregado `ERPInventorySync`, que vincula ítems locales con sus equivalentes en el ERP externo. Incluye la lógica para determinar cuándo es necesario sincronizar y aplicar cambios de stock.
+
+![ERPDomanLayer](assets/DomainERP.png)
 
 ### 4.2.4.2. Interface Layer
 
+Esta capa expone los endpoints necesarios para iniciar procesos de sincronización, consultar el estado de los ítems sincronizados o traer información desde el ERP. Todo esto se maneja desde el `ERPSyncController`.
+
+![ERPInterfaceLayer](assets/InterfaceERP.png)
+
 ### 4.2.4.3. Application Layer
 
+En el Application Layer se orquestan los casos de uso de sincronización. Handlers como `SyncItemWithERPCommandHandler` y `FetchExternalInventoryQueryHandler` gestionan las interacciones entre los repositorios internos y los servicios externos del ERP.
+
+![ERPApplicationLayer](assets/ApplicationERP.png)
+
 ### 4.2.4.4. Infrastructure Layer
+
+Esta capa contiene la implementación del repositorio de sincronización (`JpaERPInventoryRepository`) y el adaptador HTTP que conecta con el sistema ERP externo. Este adaptador maneja la transformación de datos y la comunicación con APIs REST externas.
+
+![ERPInfrastructureLayer](assets/InfrastructureERP.png)
+
 
 ### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
 
