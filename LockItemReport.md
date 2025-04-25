@@ -289,6 +289,12 @@ ___
 
 ### 4.1.3. Domain Message Flows Modeling
 
+Escenario: Buscar Prenda <br>
+![scenario 1](./assets/capitulo4/DomainMessageFlowsModeling/scenario1.png) <br>
+Escenario: Ver Detalle Prenda <br>
+![scenario 2](./assets/capitulo4/DomainMessageFlowsModeling/scenario2.png) <br>
+Escenario: Localizar Prenda  <br>
+![scenario 3](./assets/capitulo4/DomainMessageFlowsModeling/scenario3.png) <br>
 
 ### 4.1.4. Bounded Context Canvases
 
