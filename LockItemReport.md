@@ -335,6 +335,20 @@ ___
 
 ### 2.2.2. Registro de entrevistas
 
+**Clientes de tiendas de ropa:**
+
+
+**Trabajador de tiendas de ropa:**
+
+|                        | **Descripcion**      |
+|------------------------|--------------------------------|
+| **Nombre y apellidos** | Sebastian Cordova     |
+| **Edad**               | 21             |
+| **Evidencia**          | ![Comprador 2](assets/chapter2/entrevista_eduardo.png) |
+| **Duracion del video** | 03:41                   |
+| **Timing del video**                | |
+| **Entrevistador**      | Eduardo André Chero Emé                                                                                                                                                                                                                                                                                                                                |
+| **Resumen**            | Sebastian es un trabajador de una tienda de ropa que entiende bien el problema que es buscar la ropa fuera e su lugar cuando debe ordenar y le parece atractivo la idea de una ayuda por medio de neustro dispositivo.                                                                   |
 
 
 ### 2.2.3. Análisis de entrevistas
