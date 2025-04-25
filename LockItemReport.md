@@ -319,18 +319,20 @@ Escenario: Localizar Prenda  <br>
 ## 4.2. Software Architecture
 
 ### 4.2.1. Software Architecture System Landscape Diagram
-
-
+ El diagrama muestra el panorama general del sistema, destacando las principales entidades involucradas, como los Usuarios y las interacciones del sistema LockItem con componentes externos como AWS Iot Cloud, Store ERP y Azure Cloud. Representa las conexiones entre estos actores y cómo interactúan con el sistema para proporcionar acceso a funciones clave como la gestion de inventarios de las tiendas.
+![Landscape](assets/Landscape.png)
 
 ### 4.2.2. Software Architecture Context Level Diagrams
-
-
+Este diagrama desglosa el contexto a un nivel más detallado, mostrando las interacciones entre los usuarios y el sistema. Aquí, los Usuarios tienen acceso al Sistema de LockItem, pero interactúan de manera diferente.
+![Context](assets/Contexto.png)
 
 ### 4.2.3. Software Architecture Container Level Diagrams
-
-
+Aqui especificamos los contenedores de software que soportan la arquitectura, como la Aplicación Web, la Aplicación Móvil, el Backend y los Dispositivos IoT Gestionados. Esto proporciona un mapa claro de cómo los distintos módulos del sistema se comunican entre sí y con componentes externos.
+![Contenedores](assets/Contenedores.png)
 
 ### 4.2.4. Software Architecture Deployment Diagrams
+Este diagrama representa una arquitectura de software distribuida en la nube 
+![Deployment](assets/Deployment.png)
 
 # 4.2. Tactical-Level Domain-Driven Design
 
