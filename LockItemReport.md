@@ -690,6 +690,10 @@ y mantenerse competitivos en el mercado minorista peruano.
 
 Este segmento está compuesto por personas que, aunque pueden realizar compras en línea, aún mantienen el hábito de visitar tiendas físicas para adquirir prendas de vestir. A través de las entrevistas realizadas, se identificaron patrones comunes relacionados con las dificultades en la experiencia de compra presencial, así como sugerencias sobre cómo una solución digital podría mejorar dicha experiencia. La mayor parte de los entrevistados señaló la necesidad de herramientas que reduzcan el tiempo de búsqueda dentro de la tienda y aumenten la precisión al ubicar productos específicos.
 
+### Obejtivio de las entrevistas:
+
+Identificar barreras, frustraciones y expectativas relacionadas con la **búsqueda y localización de prendas dentro de la tienda física**, para validar si una solución móvil (como LockItem) que muestre la ubicación exacta de una prenda agregaría valor y mejoraría su experiencia de compra.
+
 ### Características objetivas:
 - El **100%** de los entrevistados (3 de 3) ha realizado compras en tiendas físicas, aunque uno de ellos (**33%**) también compra en línea ocasionalmente.
 - El **33%** (1 de 3) pertenece al grupo universitario joven (21 años), mientras que los otros dos representan perfiles adultos con hábitos de consumo más establecidos.
@@ -706,10 +710,13 @@ Este segmento está compuesto por personas que, aunque pueden realizar compras e
 - **Alessandra Alvarado**, universitaria, mencionó que aunque compra online, le resulta molesto el tiempo que consume buscar ropa específica en tienda física.
 - **Angelo** enfatizó que las aplicaciones actuales no permiten encontrar productos exactos cuando quedan pocas unidades, lo que puede hacer que el cliente pierda tiempo o abandone la compra.
 
-
 **Trabajador de tiendas de ropa:**
 
 Este segmento está compuesto por empleados que trabajan directamente en tiendas físicas de ropa, enfrentándose a los retos diarios de la organización de productos, control de inventario y atención al cliente. Las entrevistas muestran que existen desafíos importantes como el desorden generado por los clientes, la dificultad de ubicar prendas fuera de lugar y los riesgos de robo. Todos los entrevistados coinciden en que una solución tecnológica basada en IoT podría mejorar significativamente su desempeño laboral, optimizando tareas rutinarias y elevando la experiencia general en tienda.
+
+### Obejtivio de las entrevistas:
+
+Entender los retos operativos que enfrentan al **gestionar y ubicar inventario en el piso de venta**, y validar si una solución tipo LockItem mejoraría su eficiencia, reduciendo el tiempo y esfuerzo invertido en asistir a los clientes o reubicar prendas mal colocadas.
 
 ### Características objetivas:
 - El **100%** de los entrevistados (3 de 3) trabaja actualmente en tiendas de ropa.
