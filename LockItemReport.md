@@ -144,7 +144,28 @@ TB1: El equipo ha cumplido con éxito los puntos solicitados para la entrega. Du
 		 - [4.2.4.5. Bounded Context Software Architecture Component Level Diagrams](#4245-bounded-context-software-architecture-component-level-diagrams)
 		 - [4.2.4.6. Bounded Context Software Architecture Code Level Diagrams](#4246-bounded-context-software-architecture-code-level-diagrams)
 			 - [4.2.4.6.1. Bounded Context Domain Layer Class Diagrams](#42461-bounded-context-domain-layer-class-diagrams)
-			 - [4.2.4.6.2. Bounded Context Database Design Diagram](#42462-bounded-context-database-design-diagram)
+			 - [4.2.4.6.2. Bounded Context Database Design Diagram](#42462-bounded-context-database-design-diagram) 
+- [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
+  - [5.1. Style Guidelines](#51-style-guidelines)
+    - [5.1.1. General Style Guidelines](#511-general-style-guidelines)
+    - [5.1.2. Web, Mobile and IoT Style Guidelines](#512-web-mobile-and-iot-style-guidelines)
+  - [5.2. Information Architecture](#52-information-architecture)
+    - [5.2.1. Organization Systems](#521-organization-systems)
+    - [5.2.2. Labeling Systems](#522-labeling-systems)
+    - [5.2.3. SEO Tags and Meta Tags](#523-seo-tags-and-meta-tags)
+    - [5.2.4. Searching Systems](#524-searching-systems)
+    - [5.2.5. Navigation Systems](#525-navigation-systems)
+  - [5.3. Landing Page UI Design](#53-landing-page-ui-design)
+    - [5.3.1. Landing Page Wireframe](#531-landing-page-wireframe)
+    - [5.3.2. Landing Page Mock-up](#532-landing-page-mock-up)
+  - [5.4. Applications UX/UI Design](#54-applications-uxui-design)
+    - [5.4.1. Applications Wireframes](#541-applications-wireframes)
+    - [5.4.2. Applications Wireflow Diagrams](#542-applications-mock-ups)
+    - [5.4.3. Applications Mock-ups](#543-applications-mock-ups)
+    - [5.4.4. Applications User Flow Diagrams](#544-applications-user-flow-diagrams)
+  - [5.5. Applications Prototyping](#55-applications-prototyping)
+
+
 [Conclusiones](#conclusiones)
 [Bibliografía](#bibliografia)
 
@@ -1278,6 +1299,296 @@ Esta capa contiene la implementación del repositorio de sincronización (`JpaER
 
 5. **Fuerte enfoque en colaboración y gobernanza técnica del proyecto**  
    El equipo logró una ejecución ágil y organizada del proyecto, con planificación mediante Trello y herramientas de comunicación asincrónica como Discord. Cada integrante asumió roles específicos, destacando liderazgo compartido y trabajo interdisciplinario en el desarrollo de componentes críticos como los diagramas C4, diseño de historias de usuario y pruebas de integración.
+
+# Capítulo V: Solution UI/UX Design
+
+## 5.1. Style Guidelines
+El diseño de las aplicaciones web y móviles debe basarse en un enfoque elegante y simple que promueva la claridad y la facilidad de uso en pantallas más pequeñas. El desorden visual debe evitarse para que los usuarios puedan concentrarse en sus tareas principales. Para garantizar una experiencia de usuario coherente en toda la aplicación, la consistencia es esencial en todos los aspectos del diseño, incluidos colores, tipografía y espaciado.
+### 5.1.1. General Style Guidelines
+Para que los usuarios puedan concentrarse en ver las prendas para buscar, LockItem busca un diseño limpio y minimalista. A su vez, debe mantener un diseño coherente en elementos como colores, tipografía y espaciado para que la aplicación tenga una experiencia coherente.
+![Colores](assets/colores.png)
+![Font](assets/font.png)
+### 5.1.2. Web, Mobile and IoT Style Guidelines
+El diseño de la aplicación web para el trabajador de la tienda no difiere mucho a la aplicación móvil para el usuario, ambos tienen un mismo estandar visual que facilita su entendimiento para ambos.
+
+Diseño del home para la versión web:
+![homejpg](assets/home.jpg)
+
+Diseño de la sección de catalogo para la versión móvil:
+![homemobile](assets/home_mobile.jpg)
+## 5.2. Information Architecture
+### 5.2.1. Organization Systems
+El flujo que deseamos que los usuarios experimenten al ingresar a la aplicación se describe de la siguiente manera:
+
+- En principio, el usuario ingresa sesión o se registra.
+
+- Luego de iniciar sesión , el usuario puede acceder a nuestros servicios que están ordenados en una navbar para un mayor entendimiento por parte del usuario.
+
+- El flujo es el siguiente, el usuario busca una prenda.
+
+- Luego de ello, pasamos a una sección donde realizara la reserva y se visualizara la ubicacion de la prenda gracias a los datos devueltos por los sensores.
+
+
+### 5.2.2. Labeling Systems
+Para las etiquetas se trata de minizar el numero de palabras y manteniendo un entendimiento claro, ademas implementamos iconos que dan a entender ciertas funciones, como los íconos del bottom navbar o la de busqueda o fecha.
+
+![labeling](assets/labeling.png)
+### 5.2.3. SEO Tags and Meta Tags
+Para mejorar la visibilidad y accesibilidad de la experiencia web en motores de búsqueda, se implementarán SEO Tags y Meta Tags adecuados. Las principales páginas, como el Landing Page y la aplicación web, contarán con etiquetas de Title, Description, Keywords y Author que reflejen el contenido y los objetivos del sitio. Ejemplo de etiquetas:
+
+- Title: "LockItem - Localiza tus prendas fácilmente"
+- Meta Description: "LockItem te permite encontrar prendas de tu catálogo favorito en tiendas cercanas. Descarga la aplicación para una experiencia de compra sin esfuerzo."
+- Keywords: "localización de prendas, tienda de ropa, app para tiendas, inventario de prendas"
+
+En cuanto a las aplicaciones móviles, se aplicarán elementos de ASO (App Store Optimization), como el App Title, Keywords, Subtitle, y Description, para garantizar que la aplicación sea fácilmente localizable en las tiendas de aplicaciones.
+
+
+### 5.2.4. Searching Systems
+Para la version web debera dirigirse a la ventana de busqueda 'Search' pa la cual aparecera un buscador donde podra ingresar el nombre de alguna prenda.
+
+![searching](assets/searchweb.png)
+
+Para la versión móvil debera presionar en el botón de mismo nombre en donde ingresará los datos de la prenda.
+
+![searchingmobile](assets/searchmobile.png)
+
+### 5.2.5. Navigation Systems
+Para la navegación en la Lading Page será por un navbar el cual dirigrá a las secciones principales.
+
+![navigation1](assets/navi1.png)
+
+De igual manera para la app web tendrá un navbar el cual tendrá 3 secciones especiales para el trabajador.
+
+![navigation2](assets/navi2.png)
+
+Por último la versión móvil tendra un bottom navbar dividido en cuatro secciones
+
+![navigation3](assets/navi3.png)
+
+
+## 5.3. Landing Page UI Design
+### 5.3.1. Landing Page Wireframe
+A continuación, diseñamos el cómo sería el wireframe de nuestra landing page usando Figma
+
+![landingWireframe](assets/landing_wireframe.png)
+
+### 5.3.2. Landing Page Mock-up
+Para la presentación del mock-up tomamos en cuenta la tonalidad de colores que habíamos elegido previamente.
+
+![landingMockUp](assets/landing_mockup.png)
+
+## 5.4. Applications UX/UI Design
+### 5.4.1. Applications Wireframes
+La representación mediante wireframes de nuestra app web se basa en 3 secciones principales:
+
+- Home: Donde el trabajador podra revisar el inventario de las prendas.
+![homepage](assets/Homepage-1.jpg)
+
+- Search: Sirve para buscar alguna prenda en concreto
+![searchpage](assets/Search-2.jpg)
+
+- Account: Seccion en la cual el trabajador verá sus datos y podra editarlos.
+![accountpage](assets/Account-2.jpg)
+
+Para la versión móvil contamos con 4 vistas principales
+- Home: En esta vista el usuario primero elige la tienda afiliada y luego se le muestra su catálogo disponible.
+![homepage](assets/Homepage2.jpg)
+![StorePage](assets/Store-1.jpg)
+
+- Search: Sirve para buscar alguna prenda en concreto
+![SearchPage](assets/Search%20-%20Active-1.jpg)
+
+- Saved: En esta sección se guardan las prendas que llamaron la atención del usuario.
+![SavedItems](assets/Saved%20Items-1.jpg)
+
+- Account: Pestaña donde se encuenta los datos del usuario.
+![MyDetails](assets/My%20Details-1.jpg)
+
+### 5.4.2. Applications Wireflow Diagrams
+
+| USER FLOW Nro. 1 |                  |
+|------------------|------------------|
+| User             | Cliente          |
+| Goal             | Localizar prenda |
+
+Cuando el cliente elija la prenda que desee le dara al botón 'Locate' y le mostrar un mapeo de dónde se encuentra la
+prenda.
+
+![uf1](assets/wf1.jpg)
+
+| USER FLOW Nro. 2 |               |
+|------------------|---------------|
+| User             | Cliente       |
+| Goal             | Buscar prenda |
+
+Cuando el cliente quiera buscar una prenda en especifico, le dará al botón 'Search' y escribirá el nombre de la prenda.
+
+![uf2](assets/wf2.jpg)
+
+| USER FLOW Nro. 3 |         |
+|------------------|---------|
+| User             | Cliente |
+| Goal             | Mapa    |
+
+Al momento que el cliente busque la prenda el mapa le mostrará con un ícono rojo en que parte de la tienda se encuentra.
+
+![uf3](assets/wf3.jpg)
+
+| USER FLOW Nro. 4 |            |
+|------------------|------------|
+| User             | Trabajador |
+| Goal             | Inventario |
+
+Cuando el trabajador quiera ver cuantas prenda tiene en stock, simplemente deberá elegir alguna y se mostrará un
+apartado lateral con los detalles de esta prenda, incluido su stock disponible.
+
+![uf4](assets/wf4.jpg)
+
+| USER FLOW Nro. 5 |                  |
+|------------------|------------------|
+| User             | Cliente          |
+| Goal             | Inicio de sesión |
+
+Cuando el usaurio quiera acceder a la aplicación móvil, debera iniciar sesión ingrersando su correo y contraseña.
+
+![uf5](assets/wf5.jpg)
+
+| USER FLOW Nro. 6 |                  |
+|------------------|------------------|
+| User             | Cliente          |
+| Goal             | Cierre de sesión |
+
+Cuando el usaurio termine de usar la aplicación puede cerrar sus sesion dirigiendose a la sección 'Account', en la cual
+encontrará un botón para finalizar la seción.
+
+![uf6](assets/wf6.jpg)
+
+| USER FLOW Nro. 7 |           |
+|------------------|-----------|
+| User             | Cliente   |
+| Goal             | Favoritos |
+
+Cuando el usaurio le guste una prenda del catálogo, puede darle al boton del corazón y se guardará en un apartado
+llamado 'Saved'.
+
+![uf7](assets/wf7.jpg)
+
+### 5.4.3. Applications Mock-ups
+
+Una vez implementados los diseños, los mock-ups de la app web se verian de la siguiente manera
+
+- Home: Donde el trabajador podra revisar el inventario de las prendas.
+
+  ![home](./assets/Homepage.jpg)
+
+- Search: Sirve para buscar alguna prenda en concreto
+
+  ![search](./assets/Search.jpg)
+
+- Account: Seccion en la cual el trabajador verá sus datos y podra editarlos.
+
+  ![account](./assets/Account.jpg)
+
+Para la versión móvil este sería su resultado
+
+- Home: En esta vista el usuario primero elige la tienda afiliada y luego se le muestra su catálogo disponible.
+
+  ![home1](./assets/Homepage3.jpg)
+
+  ![home2](./assets/Store.jpg)
+
+- Search: Sección en la cual el usuario podrá buscar una prenda en específico.
+
+  ![search](./assets/Search%20-%20Active.jpg)
+
+- Saved: En esta sección se guardan las prendas que llamaron la atención del usuario.
+
+  ![Saved](./assets/Saved%20Items.jpg)
+
+- Account: Pestaña donde se encuenta los datos del usuario.
+
+  ![Account](./assets/My%20Details.jpg)
+
+### 5.4.4. Applications User Flow Diagrams
+
+| USER FLOW Nro. 1 |                  |
+|------------------|------------------|
+| User             | Cliente          |
+| Goal             | Localizar prenda |
+
+Cuando el cliente elija la prenda que desee le dara al botón 'Locate' y le mostrar un mapeo de dónde se encuentra la
+prenda.
+
+![uf1](./assets/uf1.jpg)
+
+| USER FLOW Nro. 2 |               |
+|------------------|---------------|
+| User             | Cliente       |
+| Goal             | Buscar prenda |
+
+Cuando el cliente quiera buscar una prenda en especifico, le dará al botón 'Search' y escribirá el nombre de la prenda.
+
+![uf2](./assets/uf2.jpg)
+
+| USER FLOW Nro. 3 |         |
+|------------------|---------|
+| User             | Cliente |
+| Goal             | Mapa    |
+
+Al momento que el cliente busque la prenda el mapa le mostrará con un ícono rojo en que parte de la tienda se encuentra.
+
+![uf3](./assets/uf3.jpg)
+
+| USER FLOW Nro. 4 |            |
+|------------------|------------|
+| User             | Trabajador |
+| Goal             | Inventario |
+
+Cuando el trabajador quiera ver cuantas prenda tiene en stock, simplemente deberá elegir alguna y se mostrará un
+apartado lateral con los detalles de esta prenda, incluido su stock disponible.
+
+![uf4](./assets/uf4.jpg)
+
+| USER FLOW Nro. 5 |                  |
+|------------------|------------------|
+| User             | Cliente          |
+| Goal             | Inicio de sesión |
+
+Cuando el usaurio quiera acceder a la aplicación móvil, debera iniciar sesión ingrersando su correo y contraseña.
+
+![uf5](./assets/uf5.jpg)
+
+| USER FLOW Nro. 6 |                  |
+|------------------|------------------|
+| User             | Cliente          |
+| Goal             | Cierre de sesión |
+
+Cuando el usaurio termine de usar la aplicación puede cerrar sus sesion dirigiendose a la sección 'Account', en la cual
+encontrará un botón para finalizar la seción.
+
+![uf6](./assets/uf6.jpg)
+
+| USER FLOW Nro. 7 |           |
+|------------------|-----------|
+| User             | Cliente   |
+| Goal             | Favoritos |
+
+Cuando el usaurio le guste una prenda del catálogo, puede darle al boton del corazón y se guardará en un apartado
+llamado 'Saved'.
+
+![uf7](./assets/uf7.jpg)
+
+## 5.5. Applications Prototyping
+
+A continuacion se presentaran los prototipos de la aplicación móvil y la aplicacion web.
+
+**Aplicacion movil:** Enlace del diseño
+en [figma](https://www.figma.com/proto/diTYqNwAiNv6EZCPf3vOod/IOT-Figma?page-id=0%3A1&node-id=5-3631&node-type=frame&viewport=507%2C581%2C0.14&t=usRD5u9ibfZjUi9I-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=5%3A3631)
+![proto_movil](assets/movil.png)
+
+**Aplicacion web:** Enlace del diseño
+en [figma](https://www.figma.com/proto/diTYqNwAiNv6EZCPf3vOod/IOT-Figma?page-id=4%3A5803&node-id=11-5076&node-type=frame&viewport=1320%2C290%2C0.08&t=jcHpdyUTiXfIp4GJ-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=11%3A5076&show-proto-sidebar=1)
+![proto_web](assets/web.png)
 
 # Anexos
 
