@@ -43,7 +43,7 @@ ___
 Project Report Collaboration Insights
 # Project Report Collaboration Insights
 
-<img src="assets\project-report-tb1.PNG">
+<img src="assets\ProyectReportCollaborationInsights\Insights_Report.PNG">
 
 ## Project Report
 <img src="assets\project-report2-tb1.PNG">
@@ -59,6 +59,7 @@ TP: El equipo ha cumplido con éxito los puntos solicitados para la entrega. Dur
 <img src="assets\project-report-tb1.PNG">
 
 ### Analiticos para el TP
+<img src="assets\ProyectReportCollaborationInsights\Insights_Report1.PNG">
 
 # Contenido
 
@@ -198,6 +199,9 @@ forma conjunta </td>
       TB1:<br>
 	  Me encargué de la elaboración de los Domain Message Flow Models para los distintos eventos que gestionará el sistema, asegurando la correcta 	representación de la interacción entre actores, servicios y dispositivos IoT dentro de la arquitectura propuesta. Asimismo, desarrollé los Bounded Context Canvas para los principales módulos del sistema, lo que permitió delimitar responsabilidades, identificar eventos clave y establecer límites claros entre dominios. Estas tareas facilitaron una comprensión compartida dentro del equipo, promoviendo una mejor coordinación técnica y una toma de decisiones colaborativa. Mi participación activa en estas actividades fue clave para ejercer un liderazgo conjunto y establecer una base sólida para el desarrollo distribuido del sistema. 
       <br>
+    TP:<br>
+    Me encargué de apoyar en la documentación de los capítulos 5 y 6 del proyecto. Asimismo, participé en el diseño y desarrollo de la landing page. En el frontend, implementé la pantalla Home, integrando la lógica de presentación y validando los flujos de datos para garantizar su correcto funcionamiento en distintos dispositivos. Estas tareas promovieron una visión compartida de la interfaz y agilizaron la coordinación del equipo.
+      <br>
       </p>
       <p>Chero Eme, Eduardo Andre<br> 
       TB1:<br> 
@@ -242,7 +246,9 @@ objetivos.</td>
       </p>
       <p>Arrunátegui Aguilar, Josué David<br> 
       TB1:<br> 
-      Fomenté un entorno colaborativo al coordinar con los distintos miembros del equipo la elaboración de los Domain Message Flow Models y los Bounded Context Canvas, asegurando que todos comprendieran su propósito y pudieran aportar desde sus áreas. Establecí metas claras para la entrega de estos artefactos y organicé las tareas de forma que se alinearan con los plazos generales del proyecto. Gracias a esta planificación y al trabajo conjunto, se logró integrar de manera efectiva estos elementos en el diseño del sistema, cumpliendo con los objetivos técnicos y facilitando una comunicación fluida entre los distintos roles del equipo.
+      Fomenté un entorno colaborativo al coordinar con los distintos miembros del equipo la elaboración de los Domain Message Flow Models y los Bounded Context Canvas, asegurando que todos comprendieran su propósito y pudieran aportar desde sus áreas. Establecí metas claras para la entrega de estos artefactos y organicé las tareas de forma que se alinearan con los plazos generales del proyecto. Gracias a esta planificación y al trabajo conjunto, se logró integrar de manera efectiva estos elementos en el diseño del sistema, cumpliendo con los objetivos técnicos y facilitando una comunicación fluida entre los distintos roles del equipo.<br>
+      TP:<br> 
+      Fomenté un entorno colaborativo al coordinar con los distintos miembros del equipo la elaboración y revisión de la documentación de los capítulos 5 y 6, asegurando que todos comprendieran su estructura y aportaran los contenidos necesarios. Establecí metas claras para el desarrollo de la landing page y la pantalla Home del frontend, organizando las tareas de diseño, maquetado e integración de componentes para que se cumplieran dentro del plazo establecido. Gracias a esta planificación y al trabajo conjunto, logramos integrar de manera efectiva la documentación técnica y las interfaces principales en el entregable final, cumpliendo con los objetivos de usabilidad y facilitando una comunicación fluida entre diseñadores y desarrolladores.
       </p>
       <p>Chero Eme, Eduardo Andre<br> 
       TB1:<br> 
@@ -1970,8 +1976,11 @@ Se considera la configuración y mantenimiento del sistema desde etapas temprana
 # Anexos
 
 - Repositorio del informe (Markdown): [https://github.com/ProdTrackers/Report](https://github.com/ProdTrackers/Report)
+- Repositorio del LandingPage: [https://github.com/ProdTrackers/landing_page](https://github.com/ProdTrackers/landing_page)
+- Repositorio del Frontend: [https://github.com/ProdTrackers/App_Web](https://github.com/ProdTrackers/App_Web)
 - Video de entrevistas: [Entrevistas-IOT](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201816402_upc_edu_pe/EeaTmTaKrQpBm0ctmxVHrvgBotE0Nhb8_Xx2Cl7MrlXVcg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=fJyUaC)
 - Video de Exposición TB1: [Exposicion-TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201816402_upc_edu_pe/EUW3-XU080lBiIQc6pdQlr0BUr39zPadsuvoc4dKFEJq7w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ZhjqZQ)
+- Video de Exposición TP: [Exposicion-TP](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201816402_upc_edu_pe/Ef7AtDkrAaRKiDcWK05cnGgB0uvdrEUT624WKaiLk-NoPg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=mCvock)
 # Bibliografía
 
 - Evans, E. (2004). *Domain-Driven Design: Tackling Complexity in the Heart of Software*. Addison-Wesley.
