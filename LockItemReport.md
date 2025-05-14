@@ -194,8 +194,10 @@ forma conjunta </td>
       </p>
       <p>Chero Eme, Eduardo Andre<br> 
       TB1:<br> 
-Me encargué de la elaboración de las historias de usuario (user stories) para los distintos actores del sistema, asegurando su alineación con los objetivos del producto y aplicando buenas prácticas de redacción técnica y criterios de aceptación en formato Gherkin. También desarrollé las secciones correspondientes al enfoque Lean UX, lo que permitió integrar la perspectiva del usuario en las fases tempranas del diseño. Estas tareas fueron clave para establecer una base funcional clara y centrada en el valor del usuario.<br>
+Me encargué de la elaboración de las historias de usuario (user stories) para los distintos actores del sistema, asegurando su alineación con los objetivos del producto y aplicando buenas prácticas de redacción técnica y criterios de aceptación en formato Gherkin. También desarrollé las secciones correspondientes al enfoque Lean UX, lo que permitió integrar la perspectiva del usuario en las fases tempranas del diseño. Estas tareas fueron clave para establecer una base funcional clara y centrada en el valor del usuario.
 </p>
+	    TP:<br>
+	    Durante el desarrollo del sistema de autenticación para el proyecto, participé activamente en el trabajo en equipo, colaborando con mis compañeros en la planificación y coordinación de tareas. Mi enfoque estuvo en el desarrollo de funcionalidades clave como el login, el registro de usuarios y la recuperación de contraseñas, asegurándome de mantener una comunicación constante para alinear esfuerzos y tomar decisiones conjuntas. Esta experiencia fortaleció nuestras habilidades de liderazgo compartido, ya que integramos ideas y asumimos responsabilidades colectivas para lograr un resultado exitoso. exitoso.<br><br>
       <p>Cortes Hidalgo, Nicolas Andres <br> 
       TB1:<br> 
       Me encargué de la elaboracion de los bounded context de Usuario, Dispositivos IoT, Inventarios y ERP, enfocandome en la elbaoracion de los diagramas tanto de componente como de clases, para tener una base principal en lo que sera el desarrollo a profundidad de la arquitectura del sistema en el cual nos estamos enfocando. Del mismo modo, realize mi video de exposicion complerando las partes necesarias en el canvas desarollado.<br>
@@ -230,6 +232,8 @@ objetivos.</td>
       TB1:<br> 
 Contribuí a generar un entorno colaborativo mediante la creación de historias de usuario que guiaron el trabajo del equipo y facilitaron la planificación en el backlog. Además, elaboré las secciones de Lean UX, lo que ayudó a que el equipo tuviera una comprensión compartida de las necesidades de los usuarios. Estas acciones permitieron que el equipo priorizara de forma efectiva y avanzara de manera alineada con los objetivos planteados.<br>
 </p>
+	    TP:<br>
+	    Para el desarrollo de las funcionalidades de login, registro y recuperación de contraseñas, promoví un entorno de colaboración e inclusión, donde cada integrante del equipo pudo expresar sus ideas y aportar desde su experiencia. Establecimos objetivos claros y realizamos una planificación conjunta que permitió dividir tareas de manera equitativa y eficiente. Esta estrategia nos ayudó a cumplir con los plazos establecidos y a integrar de manera exitosa las funcionalidades en el sistema, fomentando un ambiente de respeto y apoyo mutuo.<br><br>
       <p>Cortes Hidalgo, Nicolas Andres <br> 
       TB1:<br> 
       Durante esta primera entrega, tuve que profundizar en lo que son los diagramas c4, para asi poder construir de forma adecuada cada uno de los diagramas de componentes necesarios para los 4 bounded context que hemos definido para este sistema. Del mismo modo, realice una investigacion profunda en lo que corresponde a los diagramas de clase, para asi poder realizar de forma apropiada los diagramas respectivos de cada uno de los bounded context mencionados anteriormente.<br>
