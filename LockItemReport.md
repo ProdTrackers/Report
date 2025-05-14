@@ -1446,6 +1446,11 @@ directamente desde un repositorio de GitHub. El proceso de despliegue fue el sig
 4. Guardar la configuración y obtener la URL del sitio web desplegado.
 5. Finalmente, acceder a la URL del sitio web para verificar que se haya desplegado correctamente.
 
+   
+<img src="assets/chapter-VI/Landing.png" alt="Logo" width="1000"/>
+
+url de la landing page: https://prodtrackers.github.io/landing_page/#info 
+
 ## 6.2. Landing Page, Services & Applications Implementation.
 
 ### 6.2.1. Sprint 1
