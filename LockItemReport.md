@@ -1956,6 +1956,17 @@ La solución ha sido diseñada con una arquitectura que permite su escalado a ot
 Riesgos y Desafíos Identificados
 El equipo reconoce los desafíos técnicos como la precisión de localización en ambientes cerrados y la resistencia al cambio por parte de usuarios internos. Aun así, propone estrategias de mitigación razonables, lo cual fortalece la propuesta.
 
+El equipo estableció lineamientos de diseño visual claros, aplicando un enfoque minimalista y coherente entre las plataformas web, móvil e IoT. Esto garantiza una experiencia de usuario intuitiva, independientemente del tipo de dispositivo utilizado. Se definieron adecuadamente los sistemas de navegación, etiquetado y búsqueda, lo cual respalda una arquitectura de información sólida para los usuarios finales
+
+Prototipado y validación temprana de interfaces
+Se desarrollaron prototipos en Figma tanto para la app móvil como la versión web, facilitando la validación temprana con usuarios. Esto permitió detectar mejoras antes del desarrollo, alineando las expectativas del negocio con las funcionalidades reales implementadas
+
+El equipo documentó correctamente la gestión del entorno de desarrollo, asegurando control de versiones con Git y GitHub, y colaborando eficazmente mediante Discord y Figma. Estas herramientas garantizaron una trazabilidad eficiente del progreso y facilitaron la colaboración asincrónica
+
+Proceso de despliegue planificado y sostenible
+Se considera la configuración y mantenimiento del sistema desde etapas tempranas, incluyendo pruebas de sistema en entorno real. Esto indica un enfoque responsable hacia la implementación y despliegue, con visión a largo plazo sobre estabilidad operativa y escalabilidad
+
+
 # Anexos
 
 - Repositorio del informe (Markdown): [https://github.com/ProdTrackers/Report](https://github.com/ProdTrackers/Report)
