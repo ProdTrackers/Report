@@ -1934,20 +1934,23 @@ Insights de la Aplicacion Web:
 
 # Conclusiones
 
-1. **Solución IoT bien fundamentada en necesidades reales del usuario**  
-   A partir del análisis de entrevistas y actividades de _Needfinding_, se identificó que tanto los clientes como los trabajadores de tiendas de ropa enfrentan dificultades significativas en la localización de prendas. LockItem responde directamente a estas problemáticas, ofreciendo trazabilidad en tiempo real mediante sensores IoT, lo que valida la hipótesis de mejora en eficiencia operativa y experiencia de usuario.
+Viabilidad Técnica Comprobada
+El proyecto LockItem demuestra que es técnicamente factible integrar tecnologías IoT (como sensores BLE) con una aplicación móvil para mejorar la localización de prendas en tiendas de ropa. La arquitectura planteada permite la identificación precisa de artículos mediante etiquetas inteligentes, lo que respalda la hipótesis inicial de mejorar la experiencia de compra y la eficiencia operativa en retail.
 
-2. **Arquitectura técnica escalable y alineada al dominio**  
-   El diseño de software aplicó principios de Domain-Driven Design a nivel estratégico y táctico, lo cual permitió establecer *Bounded Contexts* bien definidos (`User`, `Inventory`, `IoT Device`, `ERP`). La arquitectura planteada es modular, desacoplada y preparada para escalar horizontalmente con múltiples instancias por tienda (`multi-tenancy`), garantizando la mantenibilidad del sistema y su extensibilidad.
+Validación del Problema con Usuarios Reales
+A través de entrevistas a los segmentos objetivo (clientes y trabajadores de tiendas), se confirma que existe una necesidad real relacionada con la dificultad de localizar productos en tienda, y que los usuarios estarían dispuestos a usar una solución como LockItem para reducir tiempos de búsqueda y mejorar su experiencia en tienda.
 
-3. **Cohesión entre requisitos funcionales y técnicos**  
-   El mapeo de escenarios _as-is_ y _to-be_, junto con la especificación de más de 30 historias de usuario detalladas en formato Gherkin, permitió garantizar que los requerimientos del negocio están correctamente traducidos a funcionalidades implementables. Esto asegura que el backlog técnico tiene trazabilidad directa con los objetivos del producto.
+Solución con Impacto en Múltiples Niveles
+LockItem no solo beneficia a los clientes finales al ofrecerles una app para localizar prendas, sino que también mejora la eficiencia de los trabajadores, reduciendo su carga operativa. Esto genera un valor agregado para los dueños de tiendas al optimizar procesos y potencialmente aumentar las ventas por una experiencia de compra mejorada.
 
-4. **Ventaja competitiva frente a soluciones similares**  
-   LockItem se diferencia de competidores como Pricer o Neurolabs al combinar sensores IoT con integración directa a etiquetas de seguridad y sistemas ERP. Esto permite una adopción más inmediata y menos invasiva en tiendas ya operativas, además de ofrecer un modelo de suscripción flexible que se adapta al tamaño de cada tienda.
+Alcance del Proyecto Claramente Definido
+El documento delimita correctamente las funcionalidades mínimas viables (MVP), estableciendo una base sólida para futuras iteraciones del producto. Se contemplan tanto la funcionalidad de la app como la integración de sensores, backend de localización y la interfaz de administración.
 
-5. **Fuerte enfoque en colaboración y gobernanza técnica del proyecto**  
-   El equipo logró una ejecución ágil y organizada del proyecto, con planificación mediante Trello y herramientas de comunicación asincrónica como Discord. Cada integrante asumió roles específicos, destacando liderazgo compartido y trabajo interdisciplinario en el desarrollo de componentes críticos como los diagramas C4, diseño de historias de usuario y pruebas de integración.
+Escalabilidad y Futuras Iteraciones Posibles
+La solución ha sido diseñada con una arquitectura que permite su escalado a otras tiendas o productos, con posibilidad de añadir nuevas features como historial de búsqueda, recomendaciones personalizadas o analítica de uso en tienda.
+
+Riesgos y Desafíos Identificados
+El equipo reconoce los desafíos técnicos como la precisión de localización en ambientes cerrados y la resistencia al cambio por parte de usuarios internos. Aun así, propone estrategias de mitigación razonables, lo cual fortalece la propuesta.
 
 # Anexos
 
