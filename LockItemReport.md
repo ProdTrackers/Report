@@ -35,6 +35,9 @@ ___
 | Versión | Fecha      | Autor             | Descripción de modificación                                                                           |
 |---------|------------|-------------------|-------------------------------------------------------------------------------------------------------|
 | 1.0     | 10/04/2025 | Eduardo Chero     | Creación del archivo base en Markdown para el desarrollo del Final Project                            |
+| 2.0     | 13/05/2025 | Piero Márquez     | Actualización del siguiente contenido: Project Report Collaboration Insights y Anexos                           |
+| 2.1     | 13/05/2025 | Franco Surco     | Se agrego el siguiente contenido: Capitulo 5                     |
+| 2.2     | 13/05/2025 | Nicolas Cortes     | Se agrego el siguiente contenido: Capitulo 6                     |
 
 ---
 Project Report Collaboration Insights
@@ -47,13 +50,15 @@ Project Report Collaboration Insights
 
 Link: https://github.com/ProdTrackers/Report
 
-TB1: El equipo ha cumplido con éxito los puntos solicitados para la entrega. Durante el proceso de adaptación al entorno documental, enfrentamos algunos desafíos al planear correctamente el proyecto al inicio pero al final logramos encontrar nuestro enfoque. Como equipos nos sentimos satisfechos de haber alcanzado los objetivos propuestos.
+TB1: El equipo ha cumplido con éxito los puntos solicitados para la entrega. Durante el proceso de adaptación al entorno documental, enfrentamos algunos desafíos al planear correctamente el proyecto al inicio pero al final logramos encontrar nuestro enfoque. Como equipo nos sentimos satisfechos de haber alcanzado los objetivos propuestos.
+
+TP: El equipo ha cumplido con éxito los puntos solicitados para la entrega. Durante el proceso de documentación y programación se enfretaron algunos desafios al momento de diseñar los mock-ups y elegir las herramientas que se usaran para la landing page y el frontend pero se pudo llegar a un acuerdo y llegar al 100% del desarrollo. Como equipo nos sentimos satisfechos de alcanzar el objetivo de esta entrega.
 
 ### Analiticos para el TB1
 
 <img src="assets\project-report-tb1.PNG">
 
-
+### Analiticos para el TP
 
 # Contenido
 
@@ -186,6 +191,8 @@ forma conjunta </td>
       <p>Márquez, Piero Stefano <br> 
       TB1:<br> 
       Organicé y gestioné los documentos clave, incluyendo la publicación del video de las entrevistas y su analisis. Además, desarrollé estrategias y tácticas competitivas para posicionarnos frente a los competidores, y participé activamente en el diseño, análisis y registro de entrevistas. También trabajé en la creación y priorización del product backlog, asegurando que todas las tareas estuvieran alineadas con los objetivos del proyecto. Por último, colaboré en los capítulos 3 y 4 del proyecto, contribuyendo de manera significativa a su desarrollo y asegurando el avance según lo planificado.<br>
+      TP:<br> 
+      Organicé y gestioné la entrega del proyecto y toda su documentación, asegurando el cumplimiento de plazos y la calidad de los entregables. Participé activamente en los capítulos 5 y 6, contribuyendo al diseño, análisis y redacción de los contenidos clave. Además, desarrollé parte de la landing page y participe en la implementación del frontend, haciéndome cargo del componente Account. Con estas labores, aseguré la coherencia técnica y funcional de la aplicación y facilité la comunicación entre los miembros del equipo.<br>
       </p>
       <p>Arrunátegui Aguilar, Josué David<br> 
       TB1:<br>
@@ -225,6 +232,9 @@ objetivos.</td>
       <p>Márquez, Piero Stefano <br> 
       TB1:<br> 
       Durante la primera entrega, organicé y gestioné documentos clave, como el video de entrevistas y analisis de la mismas. También participé en el diseño y priorización del product backlog, asegurando que todas las tareas estuvieran alineadas con los objetivos. Gracias a una planificación clara, el equipo avanzó de manera colaborativa en los capítulos 3 y 4, cumpliendo con los plazos establecidos.<br>
+      </p>
+      TP:<br> 
+      Como líder de equipo, organicé y coordiné al grupo para la correcta entrega de la documentación, asignando a cada miembro las responsabilidades de carga de archivos y estableciendo plazos claros. Paralelamente, me centré en el desarrollo de la programación, implementando funcionalidades clave y resolviendo retos técnicos. Además, revisé y validé que toda la información estuviera completa y alineada con los requisitos antes de enviar los documentos necesarios, garantizando así la calidad y puntualidad de las entregas.<br>
       </p>
       <p>Arrunátegui Aguilar, Josué David<br> 
       TB1:<br> 
