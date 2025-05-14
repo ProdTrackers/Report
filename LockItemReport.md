@@ -208,11 +208,13 @@ Me encargué de la elaboración de las historias de usuario (user stories) para 
       <p>Cortes Hidalgo, Nicolas Andres <br> 
       TB1:<br> 
       Me encargué de la elaboracion de los bounded context de Usuario, Dispositivos IoT, Inventarios y ERP, enfocandome en la elbaoracion de los diagramas tanto de componente como de clases, para tener una base principal en lo que sera el desarrollo a profundidad de la arquitectura del sistema en el cual nos estamos enfocando. Del mismo modo, realize mi video de exposicion complerando las partes necesarias en el canvas desarollado.<br>
+	      <br>TP:<br> 
+      Apoye en la organización del sprint 1, bajo el cual nos regimos las tareas y trate de coordinar la gran mayoriía de las mismas para asegurar una correcta realización del mismo. Tambien apoye en el desarrollo de la app web.<br>
       </p>
+	</p>
       <p>Olivera Guerra, Santiago Mickelle <br> 
       TB1:<br> 
       Durante esta primera entrega trabajé con el software de miro y mediante Gooogle meet coordine con mi compañero la arquitectura de los cuatro bounded context y la cocherencia entre sus 4 capas y su arquitectura.<br>
-      </p>
 	    TP:<br>
 	    Ejecuté satisfactoriamente mis tareas mientras establecí una comunicación continua con mi equipo de trabajo para la coordinación efectiva de cambios y versiones.<br><br>
       <p>Surco Reyes, Franco<br> 
@@ -251,6 +253,8 @@ Contribuí a generar un entorno colaborativo mediante la creación de historias 
       <p>Cortes Hidalgo, Nicolas Andres <br> 
       TB1:<br> 
       Durante esta primera entrega, tuve que profundizar en lo que son los diagramas c4, para asi poder construir de forma adecuada cada uno de los diagramas de componentes necesarios para los 4 bounded context que hemos definido para este sistema. Del mismo modo, realice una investigacion profunda en lo que corresponde a los diagramas de clase, para asi poder realizar de forma apropiada los diagramas respectivos de cada uno de los bounded context mencionados anteriormente.<br>
+      <br>TP:<br> 
+      Durante esta entrega, logre organizar de manera adecuada al equipo para coordinar la realización del sprint 1 de forma efectiva, además, apoye en la documentación del informe.<br>
       </p>
       <p>Olivera Guerra, Santiago Mickelle <br> 
       TB1:<br> 
