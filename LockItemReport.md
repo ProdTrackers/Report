@@ -1841,19 +1841,14 @@ Todos los miembros del equipo fueron parte de la planificación y desarrollo del
 
 #### 6.2.1.4. Development Evidence for Sprint Review.
 
-Se completó la implementación de la Landing-page, se avanzó con los commits para la aplicación web.
-
-Primera pantalla de inicio de sesión con credenciales de ususario
-<img src="assets/chapter-VI/Front-1.png" alt="Logo" width="1000"/>
-
-Pantalla de muestra de las prendas de ropa
-<img src="assets/chapter-VI/Front-2.png" alt="Logo" width="1000"/>
-
-Pantalla de busqueda de las prendas disponibles
-<img src="assets/chapter-VI/Front-4.png" alt="Logo" width="1000"/>
-
-Pantalla de detalles de usuario
-<img src="assets/chapter-VI/Front-3.png" alt="Logo" width="1000"/>
+| Repository                        | Branch | Commit ID                                | Commit Message                           | Commit on (Date) |
+|-----------------------------------|--------|------------------------------------------|------------------------------------------|------------------|
+| ProdTrackers/landing-page         | main   | 924ace1da9cf2f216b153576f5e69f483634e61a | Feat: update group section          	   | 13/05/2023       |
+| ProdTrackers/app-web              | main   | 966f3043840822aa1092a07d32e2471da488d1e0 | feat: Implement routes on routes.ts 	   | 13/05/2023       |
+| feature/aacount                   | main   | 68bea0a6c6eeb15f84a0f3da42507cde61fe257b | Merge branch 'main' into feature/account | 13/05/2023       |
+| feature/home 	                    | main   | f734d99918ce48739abba876467966f188747ac1 | Merge branch 'main' into feature/home    | 13/05/2023       |
+| feature/login 	            | main   | 68d47c2e079f7e86d8274b0656b51e3d735aa8d2 | Merge branch 'main' into feature/login   | 13/05/2023       |
+| feature/search 	            | main   | 2c2436a289e67ec896841879a6e7ca0abed6b46f | Merge branch 'main' into feature/search  | 13/05/2023       |
 
 #### 6.2.1.5. Testing Suite Evidence for Sprint Review.
 
@@ -1883,6 +1878,20 @@ Tablero de commits del repositorio del dispositivo IoT:
 #### 6.2.1.6. Execution Evidence for Sprint Review.
 
 En esta secci6n se presenta la ejecucion de los componentes desarrollados en el Sprint 1.
+
+Se completó la implementación de la Landing-page, se avanzó con los commits para la aplicación web.
+
+Primera pantalla de inicio de sesión con credenciales de ususario
+<img src="assets/chapter-VI/Front-1.png" alt="Logo" width="1000"/>
+
+Pantalla de muestra de las prendas de ropa
+<img src="assets/chapter-VI/Front-2.png" alt="Logo" width="1000"/>
+
+Pantalla de busqueda de las prendas disponibles
+<img src="assets/chapter-VI/Front-4.png" alt="Logo" width="1000"/>
+
+Pantalla de detalles de usuario
+<img src="assets/chapter-VI/Front-3.png" alt="Logo" width="1000"/>
 
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review.
 
