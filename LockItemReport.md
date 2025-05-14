@@ -1451,6 +1451,17 @@ directamente desde un repositorio de GitHub. El proceso de despliegue fue el sig
 
 url de la landing page: https://prodtrackers.github.io/landing_page/#info 
 
+**App web**
+Para desplegar la aplicación web usamos el servicio de hosting gratiuto netlifly por medio de los siguientes pasos:
+
+1. Generar un build de la aplicación usando ng-build.
+2. Crar un nuevo proyecto en Netlify en donde subimos el archivo .dis donde se encuentra la aplicación ya construida.
+3. Desplegamos y la app nos dara una url gratuita con un hosting. 
+
+<img src="assets/chapter-VI/Front-4.png" alt="Logo" width="1000"/>
+
+url de la aplicación web: https://astonishing-dasik-2b2d1c.netlify.app/login 
+
 ## 6.2. Landing Page, Services & Applications Implementation.
 
 ### 6.2.1. Sprint 1
@@ -1497,8 +1508,19 @@ Todos los miembros del equipo fueron parte de la planificación y desarrollo del
 
 #### 6.2.1.4. Development Evidence for Sprint Review.
 
-Se completó la implementación de la Landing-page, se avanzó con los commits para la aplicación web, el Backend y el
-dispositivo IoT.
+Se completó la implementación de la Landing-page, se avanzó con los commits para la aplicación web.
+
+Primera pantalla de inicio de sesión con credenciales de ususario
+<img src="assets/chapter-VI/Front-1.png" alt="Logo" width="1000"/>
+
+Pantalla de muestra de las prendas de ropa
+<img src="assets/chapter-VI/Front-2.png" alt="Logo" width="1000"/>
+
+Pantalla de busqueda de las prendas disponibles
+<img src="assets/chapter-VI/Front-4.png" alt="Logo" width="1000"/>
+
+Pantalla de detalles de usuario
+<img src="assets/chapter-VI/Front-3.png" alt="Logo" width="1000"/>
 
 #### 6.2.1.5. Testing Suite Evidence for Sprint Review.
 
@@ -1537,34 +1559,13 @@ recursos,
 como productos y precios, se decidio implementar un servicio adicional para complementar ello, puesto que acceder
 a esa informacion no nos es posible.
 
-| Controller                    | Method | Enlace | Endpoint                                 | Acciones                                        |
-|-------------------------------|--------|--------|------------------------------------------|-------------------------------------------------|
-| users-controller              | GET    |        | /api/v1/users/{id}                       | Obtener usuario por ID                          |
-| users-controller              | PUT    |        | /api/v1/users/{id}                       | Actualizar usuario por ID                       |
-| users-controller              | DELETE |        | /api/v1/users/{id}                       | Borrar usuario por ID                           |
-| users-controller              | GET    |        | /api/v1/users                            | Obtener todos los usuarios                      |
-| users-controller              | POST   |        | /api/v1/users                            | Crear un nuevo usuario                          |
-| users-controller              | POST   |        | /api/v1/users/login                      | Inicio de sesión de usuario                     |
-| store-controller              | GET    |        | /api/v1/stores/{id}                      | Obtener tienda por ID                           |
-| store-controller              | PUT    |        | /api/v1/stores/{id}                      | Actualizar tienda por ID                        |
-| store-controller              | DELETE |        | /api/v1/stores/{id}                      | Borrar tienda por ID                            |
-| store-controller              | GET    |        | /api/v1/stores                           | Obtener todas las tiendas                       |
-| store-controller              | POST   |        | /api/v1/stores                           | Crear una nueva tienda                          |
-| store-product-controller      | GET    |        | /api/v1/stores/{id}/products             | Obtener todos los productos de la tienda por ID |
-| store-product-controller      | PUT    |        | /api/v1/stores/{id}/products             | Actualizar producto en tienda por ID            |
-| store-product-controller      | POST   |        | /api/v1/stores/{id}/products             | Insertar producto en la tienda por ID           |
-| store-product-controller      | DELETE |        | /api/v1/stores/{id}/products/{productId} | Eliminar producto de la tienda por IDs          |
-| products-controller           | GET    |        | /api/v1/products/{id}                    | Obtener producto por ID                         |
-| products-controller           | PUT    |        | /api/v1/products/{id}                    | Actualizar producto por ID                      |
-| products-controller           | DELETE |        | /api/v1/products/{id}                    | Borrar producto por ID                          |
-| products-controller           | GET    |        | /api/v1/products                         | Obtener todos los productos                     |
-| products-controller           | POST   |        | /api/v1/products                         | Crear un nuevo producto                         |
-| products-controller           | GET    |        | /api/v1/products/search/{name}           | Buscar producto por nombre                      |
-| products-controller           | GET    |        | /api/v1/products/search/                 | Buscar productos                                |
-| product-categories-controller | GET    |        | /api/v1/product-categories               | Buscar todas las categorías de productos        |
-| product-categories-controller | POST   |        | /api/v1/product-categories               | Crear una nueva categoría de productos          |
-| product-categories-controller | GET    |        | /api/v1/product-categories/{id}          | Buscar categoría de producto por ID             |
-| product-categories-controller | DELETE |        | /api/v1/product-categories/{id}          | Borrar categoría de producto por ID             |
+| Controller                       | Method  | Enlace | Endpoint                                 | Acciones                                        |
+|-----------------------|---------|--------|------------------------------------------|-------------------------------------------------|
+| users                 | GET     |        | /users                       	      | Obtener lista de usuarios                       |
+| users                 | PUT     |        | /users/{id}                              | Actualizar usuario por ID                       |
+| users                 | POST    |        | /users/{id}                              | Registrar nuevo usuario                         |
+| stores                | GET     |        | /stores                                  | Obtener lista de tiendas                        |
+| products              | GET     |        | /products                       	      | Obtener lista de productos                      |
 
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review.
 
@@ -1580,6 +1581,14 @@ diferentes commits
 realizados en el repositorio, los cuales fueron realizados mediante distintas ramas
 features para luego unirlas en la rama develop. En las siguientes capturas de pantalla
 se puede demostrar el trabajo colaborativo del sprint 1:
+
+Insights de la Landing Page:
+
+<img src="assets/chapter-VI/Evidence-Landing.jpeg" alt="Logo" width="1000"/>
+
+Insights de la Aplicacion Web:
+
+<img src="assets/chapter-VI/Evidence-Web.jpeg" alt="Logo" width="1000"/>
 
 # Conclusiones
 
