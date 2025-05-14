@@ -1301,23 +1301,6 @@ Esta capa contiene la implementación del repositorio de sincronización (`JpaER
 
 ![ERPBoundedContextDatabaseDesignDiagram](assets/ERPSecondDiagram.png)
 
-# Conclusiones
-
-1. **Solución IoT bien fundamentada en necesidades reales del usuario**  
-   A partir del análisis de entrevistas y actividades de _Needfinding_, se identificó que tanto los clientes como los trabajadores de tiendas de ropa enfrentan dificultades significativas en la localización de prendas. LockItem responde directamente a estas problemáticas, ofreciendo trazabilidad en tiempo real mediante sensores IoT, lo que valida la hipótesis de mejora en eficiencia operativa y experiencia de usuario.
-
-2. **Arquitectura técnica escalable y alineada al dominio**  
-   El diseño de software aplicó principios de Domain-Driven Design a nivel estratégico y táctico, lo cual permitió establecer *Bounded Contexts* bien definidos (`User`, `Inventory`, `IoT Device`, `ERP`). La arquitectura planteada es modular, desacoplada y preparada para escalar horizontalmente con múltiples instancias por tienda (`multi-tenancy`), garantizando la mantenibilidad del sistema y su extensibilidad.
-
-3. **Cohesión entre requisitos funcionales y técnicos**  
-   El mapeo de escenarios _as-is_ y _to-be_, junto con la especificación de más de 30 historias de usuario detalladas en formato Gherkin, permitió garantizar que los requerimientos del negocio están correctamente traducidos a funcionalidades implementables. Esto asegura que el backlog técnico tiene trazabilidad directa con los objetivos del producto.
-
-4. **Ventaja competitiva frente a soluciones similares**  
-   LockItem se diferencia de competidores como Pricer o Neurolabs al combinar sensores IoT con integración directa a etiquetas de seguridad y sistemas ERP. Esto permite una adopción más inmediata y menos invasiva en tiendas ya operativas, además de ofrecer un modelo de suscripción flexible que se adapta al tamaño de cada tienda.
-
-5. **Fuerte enfoque en colaboración y gobernanza técnica del proyecto**  
-   El equipo logró una ejecución ágil y organizada del proyecto, con planificación mediante Trello y herramientas de comunicación asincrónica como Discord. Cada integrante asumió roles específicos, destacando liderazgo compartido y trabajo interdisciplinario en el desarrollo de componentes críticos como los diagramas C4, diseño de historias de usuario y pruebas de integración.
-
 # Capítulo V: Solution UI/UX Design
 
 ## 5.1. Style Guidelines
@@ -1607,6 +1590,351 @@ en [figma](https://www.figma.com/proto/diTYqNwAiNv6EZCPf3vOod/IOT-Figma?page-id=
 **Aplicacion web:** Enlace del diseño
 en [figma](https://www.figma.com/proto/diTYqNwAiNv6EZCPf3vOod/IOT-Figma?page-id=4%3A5803&node-id=11-5076&node-type=frame&viewport=1320%2C290%2C0.08&t=jcHpdyUTiXfIp4GJ-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=11%3A5076&show-proto-sidebar=1)
 ![proto_web](assets/web.png)
+
+# Capítulo VI: Product Implementation, Validation & Deployment.
+
+## 6.1. Software Configuration Management
+
+En esta sección se detallan las decisiones y normas que posibilitarán que el equipo garantice la coherencia a lo largo
+de todo el ciclo de vida de desarrollo de nuestra solución.
+
+### 6.1.1. Software Development Environment Configuration.
+
+En la siguiente sección, vamos a describir con precisión los programas y plataformas que empleamos para llevar a cabo
+nuestro proyecto LockItem.
+
+| Herramienta                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |                                                                                            |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
+| **GitHub:** En este espacio, estableceremos el repositorio para llevar a cabo los progresos de nuestra Startup. Asimismo, facilita una supervisión más efectiva del trabajo en equipo, ya que permite visualizar el progreso de cada miembro mediante los commits.                                                                                                                                                                                                                                                                                                                                       | <img src="./assets/chapter-VI/logo-got.png" width="300">    |
+| **Git:** Sistema de gestión de versiones más popular y es necesario para llevar a cabo los commits en Github.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | <img src="./assets/chapter-VI/git-logo.png" width="300">       |
+| **Discord:** Esta es una herramienta de mensajería que facilita la creación de grupos con personas seleccionadas. También ofrece funciones como llamadas, videollamadas, carga de archivos, entre otras. Utilizamos esta aplicación para comunicarnos eficazmente, coordinar tareas y resolver preguntas en grupo.                                                                                                                                                                                                                                                                                       | <img src="./assets/chapter-VI/logo-discord.png" width="300">   |
+| **Figma:** Es una herramienta esencial en nuestro conjunto de software para el desarrollo de nuestro startup. Esta plataforma nos permite colaborar de manera efectiva en el diseño y prototipado de nuestras aplicaciones y productos. Con Figma, podemos crear y compartir diseños en tiempo real, lo que facilita la revisión y la retroalimentación por parte de todo el equipo. Además, esta herramienta nos ayuda a mantener una coherencia visual en nuestros proyectos, lo que es fundamental para la experiencia del usuario.                                                                   | <img src="./assets/chapter-VI/logo-figma.png" width="300">    |
+| **UxPressia:** Es una plataforma en línea especializada en el mapeo de la trayectoria del cliente. Nos ayuda a crear mapas de impacto y perfiles de usuario, como User Personas, Empathy Maps y Journey Maps.                                                                                                                                                                                                                                                                                                                                                                                            | <img src="./assets/chapter-VI/logo-ux.png" width="300"> |
+| **Visual Studio Code:** Es un editor de código que posibilita la programación en varios lenguajes y ofrece la posibilidad de ampliar sus capacidades mediante extensiones, lo que mejora la experiencia de trabajo en equipo.                                                                                                                                                                                                                                                                                                                                                                            | <img src="./assets/chapter-VI/logo-vscode.jpeg" width="300">   |
+| **Flutter:** Framework de desarrollo de aplicaciones móviles de código abierto creado por Google. Permite la creación de aplicaciones nativas de alta calidad para iOS y Android desde un único código base. En nuestro proyecto, Flutter nos proporciona una solución eficiente para el desarrollo multiplataforma, facilitando la implementación de una interfaz de usuario consistente y optimizada para diferentes dispositivos. Gracias a sus widgets personalizables y a su rendimiento cercano al nativo, Flutter es esencial para la creación de una experiencia de usuario fluida y responsiva. | <img src="./assets/chapter-VI/logo-flutter.png" width="300">   |
+| **Angular:** Angular es un framework de desarrollo web de código abierto, creado por Google, que permite construir aplicaciones web modernas, dinámicas y de una sola página (SPA) utilizando TypeScript. Se basa en una arquitectura de componentes reutilizables, ofrece enlace bidireccional de datos (data binding), inyección de dependencias y un sistema de enrutamiento integrado, lo que facilita el desarrollo de aplicaciones escalables, mantenibles y con una experiencia de usuario fluida.                                                                                                                  | <img src="./assets/chapter-VI/logo-angular.png" width="300">      |
+
+
+### 6.1.2. Source Code Management.
+
+En la siguiente sección, presentaremos los medios que usaremos para el seguimiento del código de LockItem, usaremos
+GitHub como plataforma ysistema de control de versiones.
+
+A continuación se detalla la aplicación de GitFlow como un WorkFlow para el control de versiones en el desarrollo de
+ramas o branches.
+
+**Main Branch:** Este es nuestro branch principal y la raíz para nuestras ramificaciones. Aquí se mostrará el estado
+actual del código fuente, que posteriormente será enviado a producción. Una vez finalizadas las tareas en las otras
+ramas, se integrarán en el producto final.
+
+**Develop Branch:** En esta rama se encuentra el código fuente más actualizado y podemos observar el estado actual de
+los últimos cambios realizados en el desarrollo. Todos los cambios que estén listos para ser publicados se fusionarán
+con la rama principal (main Branch) junto con una etiqueta que identifica el número de la publicación. Asimismo, cada
+modificación efectuada en esta rama será posteriormente fusionada de nuevo con la rama principal como una nueva versión
+del producto.
+
+**Feature Branches:** Estas ramas serán empleadas para crear nuevas funciones destinadas a una próxima versión. Se
+derivarán del develop Branch y, una vez completado el desarrollo, se fusionarán de nuevo en la misma rama develop. En
+caso de que la función no obtenga resultados satisfactorios, se descartará. Se seguirá una convención de nomenclatura
+secuencial para nuestros Feature Branches, como por ejemplo: Feature001, Feature002, Feature003, y así sucesivamente. Se
+exceptúan las palabras master, develop, release y hotfix.
+
+**Release Branches:** Estas ramas facilitan la preparación de nuestro proyecto para la última fase de pruebas o testing,
+permitiéndonos corregir bugs y garantizar la optimización de la interfaz antes de lanzar la versión definitiva. Se
+derivan del develop y se fusionan nuevamente en él para indicar una "próxima versión".
+
+**Convenciones Release Branches:**
+
+| Release       | Descripción                                                                                              |
+|---------------|----------------------------------------------------------------------------------------------------------|
+| Release 0.1.0 | Comenzar con la versión del desarrollo inicial de nuestro landing page.                                  |
+| Release 1.0.0 | Se realiza la implementación de la API pública.                                                          |
+| Release 1.1.0 | Se ha implementado una nueva funcionalidad en la API pública que es compatible con versiones anteriores. |
+| Release 1.1.1 | Se corrigen bug o errores compatibles con las versiones anteriores.                                      |
+| Release 2.0.0 | Se implementan funciones incompatibles con versiones anteriores en la API pública.                       |
+
+**Hotfix branches:**
+Son utilizadas para abordar rápidamente problemas o errores en la versión actual de producción. Estas ramas se crean a
+partir de la main Branch. Una vez solucionado el problema se fusionará.
+
+| Hotfix       | Descripción                                                                                                |
+|--------------|------------------------------------------------------------------------------------------------------------|
+| Hotfix 1.1.0 | Alguna funcionalidad de la API pública esta marcada como obsoleta.                                         |
+| Hotfix 1.1.1 | Se introduce nuevas funciones o metodos para la corrección de errores compatibles con versiones anteriores |
+
+**Conventional Commits:**
+Es una convención para escribir mensajes de confirmación en un repositorio de control de versiones como Git. Esta
+convencion tiene como objetivo estandarizar y hacer mas comprensibles los mensajes de confirmación.
+
+La estructura de un mensaje de confirmacion es la siguiente:
+
+    <type>[optional scope]: <description>
+    [optional body]
+    [optional footer(s)]
+
+**fix:** usamos este commit del tipo fix cuando se arregla un bug que afecta al usuario.
+
+**feat:** usamos este commit del tipo feat cuando se agrega una nueva característica para el usuario.
+
+**BREAKING CHANGE:** Es un commit que tiene un como footer (como se vió en la estructura) **BREAKING CHANGE:** o agrega
+un ! esto con el fin de comunicar un cambio grande realizado en el API.
+
+También se permiten distintos tipos de **feat:** y **fix:** basados en la convención Angular estos son:
+
+**perf:** Cambios que mejoran el rendimiento del sitio.
+**build:** Para los cambios en el sistema de build.
+**ci:** Para los cambios en la integración continua.
+**docs:** Para cambios en la documentación.
+**refactor:** Cuando se realiza una refactorización del código como cambios de nombre de variables o funciones.
+**style:** Para los cambios de formato, tabulaciones, espacios o puntos y coma, etc;
+**test:** Cuando se añade tests o refactoriza uno existente.
+Por otro lado, también se pueden proporcionar footers que no sean **BREAKING CHANGE:** <description> y poder seguir otra
+convención similar.
+
+#### 6.1.3. Source Code Style Guide & Conventions.
+
+Esta sección detalla las normas y estándares de estilo que seguimos para asegurar un código claro, uniforme y fácil de
+mantener. Estas convenciones promueven una colaboración eficiente y minimizan posibles errores, facilitando la
+escalabilidad y consistencia en el desarrollo del proyecto.
+
+Para el desarrollo de los prodcutos del proyecto se usarán las siguientes nomenclaturas:
+
+- Declaración del tipo de documento.
+  En nuestro archivo index.html en la primera línea de código colocaremos la instrucción ```<!DODCTYPE html>```
+- Atributo Lang
+  Con este atributo podemos permitir que los motores de búsqueda puedan identificar y configurar nuestro idioma.
+  ```<html lang="es">```
+- Se dara uso a las etiquetas
+  ```<body></body>  <header></header> <section> </section>  <nav></nav>  <p></p>  <img/> <iframe></iframe>  <h1></h1> <h2></h2>```
+- Para distribuir texto en parrafos utilizatemos la siguiente etiqueta ```<p> Somos <p>```
+- Implementaremos la etiqueta meta data
+
+Esta nos servirá para que, en nuestro documento HTML, pueda proporcionar información codificada a navegadores y motores
+de búsqueda acerca de nuestra página web
+
+Para las convenciones de nomenclatura en CSS:
+
+- En nuestra codificación de nuestro proyecto, usaremos las minusculas para nombrar estos archivos con el fin de no
+  tener conflictos con los nombres de nuestros archivos html.
+- Se evitará el uso de las tildes para los nombres de estas.
+- Se abreviarán los nombres con el fin de tener una mejor practicidad.
+
+**Convenciones para la nomenclatura en Angular:**
+
+- **Estructura de Archivos y Componentes**  
+  Los nombres de los archivos de componentes se escribirán en **PascalCase** (por ejemplo, `UserProfile.ts`) para
+  facilitar la identificación y diferenciación de otros archivos. Además, cada componente debe tener una única
+  responsabilidad, evitando componentes demasiado grandes o complejos. En caso necesario, dividir los componentes
+  grandes en otros más pequeños y específicos.
+
+- **Nombres de Props y Variables**  
+  Las **props** se definirán en **camelCase** en el script y en **kebab-case** dentro de las plantillas de Angular. Ejemplo:
+  en el script `userAge` y en el template `<user-profile :user-age="userAge">`. Las **variables reactivas** deben
+  comenzar con un prefijo descriptivo y estar en camelCase (por ejemplo, `isUserActive`).
+
+- **Directivas Personalizadas**  
+  Las directivas personalizadas se escribirán en **kebab-case** y deben describir de manera clara la acción que
+  realizan. Ejemplo: `v-focus`, `v-scroll-to`.
+
+- **Nombres de Eventos**  
+  Los eventos personalizados deben seguir el formato **kebab-case** y describir la acción de forma clara, como
+  `user-logged-in` o `item-selected`.
+
+**Convenciones para la nomenclatura en Flutter:**
+
+- **Nombres de Clases y Widgets**  
+  Los nombres de **clases** y **widgets** se escribirán en **PascalCase** (por ejemplo, `UserProfileWidget`,
+  `LoginForm`). Los nombres de los widgets deben describir claramente su funcionalidad o propósito en la interfaz.
+
+- **Variables y Constantes**  
+  Las **variables** se nombrarán en **camelCase** y deben ser descriptivas (por ejemplo, `isUserLoggedIn`). Las *
+  *constantes** se escribirán en **mayúsculas** con guiones bajos (`_`) para separar palabras (por ejemplo,
+  `MAX_USER_AGE`).
+
+- **Estructura de Archivos**  
+  Los archivos de widgets deben organizarse en una carpeta `widgets/` para mejorar la organización del proyecto. Los
+  nombres de archivos estarán en **snake_case** y describirán el contenido del archivo (por ejemplo,
+  `user_profile_widget.dart`).
+
+- **Estilo de Código**  
+  Usaremos el modificador **const** en los widgets siempre que sea posible para mejorar el rendimiento. Además, se deben
+  utilizar los operadores `??` y `?.` para manejar valores nulos de manera segura y evitar errores en la ejecución.
+
+#### 6.1.4. Software Deployment Configuration.
+
+En este punto, se dara a conocer el proceso de despliegue de las aplicaciones, así como la configuración de los
+servidores y la infraestructura necesaria para su correcto funcionamiento.
+
+**Landing Page:**
+Para desplegar la Landing Page, se utilizó GitHub Pages, una plataforma gratuita que permite alojar sitios web estáticos
+directamente desde un repositorio de GitHub. El proceso de despliegue fue el siguiente:
+
+1. Crear un repositorio en GitHub con el código de la Landing Page.
+2. Acceder a la configuración del repositorio y habilitar GitHub Pages.
+3. Seleccionar la rama y la carpeta de origen del sitio web.
+4. Guardar la configuración y obtener la URL del sitio web desplegado.
+5. Finalmente, acceder a la URL del sitio web para verificar que se haya desplegado correctamente.
+
+   
+<img src="assets/chapter-VI/Landing.png" alt="Logo" width="1000"/>
+
+url de la landing page: https://prodtrackers.github.io/landing_page/#info 
+
+**App web**
+Para desplegar la aplicación web usamos el servicio de hosting gratiuto netlifly por medio de los siguientes pasos:
+
+1. Generar un build de la aplicación usando ng-build.
+2. Crar un nuevo proyecto en Netlify en donde subimos el archivo .dis donde se encuentra la aplicación ya construida.
+3. Desplegamos y la app nos dara una url gratuita con un hosting. 
+
+<img src="assets/chapter-VI/Front-4.png" alt="Logo" width="1000"/>
+
+url de la aplicación web: https://astonishing-dasik-2b2d1c.netlify.app/login 
+
+## 6.2. Landing Page, Services & Applications Implementation.
+
+### 6.2.1. Sprint 1
+
+#### 6.2.1.1. Sprint Planning 1.
+
+| Sprint #                           | 1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Sprint Planning Background         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Date                               | 2025-05-10                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Time                               | 08:00 PM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Location                           | Reunión virtual usando la plataforma zoom                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Prepared By                        | Chero Emé, Eduardo André                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Attendees                          | Nicolás Cortés / Franco Surco / Josue Arrunategui / Eduardo Chero / Piero Marquez / Santiago Olivera                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Sprint n – 1 Review Summary        | Al ser el primer sprint, no hay un punto de partida previo, se realizo tomando en cuenta las recomendaciones del profesor con respecto al anterior entregable                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Sprint n – 1 Retrospective Summary | Gracias a las observaciones del profesor, nos dimos cuenta de las deficiencias que teniamos, por lo que mejoramos los detalles para el proceso de desarrollo siguiendo las pautas Domain-Driven Design.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Sprint Goal & User Stories         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Sprint n Goal                      | **Nos centramos en** la entrega de las primeras versiones de la aplicación móvil y el backend, las actualizaciones de la página de destino y la aplicación web, así como el diseño inicial del dispositivo IoT a utilizar<br><br> **Creemos que** esto proporcionará a los consumidores y a las tiendas de ropa una forma mucho más eficiente para localizar sus prendas deseadas<br><br> **Esto se confirmará cuando** los usuarios puedan empezar a usar la app móvil para detectar las prendas que estos deseen comprar |
+| Sprint n Velocity                  | 50                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Sum of Story Points                | 48                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+
+#### 6.2.1.2. Aspect Leaders and Collaborators.
+
+Todos los miembros del equipo fueron parte de la planificación y desarrollo del sprint 1. Los miembros responsables fueron:
+
+- Arrunátegui Aguilar, Josué David
+- Chero Eme, Eduardo Andre
+- Cortes Hidalgo, Nicolas Andres
+- Olivera Guerra, Santiago Mickelle
+- Stefano Máquez, Piero 
+- Surco Reyes, Franco
+
+#### 6.2.1.3. Sprint Backlog 1.
+
+| Sprint 1 | Sprint 1 | | | | | | |
+|----|--------|----------|-----|----------|--------|-------------|------------|
+| User Story |  | Work-Item / Task | | | | | |
+| Id | Title | Id | Title | Description | Estimation(Hours) | Assigned To | Status (To-do / InProcess /ToReview /Done) |
+| US-001        | Implementación de Autenticación Segura | W-001        | Crear Autenticación Segura   | Desarrollar un sistema de autenticación robusto con multi-factor.          | 16                  | Josué David Arrunátegui | Done          |
+| US-002        | Gestión de Inventario en Tiempo Real   | W-002        | Gestionar Inventario          | Permitir a las tiendas visualizar y gestionar el inventario en tiempo real. | 16                  | Cortes Hidalgo, Nicolas Andres           | Done       |
+| US-004        | Localización de Prendas                | W-003        | Funcionalidad de Localización| Desarrollar la funcionalidad para que los clientes puedan localizar prendas mediante la app. | 16 | Eduardo Chero | Done |
+| US-014        | Cifrado de Datos                       | W-004        | Implementar Cifrado          | Asegurar que todos los datos sensibles estén cifrados tanto en tránsito como en reposo. | 12 | Surco Reyes, Franco | Done |
+| US-012        | Mejoras de UI/UX                       | W-005        | Mejorar Interfaz             | Mejorar la interfaz de usuario y la experiencia del usuario basada en el feedback de los usuarios. | 8 | Stefano Máquez, Piero  | Done |
+
+#### 6.2.1.4. Development Evidence for Sprint Review.
+
+Se completó la implementación de la Landing-page, se avanzó con los commits para la aplicación web.
+
+Primera pantalla de inicio de sesión con credenciales de ususario
+<img src="assets/chapter-VI/Front-1.png" alt="Logo" width="1000"/>
+
+Pantalla de muestra de las prendas de ropa
+<img src="assets/chapter-VI/Front-2.png" alt="Logo" width="1000"/>
+
+Pantalla de busqueda de las prendas disponibles
+<img src="assets/chapter-VI/Front-4.png" alt="Logo" width="1000"/>
+
+Pantalla de detalles de usuario
+<img src="assets/chapter-VI/Front-3.png" alt="Logo" width="1000"/>
+
+#### 6.2.1.5. Testing Suite Evidence for Sprint Review.
+
+| Repository               | Branch | Commit ID                                |
+|--------------------------|--------|------------------------------------------|
+| ProdTrackers/landing-page | main   | a3414c1fc5852586d44badf1c5450a4d27b3a716 |
+
+Tablero de commits del repositorio de la App Web:
+
+| Repository           | Branch                 | Commit ID                                |
+|----------------------|------------------------|------------------------------------------|
+| ProdTrackers/Frontend | feature/section-login  | 3052d03442c7f7f676c0e097127a27aeddf8fcbd |
+|                      | feature/section-signup | c2b9a1f6637a081b3f41504006a1c8ebc28ac4ae |
+
+Tablero de commits del repositorio del Backend:
+
+| Repository              | Branch | Commit ID                                |
+|-------------------------|--------|------------------------------------------|
+| ProdTrackers/LockItemApi | main   | 0bdb6f0582c2401cb26c0a96304e6b2959717258 |
+
+Tablero de commits del repositorio del dispositivo IoT:
+
+| Repository              | Branch | Commit ID                                |
+|-------------------------|--------|------------------------------------------|
+| ProdTrackers/LockItemIoT | main   | 04ffac8d4f0bd47438e0c2be1e4cb2172eefbfea |
+
+#### 6.2.1.6. Execution Evidence for Sprint Review.
+
+En esta secci6n se presenta la ejecucion de los componentes desarrollados en el Sprint 1.
+
+#### 6.2.1.7. Services Documentation Evidence for Sprint Review.
+
+En esta secci6n se presenta la lista de Endpoints configurados en el Sprint 1.
+Dado que el RestApi de LockItem dependeria de services externos de las tiendas, que compartirian la informacion de sus
+recursos,
+como productos y precios, se decidio implementar un servicio adicional para complementar ello, puesto que acceder
+a esa informacion no nos es posible.
+
+| Controller                       | Method  | Enlace | Endpoint                                 | Acciones                                        |
+|-----------------------|---------|--------|------------------------------------------|-------------------------------------------------|
+| users                 | GET     |        | /users                       	      | Obtener lista de usuarios                       |
+| users                 | PUT     |        | /users/{id}                              | Actualizar usuario por ID                       |
+| users                 | POST    |        | /users/{id}                              | Registrar nuevo usuario                         |
+| stores                | GET     |        | /stores                                  | Obtener lista de tiendas                        |
+| products              | GET     |        | /products                       	      | Obtener lista de productos                      |
+
+#### 6.2.1.8. Software Deployment Evidence for Sprint Review.
+
+En esta seccion, se muestran imagenes del proceso y deployment de los componentes desarrollados en el sprint 1.
+
+<img src="assets/chapter-VI/deploy-log.jpeg" alt="Logo" width="1000"/>
+
+#### 6.2.1.9. Team Collaboration Insights during Sprint.
+
+Para el desarrollo del web application, hemos usado un repositorio en GitHub en el
+cual, hemos implementado de manera grupal el desarrollo de nuestro frontend y backend. Esto se evidencia en los
+diferentes commits
+realizados en el repositorio, los cuales fueron realizados mediante distintas ramas
+features para luego unirlas en la rama develop. En las siguientes capturas de pantalla
+se puede demostrar el trabajo colaborativo del sprint 1:
+
+Insights de la Landing Page:
+
+<img src="assets/chapter-VI/Evidence-Landing.jpeg" alt="Logo" width="1000"/>
+
+Insights de la Aplicacion Web:
+
+<img src="assets/chapter-VI/Evidence-Web.jpeg" alt="Logo" width="1000"/>
+
+# Conclusiones
+
+1. **Solución IoT bien fundamentada en necesidades reales del usuario**  
+   A partir del análisis de entrevistas y actividades de _Needfinding_, se identificó que tanto los clientes como los trabajadores de tiendas de ropa enfrentan dificultades significativas en la localización de prendas. LockItem responde directamente a estas problemáticas, ofreciendo trazabilidad en tiempo real mediante sensores IoT, lo que valida la hipótesis de mejora en eficiencia operativa y experiencia de usuario.
+
+2. **Arquitectura técnica escalable y alineada al dominio**  
+   El diseño de software aplicó principios de Domain-Driven Design a nivel estratégico y táctico, lo cual permitió establecer *Bounded Contexts* bien definidos (`User`, `Inventory`, `IoT Device`, `ERP`). La arquitectura planteada es modular, desacoplada y preparada para escalar horizontalmente con múltiples instancias por tienda (`multi-tenancy`), garantizando la mantenibilidad del sistema y su extensibilidad.
+
+3. **Cohesión entre requisitos funcionales y técnicos**  
+   El mapeo de escenarios _as-is_ y _to-be_, junto con la especificación de más de 30 historias de usuario detalladas en formato Gherkin, permitió garantizar que los requerimientos del negocio están correctamente traducidos a funcionalidades implementables. Esto asegura que el backlog técnico tiene trazabilidad directa con los objetivos del producto.
+
+4. **Ventaja competitiva frente a soluciones similares**  
+   LockItem se diferencia de competidores como Pricer o Neurolabs al combinar sensores IoT con integración directa a etiquetas de seguridad y sistemas ERP. Esto permite una adopción más inmediata y menos invasiva en tiendas ya operativas, además de ofrecer un modelo de suscripción flexible que se adapta al tamaño de cada tienda.
+
+5. **Fuerte enfoque en colaboración y gobernanza técnica del proyecto**  
+   El equipo logró una ejecución ágil y organizada del proyecto, con planificación mediante Trello y herramientas de comunicación asincrónica como Discord. Cada integrante asumió roles específicos, destacando liderazgo compartido y trabajo interdisciplinario en el desarrollo de componentes críticos como los diagramas C4, diseño de historias de usuario y pruebas de integración.
 
 # Anexos
 
