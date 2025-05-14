@@ -1375,7 +1375,7 @@ A continuación, diseñamos el cómo sería el wireframe de nuestra landing page
 ### 5.3.2. Landing Page Mock-up
 Para la presentación del mock-up tomamos en cuenta la tonalidad de colores que habíamos elegido previamente.
 
-![landingMockUp](assets/landing_mockup.png)
+![landingMockUp](assets/Mock%20-%20up.png)
 
 ## 5.4. Applications UX/UI Design
 ### 5.4.1. Applications Wireframes
