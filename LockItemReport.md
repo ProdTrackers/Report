@@ -213,6 +213,8 @@ Me encargué de la elaboración de las historias de usuario (user stories) para 
       TB1:<br> 
       Durante esta primera entrega trabajé con el software de miro y mediante Gooogle meet coordine con mi compañero la arquitectura de los cuatro bounded context y la cocherencia entre sus 4 capas y su arquitectura.<br>
       </p>
+	    TP:<br>
+	    Ejecuté satisfactoriamente mis tareas mientras establecí una comunicación continua con mi equipo de trabajo para la coordinación efectiva de cambios y versiones.<br><br>
       <p>Surco Reyes, Franco<br> 
       TB1:<br> 
       Apoye con el desarrollo de los diagramas del C4 Model (Landscape, Context, Container y Deployment) utilizando Structurizr. Esto nos ha permitido mapear estratégicamente los componentes clave que utilizaremos, garantizando una visión integral y compartida del sistema.<br>
@@ -254,6 +256,8 @@ Contribuí a generar un entorno colaborativo mediante la creación de historias 
       TB1:<br> 
       Durante la primera entrega, me encargué de los layers para los principales Bounded Context: User, Inventory, Device y ERP, para planificar unn correcto desarrollo de Backend siguiendo respetando el core del negocio y aplicando ddd correctamente. <br>
       </p>
+	TP:<br>
+	    Para el desarrollo de las funcionalidades de search y productos, promoví un entorno de colaboración e inclusión. Establecimos objetivos claros y realizamos una planificación conjunta que permitió dividir tareas de manera equitativa y eficiente. Esta estrategia nos ayudó a cumplir con los plazos establecidos y a integrar de manera exitosa las funcionalidades en el sistema, fomentando un ambiente de respeto y apoyo mutuo.<br><br>
       <p>Surco Reyes, Franco <br> 
       TB1:<br> 
 	  	Durante la primera entrega, contribui mapeando estrategicamente los componente tecnologicos que utilizaremos para nuestro proyecto, para luego definir la arquitectura del sistema con claridad. <br>
