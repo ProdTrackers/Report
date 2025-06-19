@@ -1942,6 +1942,133 @@ Insights de la Aplicacion Web:
 
 <img src="assets/chapter-VI/Evidence-Web.jpeg" alt="Logo" width="1000"/>
 
+### 6.2.2. Sprint 2
+#### 6.2.2.1. Sprint Planning 2
+#### 6.2.2.2. Aspect Leaders and Collaborators
+#### 6.2.2.3. Sprint Backlog 2.
+#### 6.2.2.4. Development Evidence for Sprint Review
+#### 6.2.2.5. Testing Suite Evidence for Sprint Review
+#### 6.2.2.6. Execution Evidence for Sprint Review
+#### 6.2.2.7. Services Documentation Evidence for Sprint Review
+#### 6.2.2.8 Software Deployment Evidence for Sprint Review
+#### 6.2.2.9 Team Collaboration Insights during Sprint
+## 6.3 Validations Interviews
+En esta parte, el equipo presenta la documentación y descripción de las entrevistas de validación llevadas a cabo a en este sprint. Estas entrevistas recogen la interacción de usuarios pertenecientes al público objetivo con la landing page y las aplicaciones. Se incluye el diseño de las entrevistas, el registro de cada sesión y las evaluaciones basadas en criterios heurísticos, utilizando el formato de evaluación definido para el proyecto.
+### 6.3.1 Diseño de Entrevistas
+En esta sección se describe el diseño de entrevistas aplicadas para recolectar información relevante de cada segmento, con preguntas principales y complementarias. Se recopilaron datos demográficos y características personales como personalidad, habilidades, preferencias digitales, objetivos y frustraciones.
+
+**Elementos a incluir en la sesion de validacion:**
+
+**Para la Landing Page:**
+
+1. **Interacción con la Landing Page:**
+
+    - ¿Qué tan fácil o difícil te resultó interactuar con la nueva landing page?
+    - ¿Encontraste toda la información que necesitabas sin problemas?
+    - ¿Qué te parece la apariencia general de la web (colores, diseño, iconos, etc.)?
+    - ¿Hay algo en la interfaz que te haya resultado confuso o que no entendiste de inmediato?
+
+2. **Navegación y Usabilidad:**
+
+    - ¿Sientes que las opciones están bien organizadas para gestionar la refrigeración y el inventario?
+    - ¿Te gustaría que el flujo de ciertas tareas se modificara para ser más intuitivo?
+
+3. **Valor Propuesto:**
+
+    - ¿Crees que el sistema facilita la gestión de la temperatura comparado con el método anterior?
+    - ¿Cómo describirías la diferencia entre este sistema y el que utilizabas antes?
+
+4. **Capacitación y Aprendizaje:**
+
+    - ¿Cuánto tiempo te llevaría familiarizarte con el sistema?
+    - ¿Te sientes cómodo usando el sistema o consideras que necesitas más capacitación?
+
+**Para las Aplicaciones (Web y Móvil):**
+
+5. **User Flows:**
+
+    - ¿Hubo algún paso en particular que te pareció innecesario o difícil de encontrar?
+    - ¿Experimentaste algún problema o error durante el uso del sistema?
+
+6. **Funcionalidades Clave:**
+
+    - ¿Pudiste realizar las tareas de gestión del inventario y monitoreo de la refrigeración fácilmente?
+    - ¿Cómo fue la experiencia al monitorear la temperatura y registrar el inventario en el nuevo sistema?
+    - ¿Cómo calificarías la rapidez y efectividad de las alertas del sistema en situaciones críticas?
+
+7. **Interacción y Diseño:**
+
+    - ¿Qué te parece la experiencia de usar la aplicación para gestionar la refrigeración e inventario?
+    - ¿Prefieres acceder al sistema desde un dispositivo móvil o desde una PC? ¿Por qué?
+
+8. **Feedback del Usuario:**
+
+    - ¿Te parece útil la posibilidad de manejar las funciones de refrigeración e inventario desde un dispositivo móvil?
+    - ¿Hay alguna funcionalidad que consideres que está faltando y que podría facilitarte el trabajo?
+    - ¿Qué te ha gustado más del sistema de gestión de refrigeración e inventario?
+    - ¿Qué cambiarías o mejorarías?
+### 6.3.2 Registro de Entrevistas
+Esta sección presenta el registro de las entrevistas, incluyendo datos de los participantes y un resumen de sus respuestas. Cada sesión fue grabada en video, con enlaces a las grabaciones editadas y detalles sobre su duración. Se recopilaron aspectos objetivos y subjetivos para definir arquetipos a partir de la información obtenida.
+
+**Cliente de tienda de ropa**
+
+Entrevista 1:
+- **Nombre completo:** 
+- **Edad:** 
+- **Distrito:** 
+- **Screenshot del video:**
+
+
+  
+- **URL del video en Microsoft Stream:** 
+- **Duración de la entrevista:**
+
+**Resumen:** 
+
+**Trabajador de tienda de ropa**
+
+Entrevista 2:
+- **Nombre completo:** 
+- **Edad:** 
+- **Distrito:** 
+- **Screenshot del video:**
+
+
+  
+- **URL del video en Microsoft Stream:** 
+- **Duración de la entrevista:** 
+
+**Resumen:** 
+
+### 6.3.3 Evaluaciones según heurísticas
+Esta sección explica cómo se evaluaron las sesiones de validación usando criterios heurísticos, considerando la usabilidad, la arquitectura de información y el diseño inclusivo de la experiencia. Se aplicó el formato de evaluación heurística del Anexo D, siguiendo sus lineamientos para valorar la experiencia del usuario.
+
+**UX Heuristics & Principles Evaluation Usability – Inclusive Design – Information Architecture**
+
+**Site o App a evaluar:** LockItem
+
+**Tareas a evaluar:**
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Registro de un nuevo usuario
+2. Inicio de sesión en la aplicación
+3. Navegación al home y visualización de ropa dependiendo de la marca
+4. Acceso a los detalles de cada prenda (temperatura, humedad, mantenimiento, etc.)
+5. Registro de un nuevo producto en el inventario
+6. Visualización y gestión de la lista de productos en el inventario
+7. Invitación a un nuevo colaborador (ingreso de correo y rol)
+8. Visualización y edición del perfil del usuario
+9. Cierre de sesión
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+1. Generación de reportes de eficiencia en la gestión de temperatura
+2. Configuración de alertas para temperaturas anómalas
+3. Filtro de los productos
+## 6.4 Video About-the-Product
+En esta sección se describe el contenido del video About-the-Product, dirigido a los usuarios de la landing page y las aplicaciones. El video presenta el modelo de negocio, las funciones principales del software y al menos un testimonio positivo de un usuario entrevistado. Se incluye una captura del video, su URL en Microsoft Stream y YouTube, así como su duración
+
+Link del video About the Product desde Microsoft Stream: [About the Product](Aca va el link del video)
+
 # Conclusiones
 
 Viabilidad Técnica Comprobada
