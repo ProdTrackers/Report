@@ -1964,49 +1964,53 @@ En esta sección se describe el diseño de entrevistas aplicadas para recolectar
 1. **Interacción con la Landing Page:**
 
     - ¿Qué tan fácil o difícil te resultó interactuar con la nueva landing page?
-    - ¿Encontraste toda la información que necesitabas sin problemas?
+    - ¿La información sobre el producto LockItem fue clara y comprensible?
     - ¿Qué te parece la apariencia general de la web (colores, diseño, iconos, etc.)?
-    - ¿Hay algo en la interfaz que te haya resultado confuso o que no entendiste de inmediato?
+    - ¿El sitio te dio una buena idea sobre qué es y para qué sirve LockItem?
 
-2. **Navegación y Usabilidad:**
+2. **Diseño y Estética:**
 
-    - ¿Sientes que las opciones están bien organizadas para gestionar la refrigeración y el inventario?
-    - ¿Te gustaría que el flujo de ciertas tareas se modificara para ser más intuitivo?
+    - ¿Qué opinas del diseño general de la página (colores, imágenes, iconos, estructura)?
+    - ¿El estilo visual te pareció profesional y atractivo?
 
-3. **Valor Propuesto:**
+3. **Claridad de contenido:**
 
-    - ¿Crees que el sistema facilita la gestión de la temperatura comparado con el método anterior?
-    - ¿Cómo describirías la diferencia entre este sistema y el que utilizabas antes?
+    - ¿Hubo algo que no entendiste o que te pareció confuso en la información presentada?
+    - ¿Consideras que hay algo importante que debería añadirse para explicar mejor el producto?
 
-4. **Capacitación y Aprendizaje:**
+4. **Facilidad de Aprendizaje:**
 
-    - ¿Cuánto tiempo te llevaría familiarizarte con el sistema?
-    - ¿Te sientes cómodo usando el sistema o consideras que necesitas más capacitación?
+    - ¿Crees que cualquier persona podría entender rápidamente para qué sirve LockItem viendo esta página?
+    - ¿Qué mejorarías para hacerla más clara o más llamativa?
 
 **Para las Aplicaciones (Web y Móvil):**
 
-5. **User Flows:**
+5. **Facilidad de Uso:**
 
-    - ¿Hubo algún paso en particular que te pareció innecesario o difícil de encontrar?
-    - ¿Experimentaste algún problema o error durante el uso del sistema?
+    - ¿Te resultó sencillo encontrar la información de las prendas (precio, talla, ubicación)?
+    - ¿La navegación entre pantallas fue clara y sin confusiones?
 
-6. **Funcionalidades Clave:**
+6. **Funcionalidades:**
 
-    - ¿Pudiste realizar las tareas de gestión del inventario y monitoreo de la refrigeración fácilmente?
-    - ¿Cómo fue la experiencia al monitorear la temperatura y registrar el inventario en el nuevo sistema?
-    - ¿Cómo calificarías la rapidez y efectividad de las alertas del sistema en situaciones críticas?
+    - ¿Pudiste usar sin problemas la opción para separar una prenda (si estaba disponible)?
+    - ¿Recibiste notificaciones o mensajes claros sobre el estado de las prendas o separaciones?
 
-7. **Interacción y Diseño:**
+7. **Diseño e Interacción:**
 
-    - ¿Qué te parece la experiencia de usar la aplicación para gestionar la refrigeración e inventario?
-    - ¿Prefieres acceder al sistema desde un dispositivo móvil o desde una PC? ¿Por qué?
+    - ¿Qué te pareció la apariencia general de la app (colores, botones, distribución)?
+    - ¿Prefieres acceder desde el celular o desde una computadora? ¿Por qué?
 
-8. **Feedback del Usuario:**
+8. **Aprendizaje y Adaptación:**
 
-    - ¿Te parece útil la posibilidad de manejar las funciones de refrigeración e inventario desde un dispositivo móvil?
-    - ¿Hay alguna funcionalidad que consideres que está faltando y que podría facilitarte el trabajo?
-    - ¿Qué te ha gustado más del sistema de gestión de refrigeración e inventario?
-    - ¿Qué cambiarías o mejorarías?
+    - ¿Crees que necesitas ayuda para usar el sistema o se entiende fácilmente desde el primer uso?
+    - ¿Qué tan rápido crees que alguien nuevo podría aprender a usar la aplicación?
+
+9. **Opinion General:**
+
+    - ¿Qué es lo que más te gustó de la app?
+    - ¿Qué mejorarías o cambiarías?
+    - ¿Hay alguna función que sientes que hace falta?
+
 ### 6.3.2 Registro de Entrevistas
 Esta sección presenta el registro de las entrevistas, incluyendo datos de los participantes y un resumen de sus respuestas. Cada sesión fue grabada en video, con enlaces a las grabaciones editadas y detalles sobre su duración. Se recopilaron aspectos objetivos y subjetivos para definir arquetipos a partir de la información obtenida.
 
