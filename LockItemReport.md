@@ -2687,7 +2687,7 @@ Entrevista 1:
 - **Nombre completo: Diego Ancajima** 
 - **Edad: 23** 
 - **Distrito: San Miguel** 
-- <img src="assets/cliente1.PNG" alt="Logo" width="1000"/>
+- <img src="assets/cliente1.PNG" alt="cliente1" width="1000"/>
 
 
   
@@ -2700,7 +2700,7 @@ Entrevista 2:
 - **Nombre completo: Lian Li** 
 - **Edad: 25** 
 - **Distrito: Miraflores** 
-- <img src="assets/cliente2.PNG" alt="Logo" width="1000"/>
+- <img src="assets/cliente2.PNG" alt="cliente2" width="1000"/>
 
 
   
@@ -2715,7 +2715,7 @@ Entrevista 1:
 - **Nombre completo: Abel** 
 - **Edad: 26** 
 - **Distrito: Chorrillos** 
-- <img src="assets/trabajador1.PNG" alt="Logo" width="1000"/>
+- <img src="assets/trabajador1.PNG" alt="trabajador1" width="1000"/>
 
 
   
@@ -2728,7 +2728,7 @@ Entrevista 2:
 - **Nombre completo: Sebastian Cordova** 
 - **Edad: 24** 
 - **Distrito: Surco** 
-- <img src="assets/trabajador2.PNG" alt="Logo" width="1000"/>
+- <img src="assets/trabajador2.PNG" alt="trabajador2" width="1000"/>
 
 
   
@@ -2791,7 +2791,7 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 **Problema:**
 La función de geolocalización en la aplicación no es 100% correcta dentro de la tienda, por lo que podria llevar a confusiones en ciertas prendas. Sin embargo, se asegura la precision mayor a un 90%. 
 
-<img src="assets/ubicacion.PNG" alt="Logo" width="1000"/>
+<img src="assets/ubicacion.PNG" alt="ubicacion1" width="1000"/>
 
 
 **Recomendación: Es fundamental corregir la inexactitud de la función de geolocalización para proporcionar información precisa a los usuarios. Se deben realizar pruebas exhaustivas para garantizar que esta característica funcione de manera confiable**
@@ -2804,7 +2804,7 @@ La función de geolocalización en la aplicación no es 100% correcta dentro de 
 **Problema:**
 Cuando los usuarios realizan cambios, como editar un perfil, no reciben un mensaje de confirmación que indique que los cambios se han guardado con éxito. Esto puede generar incertidumbre en los usuarios, ya que no tienen retroalimentación inmediata sobre el estado de sus acciones.  
 
-<img src="assets/edit_account.PNG" alt="Logo" width="1000"/>
+<img src="assets/edit_account.PNG" alt="edit_account" width="1000"/>
 
 
 **Recomendación: Para proporcionar una mejor experiencia al usuario, se debe implementar un mensaje de confirmación después de que los cambios se guarden exitosamente. Esto ayudará a los usuarios a tener la seguridad de que sus modificaciones se han realizado con éxito y que sus acciones se han registrado correctamente en la aplicación.**
