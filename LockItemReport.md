@@ -263,6 +263,8 @@ Me encargué de la elaboración de las historias de usuario (user stories) para 
 	      <br>TP:<br> 
       Apoye en la organización del sprint 1, bajo el cual nos regimos las tareas y trate de coordinar la gran mayoriía de las mismas para asegurar una correcta realización del mismo. Tambien apoye en el desarrollo de la app web.<br>
       </p>
+	    <br>TB2:<br> 
+      Apoye al equipo con las entregas respectivas para este entreganle y para la elaboracion del sprint 2, en el cual nos encargamos principalmente de la integracion front y back, generar un prototipo wokwi funcional, entre otras tareas menores.<br>
 	</p>
       <p>Olivera Guerra, Santiago Mickelle <br> 
       TB1:<br> 
@@ -319,6 +321,8 @@ objetivos.</td>
       Durante esta primera entrega, tuve que profundizar en lo que son los diagramas c4, para asi poder construir de forma adecuada cada uno de los diagramas de componentes necesarios para los 4 bounded context que hemos definido para este sistema. Del mismo modo, realice una investigacion profunda en lo que corresponde a los diagramas de clase, para asi poder realizar de forma apropiada los diagramas respectivos de cada uno de los bounded context mencionados anteriormente.<br>
       <br>TP:<br> 
       Durante esta entrega, logre organizar de manera adecuada al equipo para coordinar la realización del sprint 1 de forma efectiva, además, apoye en la documentación del informe.<br>
+	      <br>TB2:<br> 
+      Apoye en la integración del frontend y backend, asegurando un correcto despliegue de la aplicación, asegurandonos de que para esta entrega sea 100% funciona a traves de un enlace web.<br>
       </p>
       <p>Olivera Guerra, Santiago Mickelle <br> 
       TB1:<br> 
