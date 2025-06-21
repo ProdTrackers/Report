@@ -269,6 +269,8 @@ Me encargué de la elaboración de las historias de usuario (user stories) para 
       Apoye con el desarrollo de los diagramas del C4 Model (Landscape, Context, Container y Deployment) utilizando Structurizr. Esto nos ha permitido mapear estratégicamente los componentes clave que utilizaremos, garantizando una visión integral y compartida del sistema.<br>
       TP:<br> 
       Apoye con el desarrollo de una seccion del landing page, en la aplicacion web con la vista account y el logout.<br>
+      TB2:<br>
+      Colaboré en la elaboración de las heurísticas y en la detección de problemas a resolver en fases posteriores, trabajando estrechamente con el resto del equipo para definir criterios de usabilidad claros.
       </p>
     </td>
     <td>Liderazgo Colaborativo y Enfoque Interdisciplinario
@@ -322,6 +324,8 @@ objetivos.</td>
 	  	Durante la primera entrega, contribui mapeando estrategicamente los componente tecnologicos que utilizaremos para nuestro proyecto, para luego definir la arquitectura del sistema con claridad. <br>
       TP:<br> 
       Para el desarrollo de la aplicacion web y landing page se mantuvo comunicacion con el equipo.<br>
+      TB2:<br>
+      En esta entrega, identifiqué los problemas heurísticos detectados a partir de las entrevistas de validación con cada segmento objetivo. Para cada hallazgo, evalué su impacto en la experiencia de usuario y establecí un orden de prioridad que nos permitirá enfocar los esfuerzos de mejora. Este diagnóstico detallado servirá de base para las próximas iteraciones de diseño, garantizando soluciones más intuitivas y alineadas con las necesidades reales de nuestros usuarios.
       </p>
     </td>
     <td>El equipo consolidó un ambiente colaborativo e inclusivo, con comunicación efectiva a través de WhatsApp y Discord. Las reuniones frecuentes permitieron una coordinación fluida y resolución oportuna de dudas. Cada integrante contribuyó activamente, estableciendo metas claras y distribuyendo responsabilidades de forma equitativa. El apoyo mutuo y la capacidad para corregir errores fueron claves para cumplir los plazos y alcanzar los objetivos del proyecto de manera eficiente.</td>
