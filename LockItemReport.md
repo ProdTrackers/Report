@@ -41,6 +41,7 @@ ___
 | 3.0     | 27/05/2025 | Santiago Olivera    | Se empezo el sprint 2
 | 3.1     | 05/06/2025 | Josué Arrunátegui    | Se edito el sprint 2
 | 3.2    | 15/06/2025 | Piero Márquez   | Se empezo agrego el punto 6.3
+| 3.3    | 19/06/2025 | Santiago Olivera   | Se empezo agrego el punto 6.4 Video About-the-Product
 ---
 
 # Project Report Collaboration Insights
@@ -65,6 +66,8 @@ TB2: El equipo ha cumplido con éxito los puntos solicitados para la entrega. Du
 ### Analiticos para el TP
 <img src="assets\ProyectReportCollaborationInsights\Insights_Report1.PNG">
 
+### Analiticos para el TB2
+<img src="assets/Analiticos tb2.PNG">
 # Contenido
 
 - [Registro de versiones del informe](#registro-de-versiones-del-informe)
@@ -231,6 +234,8 @@ forma conjunta </td>
       Organicé y gestioné los documentos clave, incluyendo la publicación del video de las entrevistas y su analisis. Además, desarrollé estrategias y tácticas competitivas para posicionarnos frente a los competidores, y participé activamente en el diseño, análisis y registro de entrevistas. También trabajé en la creación y priorización del product backlog, asegurando que todas las tareas estuvieran alineadas con los objetivos del proyecto. Por último, colaboré en los capítulos 3 y 4 del proyecto, contribuyendo de manera significativa a su desarrollo y asegurando el avance según lo planificado.<br>
       TP:<br> 
       Organicé y gestioné la entrega del proyecto y toda su documentación, asegurando el cumplimiento de plazos y la calidad de los entregables. Participé activamente en los capítulos 5 y 6, contribuyendo al diseño, análisis y redacción de los contenidos clave. Además, desarrollé parte de la landing page y participe en la implementación del frontend, haciéndome cargo del componente Account. Con estas labores, aseguré la coherencia técnica y funcional de la aplicación y facilité la comunicación entre los miembros del equipo.<br>
+      TB2:<br> 
+      Organicé y gestioné la entrega del proyecto y toda su documentación, asegurando el cumplimiento de plazos y la calidad de los entregables. Participé activamente en el sprint 2 y el capitulo 6.3 y 6.4. Además, desarrollé parte del backend. Con estas labores, aseguré la coherencia técnica y funcional de la aplicación y facilité la comunicación entre los miembros del equipo.<br>
       </p>
       <p>Arrunátegui Aguilar, Josué David<br> 
       TB1:<br>
@@ -288,6 +293,8 @@ objetivos.</td>
       </p>
       TP:<br> 
       Como líder de equipo, organicé y coordiné al grupo para la correcta entrega de la documentación, asignando a cada miembro las responsabilidades de carga de archivos y estableciendo plazos claros. Paralelamente, me centré en el desarrollo de la programación, implementando funcionalidades clave y resolviendo retos técnicos. Además, revisé y validé que toda la información estuviera completa y alineada con los requisitos antes de enviar los documentos necesarios, garantizando así la calidad y puntualidad de las entregas.<br>
+      TB2:<br> 
+      En mi rol como líder de equipo, me encargué de organizar y coordinar al grupo para asegurar la entrega adecuada de la documentación, asignando tareas específicas relacionadas con la carga de archivos y definiendo plazos concretos. Al mismo tiempo, participé activamente en el desarrollo del código, implementando funcionalidades esenciales y resolviendo desafíos técnicos. También realicé la revisión y validación final de la documentación, verificando que toda la información estuviera completa y cumpliera con los requisitos establecidos, asegurando así entregas de calidad y en el tiempo previsto.<br>
       </p>
       <p>Arrunátegui Aguilar, Josué David<br> 
       TB1:<br> 
@@ -2812,7 +2819,9 @@ Cuando los usuarios realizan cambios, como editar un perfil, no reciben un mensa
 ## 6.4 Video About-the-Product
 En esta sección se describe el contenido del video About-the-Product, dirigido a los usuarios de la landing page y las aplicaciones. El video presenta el modelo de negocio, las funciones principales del software y al menos un testimonio positivo de un usuario entrevistado. Se incluye una captura del video, su URL en Microsoft Stream y YouTube, así como su duración
 
-Link del video About the Product desde Microsoft Stream: [About the Product](Aca va el link del video)
+Link del video About the Product desde Microsoft Stream: [About the Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201a821_upc_edu_pe/ESPdSIph4b1CqoH_ycofQaIByORxiHpnmkDCFF-MXyJ2FQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=A4X70n)
+
+<img src="assets/edit_account.png" alt="edit_account" width="1000"/>
 
 # Conclusiones
 
@@ -2850,9 +2859,14 @@ Se considera la configuración y mantenimiento del sistema desde etapas temprana
 - Repositorio del informe (Markdown): [https://github.com/ProdTrackers/Report](https://github.com/ProdTrackers/Report)
 - Repositorio del LandingPage: [https://github.com/ProdTrackers/landing_page](https://github.com/ProdTrackers/landing_page)
 - Repositorio del Frontend: [https://github.com/ProdTrackers/App_Web](https://github.com/ProdTrackers/App_Web)
+- Repositorio del Backend: [https://github.com/ProdTrackers/backend](https://github.com/ProdTrackers/backend)
+- Repositorio del Mobile: [https://github.com/ProdTrackers/Movil](https://github.com/ProdTrackers/Movil)
+- Repositorio del IoT device simulator: [https://github.com/ProdTrackers/IoT-device-simulator](https://github.com/ProdTrackers/IoT-device-simulator)
+- Repositorio del IoT Edge: [https://github.com/ProdTrackers/iot_edge](https://github.com/ProdTrackers/iot_edge)
 - Video de entrevistas: [Entrevistas-IOT](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201816402_upc_edu_pe/EeaTmTaKrQpBm0ctmxVHrvgBotE0Nhb8_Xx2Cl7MrlXVcg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=fJyUaC)
 - Video de Exposición TB1: [Exposicion-TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201816402_upc_edu_pe/EUW3-XU080lBiIQc6pdQlr0BUr39zPadsuvoc4dKFEJq7w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ZhjqZQ)
 - Video de Exposición TP: [Exposicion-TP](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201816402_upc_edu_pe/Ef7AtDkrAaRKiDcWK05cnGgB0uvdrEUT624WKaiLk-NoPg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=mCvock)
+
 # Bibliografía
 
 - Evans, E. (2004). *Domain-Driven Design: Tackling Complexity in the Heart of Software*. Addison-Wesley.
