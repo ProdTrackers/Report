@@ -2674,32 +2674,58 @@ Esta sección presenta el registro de las entrevistas, incluyendo datos de los p
 **Cliente de tienda de ropa**
 
 Entrevista 1:
-- **Nombre completo:** 
-- **Edad:** 
-- **Distrito:** 
-- **Screenshot del video:**
+- **Nombre completo: Diego Ancajima** 
+- **Edad: 23** 
+- **Distrito: San Miguel** 
+- <img src="assets/cliente1.PNG" alt="Logo" width="1000"/>
 
 
   
 - **URL del video en Microsoft Stream:** 
-- **Duración de la entrevista:**
+- **Duración de la entrevista: 6:07**
 
-**Resumen:** 
+**Resumen: Diego Ancajima es un cliente habitual de ropa, valora que la aplicacion tenga un diseño amigable, gracias a su interfaz limpia e intuitiva, que facilita la navegacion y tiene todo lo necesario para cubrir sus necesidades. Considera que no es necesario incorporar alguna funcionalidad debido a que ve bastante completa la aplicacion. Por ultimo resalta la funcionalidad de buscar prendas y localizarlas en la tienda.** 
+
+Entrevista 2:
+- **Nombre completo: Lian Li** 
+- **Edad: 25** 
+- **Distrito: Miraflores** 
+- <img src="assets/cliente2.PNG" alt="Logo" width="1000"/>
+
+
+  
+- **URL del video en Microsoft Stream:** 
+- **Duración de la entrevista: 6:48**
+
+**Resumen: Lian Li es un cliente habitual de ropa, destaca el diseño minimalista y bien estructurado de la aplicación web, que le resulta cómoda y fácil de usar. Prefiere la versión de escritorio para sus compras, pues el mayor tamaño de pantalla y el flujo de pagos le dan más tranquilidad. Aunque la plataforma le parece muy intuitiva, sugiere ofrecer algún soporte para usuarios mayores. Como puntos fuertes destaca a la geolocalización de prendas, que agiliza la búsqueda en tienda y la opción de cambiar el idioma, que mejora la accesibilidad Además, le gustaría contar con una guía de tallas y descripciones de producto más detalladas para tomar decisiones de compra con mayor confianza.** 
 
 **Trabajador de tienda de ropa**
 
-Entrevista 2:
-- **Nombre completo:** 
-- **Edad:** 
-- **Distrito:** 
-- **Screenshot del video:**
+Entrevista 1:
+- **Nombre completo: Abel** 
+- **Edad: 26** 
+- **Distrito: Chorrillos** 
+- <img src="assets/trabajador1.PNG" alt="Logo" width="1000"/>
 
 
   
 - **URL del video en Microsoft Stream:** 
-- **Duración de la entrevista:** 
+- **Duración de la entrevista: 6:54** 
 
-**Resumen:** 
+**Resumen: Abel es un trabajador de tienda ropa, aprecia que la aplicacion sea bastante intuitiva y le ayuda a no perderse mientras usa la aplicacion, destacando la navegacion entre las secciones de la aplicacion. Cree que la informacion es suficiente y no lo llena de informacion innecesario como otras aplicaciones. Considera que cualquier usuario puede usar la aplicacion con facilidad. Durante las horas pico prefiere el móvil por su rapidez, pero para el inventario mensual opta por la versión de escritorio. Además, valora la capacidad de categorizar stock por tienda, y sugiere una integración en tiempo real con el sistema de inventarios de la empresa.** 
+
+Entrevista 2:
+- **Nombre completo: Sebastian Cordova** 
+- **Edad: 24** 
+- **Distrito: Surco** 
+- <img src="assets/trabajador2.PNG" alt="Logo" width="1000"/>
+
+
+  
+- **URL del video en Microsoft Stream:** 
+- **Duración de la entrevista: 6:23** 
+
+**Resumen: Sebastián Cordova empleado en tienda de ropa, valora la aplicación por estar muy completa y documentada, sin perder agilidad al buscar productos gracias a un buscador eficiente. No ve necesaria la incorporación de nuevas funciones. Destaca como gran ventaja la geolocalización de cada prenda y sugiere, para perfeccionar la experiencia, que además de la ubicacion marcada en el mapa se muestre la dirección exacta de la tienda.** 
 
 ### 6.3.3 Evaluaciones según heurísticas
 Esta sección explica cómo se evaluaron las sesiones de validación usando criterios heurísticos, considerando la usabilidad, la arquitectura de información y el diseño inclusivo de la experiencia. Se aplicó el formato de evaluación heurística del Anexo D, siguiendo sus lineamientos para valorar la experiencia del usuario.
@@ -2725,6 +2751,54 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 1. Generación de reportes de eficiencia en la gestión de temperatura
 2. Configuración de alertas para temperaturas anómalas
 3. Filtro de los productos
+
+
+**Escala de severidad**
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
+
+| Nivel            |    Descripción           |
+|------------------|---------------|
+| 1             | Problema superficial: puede ser fácilmente superador por el usuario o ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.       |
+| 2             | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase |
+| 3             | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.|
+| 4             | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento |
+
+**Tabla resumen**
+
+| #            |    Problema            | Escala de severidad |Heurística/Principio violada(o) 
+|------------------|---------------|------------------|---------------|
+| 1             | La funcion de geolocalizacion no tiende a ser 100% precisa, sin embargo se cuenta  con mas del 90% de precicision   | 4 | Usability: Prevención de errores 
+| 2             | No se muestra un mensaje de confirmacion cuando se guardan los cambios |3 | Usability: Visibilidad del estado del sistema 
+
+**Descripcion de Problemas**
+
+**PROBLEMA #1: La funcion de geolocalizacion no tiende a ser 100% precisa, sin embargo se cuenta  con mas del 90% de precicision**
+
+- Severidad: 4
+- Heuristica violada: Usabilidad -  Prevención de errores 
+
+**Problema:**
+La función de geolocalización en la aplicación no es 100% correcta dentro de la tienda, por lo que podria llevar a confusiones en ciertas prendas. Sin embargo, se asegura la precision mayor a un 90%. 
+
+<img src="assets/ubicacion.PNG" alt="Logo" width="1000"/>
+
+
+**Recomendación: Es fundamental corregir la inexactitud de la función de geolocalización para proporcionar información precisa a los usuarios. Se deben realizar pruebas exhaustivas para garantizar que esta característica funcione de manera confiable**
+
+**PROBLEMA #2: No se muestra un mensaje de confirmacion cuando se guardan los cambios |3 | Usability: Visibilidad del estado del sistema**
+
+- Severidad: 3
+- Heuristica violada: Usabilidad -  Visibilidad del estado del sistema 
+
+**Problema:**
+Cuando los usuarios realizan cambios, como editar un perfil, no reciben un mensaje de confirmación que indique que los cambios se han guardado con éxito. Esto puede generar incertidumbre en los usuarios, ya que no tienen retroalimentación inmediata sobre el estado de sus acciones.  
+
+<img src="assets/edit_account.PNG" alt="Logo" width="1000"/>
+
+
+**Recomendación: Para proporcionar una mejor experiencia al usuario, se debe implementar un mensaje de confirmación después de que los cambios se guarden exitosamente. Esto ayudará a los usuarios a tener la seguridad de que sus modificaciones se han realizado con éxito y que sus acciones se han registrado correctamente en la aplicación.**
+
 ## 6.4 Video About-the-Product
 En esta sección se describe el contenido del video About-the-Product, dirigido a los usuarios de la landing page y las aplicaciones. El video presenta el modelo de negocio, las funciones principales del software y al menos un testimonio positivo de un usuario entrevistado. Se incluye una captura del video, su URL en Microsoft Stream y YouTube, así como su duración
 
