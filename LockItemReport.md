@@ -2872,8 +2872,10 @@ Se considera la configuración y mantenimiento del sistema desde etapas temprana
 - Repositorio del IoT device simulator: [https://github.com/ProdTrackers/IoT-device-simulator](https://github.com/ProdTrackers/IoT-device-simulator)
 - Repositorio del IoT Edge: [https://github.com/ProdTrackers/iot_edge](https://github.com/ProdTrackers/iot_edge)
 - Video de entrevistas: [Entrevistas-IOT](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201816402_upc_edu_pe/EeaTmTaKrQpBm0ctmxVHrvgBotE0Nhb8_Xx2Cl7MrlXVcg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=fJyUaC)
+- Video de Interview Validations: [Entrevistas-de-Validación](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f282_upc_edu_pe/Ee02o8Vwv2xHvk46yr8lSjQBZ4A6DS2Z3Z6h5onE6lAjdw?e=yVGjh3&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 - Video de Exposición TB1: [Exposicion-TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201816402_upc_edu_pe/EUW3-XU080lBiIQc6pdQlr0BUr39zPadsuvoc4dKFEJq7w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ZhjqZQ)
 - Video de Exposición TP: [Exposicion-TP](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201816402_upc_edu_pe/Ef7AtDkrAaRKiDcWK05cnGgB0uvdrEUT624WKaiLk-NoPg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=mCvock)
+- Video de Exposición TB2: [Exposición-TB2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201816402_upc_edu_pe/EZUcK1e0K-hBrU2L_W6qxE4Bbzv_2fqlXsQwKIQyaVgm4A?e=5ChIxH&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 # Bibliografía
 
