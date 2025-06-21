@@ -239,6 +239,9 @@ forma conjunta </td>
     TP:<br>
     Me encargué de apoyar en la documentación de los capítulos 5 y 6 del proyecto. Asimismo, participé en el diseño y desarrollo de la landing page. En el frontend, implementé la pantalla Home, integrando la lógica de presentación y validando los flujos de datos para garantizar su correcto funcionamiento en distintos dispositivos. Estas tareas promovieron una visión compartida de la interfaz y agilizaron la coordinación del equipo.
       <br>
+	TB2:<br>
+	Durante esta entrega, asumí un rol activo en el desarrollo de la aplicación móvil, aportando de manera significativa al mayor avance técnico logrado hasta el momento. Coordiné con mis compañeros para integrar las funcionalidades principales y asegurar que el diseño y la lógica implementada fueran consistentes con los objetivos del proyecto. Mi enfoque estuvo en mantener una comunicación constante, resolver desafíos técnicos de forma colaborativa y tomar decisiones conjuntas para garantizar un desarrollo fluido y eficiente. Esta participación fortaleció el liderazgo compartido dentro del equipo y promovió una dinámica horizontal basada en la confianza técnica mutua. 
+      <br>
       </p>
       <p>Chero Eme, Eduardo Andre<br> 
       TB1:<br> 
@@ -290,6 +293,9 @@ objetivos.</td>
       TP:<br> 
       Fomenté un entorno colaborativo al coordinar con los distintos miembros del equipo la elaboración y revisión de la documentación de los capítulos 5 y 6, asegurando que todos comprendieran su estructura y aportaran los contenidos necesarios. Establecí metas claras para el desarrollo de la landing page y la pantalla Home del frontend, organizando las tareas de diseño, maquetado e integración de componentes para que se cumplieran dentro del plazo establecido. Gracias a esta planificación y al trabajo conjunto, logramos integrar de manera efectiva la documentación técnica y las interfaces principales en el entregable final, cumpliendo con los objetivos de usabilidad y facilitando una comunicación fluida entre diseñadores y desarrolladores.
       </p>
+	TB2:<br> 
+      Contribuí activamente a la creación de un entorno colaborativo al liderar la implementación de funcionalidades clave en la aplicación móvil. Establecí metas claras para los componentes que desarrollé y planifiqué su integración de forma coordinada con el backend y otros módulos del sistema. Esta planificación, junto con una comunicación abierta con los demás miembros del equipo, permitió cumplir con los objetivos técnicos establecidos para la entrega, asegurando la calidad del avance y fomentando un ambiente inclusivo donde todos pudieron aportar y resolver dudas de manera conjunta.
+	<br>
       <p>Chero Eme, Eduardo Andre<br> 
       TB1:<br> 
       Contribuí a generar un entorno colaborativo mediante la creación de historias de usuario que guiaron el trabajo del equipo y facilitaron la planificación en el backlog. Además, elaboré las secciones de Lean UX, lo que ayudó a que el equipo tuviera una comprensión compartida de las necesidades de los usuarios. Estas acciones permitieron que el equipo priorizara de forma efectiva y avanzara de manera alineada con los objetivos planteados.<br>
