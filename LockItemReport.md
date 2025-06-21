@@ -38,9 +38,11 @@ ___
 | 2.0     | 13/05/2025 | Piero Márquez     | Actualización del siguiente contenido: Project Report Collaboration Insights y Anexos                           |
 | 2.1     | 13/05/2025 | Franco Surco     | Se agrego el siguiente contenido: Capitulo 5                     |
 | 2.2     | 13/05/2025 | Nicolas Cortes     | Se agrego el siguiente contenido: Capitulo 6                     |
-
+| 3.0     | 27/05/2025 | Santiago Olivera    | Se empezo el sprint 2
+| 3.1     | 05/06/2025 | Josué Arrunátegui    | Se edito el sprint 2
+| 3.2    | 15/06/2025 | Piero Márquez   | Se empezo agrego el punto 6.3
 ---
-Project Report Collaboration Insights
+
 # Project Report Collaboration Insights
 
 <img src="assets\ProyectReportCollaborationInsights\Insights_Report.PNG">
@@ -53,6 +55,8 @@ Link: https://github.com/ProdTrackers/Report
 TB1: El equipo ha cumplido con éxito los puntos solicitados para la entrega. Durante el proceso de adaptación al entorno documental, enfrentamos algunos desafíos al planear correctamente el proyecto al inicio pero al final logramos encontrar nuestro enfoque. Como equipo nos sentimos satisfechos de haber alcanzado los objetivos propuestos.
 
 TP: El equipo ha cumplido con éxito los puntos solicitados para la entrega. Durante el proceso de documentación y programación se enfretaron algunos desafios al momento de diseñar los mock-ups y elegir las herramientas que se usaran para la landing page y el frontend pero se pudo llegar a un acuerdo y llegar al 100% del desarrollo. Como equipo nos sentimos satisfechos de alcanzar el objetivo de esta entrega.
+
+TB2: El equipo ha cumplido con éxito los puntos solicitados para la entrega. Durante el proceso de desarrollo del backend y el iot no hubo muchos problemas ya que el equipo esta acostumbrado a estos proyectos pero en la codificación del wokwi y el iot_edge se tuvieron algunas dificultades al ser nuevas tecnologias a la que el equipo no esta acostumbrado pero se logro con exito una primera versión para esta entrega.
 
 ### Analiticos para el TB1
 
@@ -170,6 +174,39 @@ TP: El equipo ha cumplido con éxito los puntos solicitados para la entrega. Dur
     - [5.4.3. Applications Mock-ups](#543-applications-mock-ups)
     - [5.4.4. Applications User Flow Diagrams](#544-applications-user-flow-diagrams)
   - [5.5. Applications Prototyping](#55-applications-prototyping)
+- [Capítulo VI: Product Implementation, Validation & Deploymeny](#capítulo-vi-product-implementation-validation--deployment)
+  - [6.1. Software Configuration Management.](#61-software-configuration-management)
+    - [6.1.1. Software Development Environment Configuration. ](#611-software-development-environment-configuration)
+    - [6.1.2. Source Code Management. ](#612-source-code-management)
+    - [6.1.3. Source Code Style Guide & Conventions.](#613-source-code-style-guide--conventions)
+    - [6.1.4. Software Deployment Configuration.](#614-software-deployment-configuration)
+  - [6.2. Landing Page, Services & Applications Implementation.](#62-landing-page-services--applications-implementation)
+    - [6.2.1. Sprint 1](#621-sprint-1)
+      - [6.2.1.1. Sprint Planning 1. ](#6211-sprint-planning-1)
+      - [6.2.1.2 Aspect Leaders and Collaborators.](#6212-aspect-leaders-and-collaborators)
+      - [6.2.1.3 Sprint Backlog 1.](#6213-sprint-backlog-1)
+      - [6.2.1.4. Development Evidence for Sprint Review.](#6214-development-evidence-for-sprint-review)
+      - [6.2.1.5. Testing Suite Evidence for Sprint Review.](#6215-testing-suite-evidence-for-sprint-review)
+      - [6.2.1.6. Execution Evidence for Sprint Review.](#6216-execution-evidence-for-sprint-review)
+      - [6.2.1.7. Services Documentation Evidence for Sprint Review.](#6217-services-documentation-evidence-for-sprint-review)
+      - [6.2.1.8. Software Deployment Evidence for Sprint Review. ](#6218-software-deployment-evidence-for-sprint-review)
+      - [6.2.1.9. Team Collaboration Insights during Sprint.](#6219-team-collaboration-insights-during-sprint)
+    - [6.2.2. Sprint 2](#622-sprint-2)
+      - [6.2.2.1. Sprint Planning 2. ](#6221-sprint-planning-2)
+      - [6.2.2.2 Aspect Leaders and Collaborators.](#6222-aspect-leaders-and-collaborators)
+      - [6.2.2.3 Sprint Backlog 2.](#6223-sprint-backlog-2)
+      - [6.2.2.4. Development Evidence for Sprint Review.](#6224-development-evidence-for-sprint-review)
+      - [6.2.2.5. Testing Suite Evidence for Sprint Review.](#6225-testing-suite-evidence-for-sprint-review)
+      - [6.2.2.6. Execution Evidence for Sprint Review.](#6226-execution-evidence-for-sprint-review)
+      - [6.2.2.7. Services Documentation Evidence for Sprint Review.](#6227-services-documentation-evidence-for-sprint-review)
+      - [6.2.2.8. Software Deployment Evidence for Sprint Review. ](#6228-software-deployment-evidence-for-sprint-review)
+      - [6.2.2.9. Team Collaboration Insights during Sprint.](#6229-team-collaboration-insights-during-sprint)
+  - [6.3 Validations Interviews](#63-validations-interviews)
+    - [6.3.1 Diseño de Entrevistas.](#631-diseño-de-entrevistas)
+    - [6.3.2 Registro de Entrevistas.](#632-registro-de-entrevistas)
+    - [6.3.3 Evaluaciones según heurísticas.](#633-evaluaciones-según-heurísticas)
+  - [6.4 Video About-the-Product](#64-video-about-the-product)
+
 
 
 [Conclusiones](#conclusiones)
@@ -1811,20 +1848,20 @@ url de la aplicación web: https://astonishing-dasik-2b2d1c.netlify.app/login
 
 #### 6.2.1.1. Sprint Planning 1.
 
-| Sprint #                           | 1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Sprint #                           | 1|
 |------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Sprint Planning Background         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| Date                               | 2025-05-10                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| Time                               | 08:00 PM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| Location                           | Reunión virtual usando la plataforma zoom                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| Prepared By                        | Chero Emé, Eduardo André                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| Attendees                          | Nicolás Cortés / Franco Surco / Josue Arrunategui / Eduardo Chero / Piero Marquez / Santiago Olivera                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| Sprint n – 1 Review Summary        | Al ser el primer sprint, no hay un punto de partida previo, se realizo tomando en cuenta las recomendaciones del profesor con respecto al anterior entregable                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| Sprint n – 1 Retrospective Summary | Gracias a las observaciones del profesor, nos dimos cuenta de las deficiencias que teniamos, por lo que mejoramos los detalles para el proceso de desarrollo siguiendo las pautas Domain-Driven Design.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| Sprint Goal & User Stories         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Sprint Planning Background         | |
+| Date                               | 2025-05-10 |
+| Time                               | 08:00 PM |
+| Location                           | Reunión virtual usando la plataforma zoom |
+| Prepared By                        | Chero Emé, Eduardo André |
+| Attendees                          | Nicolás Cortés / Franco Surco / Josue Arrunategui / Eduardo Chero / Piero Marquez / Santiago Olivera |
+| Sprint n – 1 Review Summary        | Al ser el primer sprint, no hay un punto de partida previo, se realizo tomando en cuenta las recomendaciones del profesor con respecto al anterior entregable|
+| Sprint n – 1 Retrospective Summary | Gracias a las observaciones del profesor, nos dimos cuenta de las deficiencias que teniamos, por lo que mejoramos los detalles para el proceso de desarrollo siguiendo las pautas Domain-Driven Design.|
+| Sprint Goal & User Stories         ||
 | Sprint n Goal                      | **Nos centramos en** la entrega de las primeras versiones de la aplicación móvil y el backend, las actualizaciones de la página de destino y la aplicación web, así como el diseño inicial del dispositivo IoT a utilizar<br><br> **Creemos que** esto proporcionará a los consumidores y a las tiendas de ropa una forma mucho más eficiente para localizar sus prendas deseadas<br><br> **Esto se confirmará cuando** los usuarios puedan empezar a usar la app móvil para detectar las prendas que estos deseen comprar |
-| Sprint n Velocity                  | 50                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| Sum of Story Points                | 48                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Sprint n Velocity                  | 50 |
+| Sum of Story Points                | 48|
 
 #### 6.2.1.2. Aspect Leaders and Collaborators.
 
@@ -1839,15 +1876,166 @@ Todos los miembros del equipo fueron parte de la planificación y desarrollo del
 
 #### 6.2.1.3. Sprint Backlog 1.
 
-| Sprint 1 | Sprint 1 | | | | | | |
-|----|--------|----------|-----|----------|--------|-------------|------------|
-| User Story |  | Work-Item / Task | | | | | |
-| Id | Title | Id | Title | Description | Estimation(Hours) | Assigned To | Status (To-do / InProcess /ToReview /Done) |
-| US-001        | Implementación de Autenticación Segura | W-001        | Crear Autenticación Segura   | Desarrollar un sistema de autenticación robusto con multi-factor.          | 16                  | Josué David Arrunátegui | Done          |
-| US-002        | Gestión de Inventario en Tiempo Real   | W-002        | Gestionar Inventario          | Permitir a las tiendas visualizar y gestionar el inventario en tiempo real. | 16                  | Cortes Hidalgo, Nicolas Andres           | Done       |
-| US-004        | Localización de Prendas                | W-003        | Funcionalidad de Localización| Desarrollar la funcionalidad para que los clientes puedan localizar prendas mediante la app. | 16 | Eduardo Chero | Done |
-| US-014        | Cifrado de Datos                       | W-004        | Implementar Cifrado          | Asegurar que todos los datos sensibles estén cifrados tanto en tránsito como en reposo. | 12 | Surco Reyes, Franco | Done |
-| US-012        | Mejoras de UI/UX                       | W-005        | Mejorar Interfaz             | Mejorar la interfaz de usuario y la experiencia del usuario basada en el feedback de los usuarios. | 8 | Stefano Máquez, Piero  | Done |
+<table border="1" cellpadding="8" cellspacing="0">
+    <thead>
+        <tr>
+            <th colspan="4">Sprint 1</th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <th colspan="2">User Story</th>
+            <th colspan="2">Work-Item /Task</th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Estimation(Hours)</th>
+            <th>Assigned To</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tr>
+            <td rowspan="3">US02</td>
+            <td rowspan="3">Gestión de Inventario en Tiempo Real</td>
+            <td>Tasks-01</td>
+            <td>Crear endpoint de inventario</td>
+            <td>Desarrollar API para consultar stock actualizado.</td>
+            <td>2h Hours</td>
+            <td>Josué David Arrunátegui</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>Tasks-02</td>
+            <td>Diseño de interfaz de inventario</td>
+            <td>Diseñar la pantalla de visualización del inventario.</td>
+            <td>3 Hours</td>
+            <td>Josué David Arrunátegui</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>Tasks-03</td>
+            <td>Sincronización en tiempo real</td>
+            <td>Implementar WebSocket o polling para actualización automática.</td>
+            <td>2 Hours</td>
+            <td>Santiago Oliveria</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="3">US04</td>
+            <td rowspan="3">Localización de Prendas</td>
+            <td>Tasks-04</td>
+            <td>Definir modelo de localización</td>
+            <td>Diseñar cómo se estructurará la información de ubicación.</td>
+            <td>2h Hours</td>
+            <td>Santiago Olivera</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>Tasks-05</td>
+            <td>Implementar lógica de ubicación</td>
+            <td>Programar el componente que localiza prendas por categoría o código.</td>
+            <td>3 Hours</td>
+            <td>Nicolas Cortes</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>Tasks-06</td>
+            <td>Integrar ubicación en interfaz</td>
+            <td>Mostrar resultados de localización dentro de la app.</td>
+            <td>3 Hours</td>
+            <td>Nicolas Cortes</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="3">US14</td>
+            <td rowspan="3">Cifrado de Datos</td>
+            <td>Tasks-07</td>
+            <td>Cifrado en tránsito</td>
+            <td>Asegurar comunicaciones cifradas entre cliente y servidor.</td>
+            <td>2h Hours</td>
+            <td>Eduardo Chero</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>Tasks-08</td>
+            <td>Cifrado en base de datos</td>
+            <td>Aplicar cifrado a campos sensibles como contraseñas y correos.</td>
+            <td>2 Hours</td>
+            <td>Eduardo Chero</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>Tasks-09</td>
+            <td>Validación de seguridad</td>
+            <td>Verificar que el cifrado esté funcionando con pruebas unitarias.</td>
+            <td>2 Hours</td>
+            <td>Eduardo Chero</td>
+            <td>Done</td>
+        </tr>
+       <tr>
+            <td rowspan="3">US01</td>
+            <td rowspan="3">Implementación de Autenticación Segura</td>
+            <td>Tasks-10</td>
+            <td>Diseño de flujo de autenticación</td>
+            <td>Diagramar el flujo de login seguro, incluyendo MFA.</td>
+            <td>2h Hours</td>
+            <td>Franco Surco</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>Tasks-11</td>
+            <td>Implementación de autenticación</td>
+            <td>Implementar la lógica de autenticación en frontend y backend.</td>
+            <td>3 Hours</td>
+            <td>Franco Surco</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>Tasks-12</td>
+            <td>Integración y pruebas de MFA</td>
+            <td>Integrar autenticación multifactor y realizar pruebas de seguridad.</td>
+            <td>2 Hours</td>
+            <td>Franco Surco</td>
+            <td>Done</td>
+        </tr>
+               <tr>
+            <td rowspan="3">US12</td>
+            <td rowspan="3">Mejoras de UI/UX</td>
+            <td>Tasks-13</td>
+            <td>Analizar feedback de usuarios</td>
+            <td>Revisar comentarios y sugerencias de usabilidad.</td>
+            <td>2h Hours</td>
+            <td>Piero Marquez</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>Tasks-14</td>
+            <td>Rediseño de componentes clave</td>
+            <td>Aplicar mejoras visuales en menús, botones o navegación.</td>
+            <td>3 Hours</td>
+            <td>Piero Marquez</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>Tasks-15</td>
+            <td>Pruebas de usabilidad</td>
+            <td>Verificar mejoras con pruebas internas o con usuarios.</td>
+            <td>2 Hours</td>
+            <td>Piero Marquez</td>
+            <td>Done</td>
+        </tr>  
+    </tbody>
+</table>
 
 #### 6.2.1.4. Development Evidence for Sprint Review.
 
@@ -1944,14 +2132,477 @@ Insights de la Aplicacion Web:
 
 ### 6.2.2. Sprint 2
 #### 6.2.2.1. Sprint Planning 2
+| Sprint #                           | 2 |
+|------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Sprint Planning Background         ||
+| Date                               | 2025-06-15 |
+| Time                               | 08:00 PM|
+| Location                           | Reunión virtual usando la plataforma zoom|
+| Prepared By                        | Chero Emé, Eduardo André|
+| Attendees                          | Nicolás Cortés / Franco Surco / Josue Arrunategui / Eduardo Chero / Piero Marquez / Santiago Olivera |
+| Sprint n – 2 Review Summary        | En el primer sprint se llego a terminar en su totalidad el landing page y se desplego una primera version del Frontend|
+| Sprint n – 2 Retrospective Summary | Se completo las correcciones con respecto al primer sprint y se empezaron las primeras versiones del resto de artefactos |
+| Sprint Goal & User Stories         ||
+| Sprint n Goal                      | **Nos centramos en** la entrega de las versiones avanzandas de la aplicación móvil y el backend, así como la primera version del dispositivo IoT a utilizar<br><br> **Creemos que** esto proporcionará a los consumidores y a las tiendas de ropa una forma mucho más eficiente para localizar sus prendas deseadas<br><br> **Esto se confirmará cuando** los usuarios puedan empezar a usar la app móvil para detectar las prendas que estos deseen comprar |
+| Sprint n Velocity                  | 16 |
+| Sum of Story Points                | 13  |
+
 #### 6.2.2.2. Aspect Leaders and Collaborators
+Todos los miembros del equipo fueron parte de la planificación y desarrollo del sprint 2. Los miembros responsables fueron:
+
+- Arrunátegui Aguilar, Josué David
+- Chero Eme, Eduardo Andre
+- Cortes Hidalgo, Nicolas Andres
+- Olivera Guerra, Santiago Mickelle
+- Stefano Máquez, Piero 
+- Surco Reyes, Franco
 #### 6.2.2.3. Sprint Backlog 2.
+
+<table border="1" cellpadding="8" cellspacing="0">
+    <thead>
+        <tr>
+            <th colspan="4">Sprint 2</th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <th colspan="2">User Story</th>
+            <th colspan="2">Work-Item /Task</th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Estimation(Hours)</th>
+            <th>Assigned To</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tr>
+            <td rowspan="3">US03</td>
+            <td rowspan="3">Búsqueda rápida en la app</td>
+            <td>Tasks-16</td>
+            <td>Diseño del buscador</td>
+            <td>Diseñar la interfaz del campo de búsqueda en la app.</td>
+            <td>2h Hours</td>
+            <td>Josué Arrunátegui</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>Tasks-17</td>
+            <td>Lógica de búsqueda</td>
+            <td>Implementar la lógica de filtrado por nombre o código.</td>
+            <td>3 Hours</td>
+            <td>Josué Arrunátegui</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>Tasks-18</td>
+            <td>	Integración backend</td>
+            <td>Conectar la búsqueda con la base de datos y mostrar resultados.</td>
+            <td>2 Hours</td>
+            <td>Josué Arrunátegui</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="3">US06</td>
+            <td rowspan="3">Diseño del buscador</td>
+            <td>Tasks-19</td>
+            <td>Endpoint de stock</td>
+            <td>Crear endpoint para consultar stock actualizado.</td>
+            <td>2h Hours</td>
+            <td>Nicolas Cortes</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>Tasks-20</td>
+            <td>LUI de stock</td>
+            <td>Diseñar componente visual para mostrar el stock.</td>
+            <td>2 Hours</td>
+            <td>Nicolas Cortes</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>Tasks-21</td>
+            <td>Actualización en tiempo real</td>
+            <td>Usar WebSocket o polling para reflejar cambios de stock en la app.</td>
+            <td>2 Hours</td>
+            <td>Santiago Olivera</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="3">US16</td>
+            <td rowspan="3">Inicio de Sesión</td>
+            <td>Tasks-19</td>
+            <td>Pantalla de login</td>
+            <td>Diseñar e implementar la pantalla de inicio de sesión.</td>
+            <td>2h Hours</td>
+            <td>Santiago Olivera</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>Tasks-20</td>
+            <td>Autenticación segura</td>
+            <td>Integrar login seguro con backend (JWT o tokens).</td>
+            <td>3 Hours</td>
+            <td>Eduardo Chero</td>
+            <td>Done</td>
+        </tr>
+       <tr>
+            <td rowspan="3">US17</td>
+            <td rowspan="3">Cerrar Sesión</td>
+            <td>Tasks-21</td>
+            <td>Botón de logout</td>
+            <td>Agregar botón visible para cerrar sesión.</td>
+            <td>2h Hours</td>
+            <td>Eduardo Chero</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>Tasks-22</td>
+            <td>Invalidez de sesión</td>
+            <td>Invalida token o elimina sesión en el backend.</td>
+            <td>3 Hours</td>
+            <td>Franco Surco</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>Tasks-23</td>
+            <td>Redirección segura</td>
+            <td>Redirigir al usuario a la pantalla de inicio tras cerrar sesión.</td>
+            <td>2 Hours</td>
+            <td>Franco Surco</td>
+            <td>Done</td>
+        </tr>
+               <tr>
+            <td rowspan="3">US23</td>
+            <td rowspan="3">Configuración de Perfil</td>
+            <td>Tasks-24</td>
+            <td>Formulario de perfil</td>
+            <td>Diseñar pantalla para configurar el perfil inicial.</td>
+            <td>2h Hours</td>
+            <td>Piero Marquez</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>Tasks-25</td>
+            <td>Guardado de datos</td>
+            <td>Implementar lógica para guardar nombre, avatar y preferencias.</td>
+            <td>3 Hours</td>
+            <td>Piero Marquez</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>Tasks-26</td>
+            <td>Validación de campos</td>
+            <td>Validar campos obligatorios y mostrar errores claros.</td>
+            <td>2 Hours</td>
+            <td>Piero Marquez</td>
+            <td>Done</td>
+        </tr>  
+    </tbody>
+</table>
+
+
 #### 6.2.2.4. Development Evidence for Sprint Review
+
+<table border="1" cellpadding="8" cellspacing="0">
+    <thead>
+        <tr>
+            <th>Repository</th>
+            <th>Branch</th>
+            <th>Commit ID</th>
+            <th>Commit Message</th>
+            <th>Commit Message Body</th>
+            <th>Commit Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>App_Web</td>
+            <td>main</td>
+            <td>d000f0bd4d985193568baf888762318e49aa3902</td>
+            <td>Integrated front and backend</td>
+            <td>-</td>
+            <td>Jun 20, 2025</td>
+        </tr>
+        <tr>
+            <td>App_Web</td>
+            <td>main</td>
+            <td>b100aeb38fde8068684b52e52043171191ef8f54</td>
+            <td>Merge pull request #6 from ProdTrackers/feature/location</td>
+            <td>-</td>
+            <td>Jun 20, 2025</td>
+        </tr>
+        <tr>
+            <td>App_Web</td>
+            <td>main</td>
+            <td>80f72aa4eac1cbf80621038c4fe993a5dae14fe1</td>
+            <td>Update location.component.ts</td>
+            <td>-</td>
+            <td>Jun 20, 2025</td>
+        </tr>
+        <tr>
+            <td>App_Web</td>
+            <td>main</td>
+            <td>e6b3669564eafeb447853faf40f20352d15970ae</td>
+            <td>Merge pull request #7 from ProdTrackers/feature/location</td>
+            <td>-</td>
+            <td>Jun 20, 2025</td>
+        </tr>
+        <tr>
+            <td>backend</td>
+            <td>main</td>
+            <td>c3370028c22a679907f2ac01b924bc3eb98f8a63</td>
+            <td>feat: add inventory relationship to Store entity and update DTO mappings</td>
+            <td>-</td>
+            <td>Jun 9, 2025</td>
+        </tr>
+        <tr>
+            <td>backend</td>
+            <td>main</td>
+            <td>f4e08f8211381d6b060646bdb9027e4e445a8401</td>
+            <td>feat: add iotDevice mapping to InventoryResponseDTO and update InventoryMapper</td>
+            <td>-</td>
+            <td>Jun 9, 2025</td>
+        </tr>
+        <tr>
+            <td>backend</td>
+            <td>main</td>
+            <td>f8c1bbadae55456e1919414fab6073bd330f7ea0</td>
+            <td>feat: add API endpoints guide to README for user, store, inventory, reservation, and IoT device management</td>
+            <td>-</td>
+            <td>Jun 9, 2025</td>
+        </tr> 
+        <tr>
+            <td>Movil</td>
+            <td>main</td>
+            <td>da64e608b6f4978458b70c1390f11dfc603b03db</td>
+            <td>Refactor: Update LocateProductScreen to use FlutterMap and Bloc</td>
+            <td>-</td>
+            <td>Jun 20, 2025</td>
+        </tr>
+        <tr>
+            <td>Movil</td>
+            <td>main</td>
+            <td>ab26986214db7c0765c7e40879af3c66e731eadb</td>
+            <td>feat: Integrate geolocator plugin</td>
+            <td>-</td>
+            <td>Jun 20, 2025</td>
+        </tr>
+        <tr>
+            <td>Movil</td>
+            <td>main</td>
+            <td>c8da59f195d79be3f12a4322b7edd03780d3f9f1</td>
+            <td>feat: Request location permissions in AndroidManifest</td>
+            <td>-</td>
+            <td>Jun 20, 2025</td>
+        </tr>
+         <tr>
+            <td>Movil</td>
+            <td>main</td>
+            <td>109f79db7cd7c2cde7c4520f6d86275a6756c120</td>
+            <td>feat: Implement user location and distance display on product map</td>
+            <td>-</td>
+            <td>Jun 20, 2025</td>
+        </tr>
+         <tr>
+            <td>IoT-device-simulator</td>
+            <td>main</td>
+            <td>67c6c5abcf2005812265235251c9ffad49553d5d</td>
+            <td>Initial commit</td>
+            <td>-</td>
+            <td>Jun 20, 2025</td>
+        </tr>
+         <tr>
+            <td>IoT-device-simulator</td>
+            <td>main</td>
+            <td>fbe03ea9fc7be7512b1087d10ef35aa669442771</td>
+            <td>ADD: Wokwi files</td>
+            <td>-</td>
+            <td> Jun 20, 2025</td>
+        </tr>
+          <tr>
+            <td>IoT-device-simulator</td>
+            <td>main</td>
+            <td>d9a3ed0d02dbb78cd9e480a8625955ed3422588e</td>
+            <td>Update README.md</td>
+            <td>-</td>
+            <td> Jun 20, 2025</td>
+        </tr>
+          <tr>
+            <td>iot_edge</td>
+            <td>main</td>
+            <td>2c9fefbce11d14c39d186dced56b0b816faa0b4e</td>
+            <td>Add BackendClient class to handle backend communication and data transmission</td>
+            <td>-</td>
+            <td>Jun 14, 2025</td>
+        </tr>
+        <tr>
+            <td>iot_edge</td>
+            <td>main</td>
+            <td>7b55d21845d02d03e1983256ee6aace8c00c422d</td>
+            <td>Add route for receiving device data and processing it</td>
+            <td>-</td>
+            <td>Jun 14, 2025</td>
+        </tr>
+    </tbody>
+</table>
+
 #### 6.2.2.5. Testing Suite Evidence for Sprint Review
+
+| Repository               | Branch | Commit ID                                |
+|--------------------------|--------|------------------------------------------|
+| ProdTrackers/landing-page | main   | a3414c1fc5852586d44badf1c5450a4d27b3a716 |
+
+Tablero de commits del repositorio de la App Web:
+
+| Repository           | Branch                 | Commit ID                                |
+|----------------------|------------------------|------------------------------------------|
+| ProdTrackers/Frontend | feature/section-login  | 3052d03442c7f7f676c0e097127a27aeddf8fcbd |
+|                      | feature/section-signup | c2b9a1f6637a081b3f41504006a1c8ebc28ac4ae |
+
+Tablero de commits del repositorio del Backend:
+
+| Repository              | Branch | Commit ID                                |
+|-------------------------|--------|------------------------------------------|
+| ProdTrackers/LockItemApi | main   | 0bdb6f0582c2401cb26c0a96304e6b2959717258 |
+
+Tablero de commits del repositorio del dispositivo IoT:
+
+| Repository              | Branch | Commit ID                                |
+|-------------------------|--------|------------------------------------------|
+| ProdTrackers/LockItemIoT | main   | 04ffac8d4f0bd47438e0c2be1e4cb2172eefbfea |
+
 #### 6.2.2.6. Execution Evidence for Sprint Review
+
+**Aplication Web**
+
+ - Vista Home
+   
+   Pantalla de home donde se puede ver todas las prendas registradas y un filtro por tienda:
+   
+  <img src="assets/web/web1.png">
+
+ - Elección de producto
+   
+   Se a seleccionado un producto que en este caso es una prenda tipo vestido que nos da la información del color, talla y precio con un boton para localizar :
+   
+ <img src="assets/web/web2.png">
+
+ - Visualización de la ubicación de la prenda
+   
+   Despues de darle al boton de "Locate" la web te manda a una pantalla mas personalizada sobre la prenda mostrandote mediante un mapa en que tienda esta y en que dirección.
+   
+ <img src="assets/web/web3.png">
+
+ **Aplication Mobile**
+
+  - Vista Login
+   
+   Pantalla de login donde el usuario puede iniciar sesion:
+
+   <img src="assets/mobile/mobile1.png">
+
+  - Vista Stores
+   
+   Pantalla de Stores donde el usuario podra ver todas las tiendas disponibles registradas:
+
+   <img src="assets/mobile/mobile2.png">
+
+  - Vista Search
+   
+   Pantalla Search donde el usuario podra buscar cualquier tipo de prenda mediante el nombre de la misma:
+
+   <img src="assets/mobile/mobile3.png">
+
+  - Vista Account
+   
+   Pantalla Account donde el usuario podra ver su información personal y podra cerrar su sesión en ese dispositivo:
+
+   <img src="assets/mobile/mobile4.png">
+
+  - Tienda Tonoto
+   
+   Pantalla donde se muestran los vestidos que tiene la tienda tonoto:
+
+   <img src="assets/mobile/mobile5.png">
+
+  - Información de una prenda
+   
+   Pantalla donde despues de seleccionar una prenda se puede ver su información como el color, la talla, el precio, la disponibilidad en tienda y un boton para pasar a localizar la prenda dentro de una tienda:
+
+   <img src="assets/mobile/mobile6.png">
+
+  - Localización
+   
+   Pantalla de localización que aparece despues de presionar el boton de "Localizar" donde marca en un mapa la distancia del usuario con la de la prenda:
+
+   <img src="assets/mobile/mobile6.png">
+
+
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review
+En esta sección, se detalla la documentación de los Endpoints creados y actualizados durante el Sprint 2. Se presenta un resumen de los logros alcanzados en la documentación de los Web Services para este Sprint. La sección incluye una tabla que muestra las acciones implementadas para cada Endpoint
+
+**Usando la herramienta Swagger se pudo documentar, visualizar y consumir nuestros servicios**
+
+La imagen muestra la interfaz de Swagger utilizada en LockItem para documentar los Endpoints de su API. Swagger proporciona una plataforma interactiva y eficiente para visualizar, documentar y consumir servicios web, lo que facilita tanto el desarrollo como el mantenimiento de la API.
+
+<img src="assets/swagger/Swagger1.PNG" alt="Logo" width="1000"/>
+<img src="assets/swagger/Swagger2.PNG" alt="Logo" width="1000"/>
+
 #### 6.2.2.8 Software Deployment Evidence for Sprint Review
+En esta seccion, se muestran imagenes del proceso y deployment de los componentes desarrollados en el sprint 2.
+
+**Aplication Web**
+
+<img src="assets/chapter-VI/deploy-log.jpeg" alt="Logo" width="1000"/>
+
+**Backend**
+<img src="assets/deploy/deploy-backend.png" alt="Logo" width="1000"/>
+
+**Base de datos**
+<img src="assets/deploy/deploy-db.png" alt="Logo" width="1000"/>
+
 #### 6.2.2.9 Team Collaboration Insights during Sprint
+Para el desarrollo del web application, hemos usado un repositorio en GitHub en el
+cual, hemos implementado de manera grupal el desarrollo de mejoras al frontend, finalización del backend, finalización del mobile y primera version del dispositivo IOT. Esto se evidencia en los
+diferentes commits
+realizados en el repositorio, los cuales fueron realizados mediante distintas ramas
+features para luego unirlas en la rama develop. En las siguientes capturas de pantalla
+se puede demostrar el trabajo colaborativo del sprint 2:
+
+Insights de la Landing Page:
+
+<img src="assets/chapter-VI/Evidence-Landing.jpeg" alt="Logo" width="1000"/>
+
+Insights de la Aplicacion Web:
+
+<img src="assets/chapter-VI/Evidence-Web.jpeg" alt="Logo" width="1000"/>
+
+Insights del Backend
+
+<img src="assets/insights/insig-backend.PNG" alt="Logo" width="1000"/>
+
+Insights del Mobile
+
+<img src="assets/insights/insig-mobile.PNG" alt="Logo" width="1000"/>
+
+Insights IOT_device(wokwi)
+
+<img src="assets/insights/insig-wokwi.PNG" alt="Logo" width="1000"/>
+
+Insights IoT_Edge
+<img src="assets/insights/insig-iot-edge.PNG" alt="Logo" width="1000"/>
+
 ## 6.3 Validations Interviews
 En esta parte, el equipo presenta la documentación y descripción de las entrevistas de validación llevadas a cabo a en este sprint. Estas entrevistas recogen la interacción de usuarios pertenecientes al público objetivo con la landing page y las aplicaciones. Se incluye el diseño de las entrevistas, el registro de cada sesión y las evaluaciones basadas en criterios heurísticos, utilizando el formato de evaluación definido para el proyecto.
 ### 6.3.1 Diseño de Entrevistas
