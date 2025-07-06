@@ -204,6 +204,16 @@ TB2: El equipo ha cumplido con éxito los puntos solicitados para la entrega. Du
       - [6.2.2.7. Services Documentation Evidence for Sprint Review.](#6227-services-documentation-evidence-for-sprint-review)
       - [6.2.2.8. Software Deployment Evidence for Sprint Review. ](#6228-software-deployment-evidence-for-sprint-review)
       - [6.2.2.9. Team Collaboration Insights during Sprint.](#6229-team-collaboration-insights-during-sprint)
+    - [6.2.3. Sprint 3](#623-sprint-3)
+      - [6.2.3.1. Sprint Planning 3. ](#6231-sprint-planning-3)
+      - [6.2.3.2 Aspect Leaders and Collaborators.](#6232-aspect-leaders-and-collaborators)
+      - [6.2.3.3 Sprint Backlog 2.](#6233-sprint-backlog-3)
+      - [6.2.3.4. Development Evidence for Sprint Review.](#6234-development-evidence-for-sprint-review)
+      - [6.2.3.5. Testing Suite Evidence for Sprint Review.](#6235-testing-suite-evidence-for-sprint-review)
+      - [6.2.3.6. Execution Evidence for Sprint Review.](#6236-execution-evidence-for-sprint-review)
+      - [6.2.3.7. Services Documentation Evidence for Sprint Review.](#6237-services-documentation-evidence-for-sprint-review)
+      - [6.2.3.8. Software Deployment Evidence for Sprint Review. ](#6238-software-deployment-evidence-for-sprint-review)
+      - [6.2.3.9. Team Collaboration Insights during Sprint.](#6239-team-collaboration-insights-during-sprint)
   - [6.3 Validations Interviews](#63-validations-interviews)
     - [6.3.1 Diseño de Entrevistas.](#631-diseño-de-entrevistas)
     - [6.3.2 Registro de Entrevistas.](#632-registro-de-entrevistas)
@@ -236,6 +246,8 @@ forma conjunta </td>
       Organicé y gestioné la entrega del proyecto y toda su documentación, asegurando el cumplimiento de plazos y la calidad de los entregables. Participé activamente en los capítulos 5 y 6, contribuyendo al diseño, análisis y redacción de los contenidos clave. Además, desarrollé parte de la landing page y participe en la implementación del frontend, haciéndome cargo del componente Account. Con estas labores, aseguré la coherencia técnica y funcional de la aplicación y facilité la comunicación entre los miembros del equipo.<br>
       TB2:<br> 
       Organicé y gestioné la entrega del proyecto y toda su documentación, asegurando el cumplimiento de plazos y la calidad de los entregables. Participé activamente en el sprint 2 y el capitulo 6.3 y 6.4. Además, desarrollé parte del backend. Con estas labores, aseguré la coherencia técnica y funcional de la aplicación y facilité la comunicación entre los miembros del equipo.<br>
+      TF:<br> 
+      Organicé y gestioné la entrega del proyecto y toda su documentación, asegurando el cumplimiento de plazos y la calidad de los entregables. Participé activamente en el sprint 3. Además, desarrollé parte del backend. Con estas labores, aseguré la coherencia técnica y funcional de la aplicación y facilité la comunicación entre los miembros del equipo.<br>
       </p>
       <p>Arrunátegui Aguilar, Josué David<br> 
       TB1:<br>
@@ -247,6 +259,9 @@ forma conjunta </td>
 	TB2:<br>
 	Durante esta entrega, asumí un rol activo en el desarrollo de la aplicación móvil, aportando de manera significativa al mayor avance técnico logrado hasta el momento. Coordiné con mis compañeros para integrar las funcionalidades principales y asegurar que el diseño y la lógica implementada fueran consistentes con los objetivos del proyecto. Mi enfoque estuvo en mantener una comunicación constante, resolver desafíos técnicos de forma colaborativa y tomar decisiones conjuntas para garantizar un desarrollo fluido y eficiente. Esta participación fortaleció el liderazgo compartido dentro del equipo y promovió una dinámica horizontal basada en la confianza técnica mutua. 
       <br>
+      	TBF:<br>
+	Durante esta entrega, asumí un rol activo en el desarrollo de la aplicación móvil y el iot fisico, aportando de manera significativa al mayor avance técnico logrado hasta el momento. Coordiné con mis compañeros para integrar las funcionalidades principales y asegurar que el diseño y la lógica implementada fueran consistentes con los objetivos del proyecto. Mi enfoque estuvo en mantener una comunicación constante, resolver desafíos técnicos de forma colaborativa y tomar decisiones conjuntas para garantizar un desarrollo fluido y eficiente. Esta participación fortaleció el liderazgo compartido dentro del equipo y promovió una dinámica horizontal basada en la confianza técnica mutua. 
+      <br>
       </p>
       <p>Chero Eme, Eduardo Andre<br> 
       TB1:<br> 
@@ -257,6 +272,9 @@ Me encargué de la elaboración de las historias de usuario (user stories) para 
       TB2:<br>
       Durante este sprint, asumí un rol activo en el trabajo colaborativo, proporcionando liderazgo desde el enfoque técnico en diversas áreas del proyecto. Participé en reuniones de planificación y seguimiento, proponiendo soluciones y coordinando esfuerzos para asegurar una integración efectiva entre el backend, el sistema IoT y la aplicación móvil. Lideré decisiones clave como la estructuración del backend bajo una arquitectura monolítica organizada por Bounded Contexts, y la implementación del método de zonificación básica en el edge IoT mediante dispositivos ESP32. Estas decisiones se tomaron de manera consensuada con el equipo, promoviendo un ambiente horizontal. Además, brindé apoyo técnico a mis compañeros, resolviendo dudas sobre el consumo de APIs y la configuración de entornos de desarrollo, lo que fortaleció el aprendizaje conjunto y la autonomía del equipo.
       <br>
+      TF:<br>
+      Durante este sprint, asumí un rol activo en el trabajo colaborativo, proporcionando liderazgo desde el enfoque técnico en diversas áreas del proyecto. Participé en reuniones de planificación y seguimiento, proponiendo soluciones y coordinando esfuerzos para asegurar una integración efectiva entre el backend, el sistema IoT y la aplicación móvil. Lideré decisiones clave como la estructuración del backend bajo una arquitectura monolítica organizada por Bounded Contexts, y la implementación del método de zonificación básica en el edge IoT mediante dispositivos ESP32. Estas decisiones se tomaron de manera consensuada con el equipo, promoviendo un ambiente horizontal. Además, brindé apoyo técnico a mis compañeros, resolviendo dudas sobre el consumo de APIs y la configuración de entornos de desarrollo, lo que fortaleció el aprendizaje conjunto y la autonomía del equipo.
+      <br>
       <p>Cortes Hidalgo, Nicolas Andres <br> 
       TB1:<br> 
       Me encargué de la elaboracion de los bounded context de Usuario, Dispositivos IoT, Inventarios y ERP, enfocandome en la elbaoracion de los diagramas tanto de componente como de clases, para tener una base principal en lo que sera el desarrollo a profundidad de la arquitectura del sistema en el cual nos estamos enfocando. Del mismo modo, realize mi video de exposicion complerando las partes necesarias en el canvas desarollado.<br>
@@ -265,6 +283,8 @@ Me encargué de la elaboración de las historias de usuario (user stories) para 
       </p>
 	    <br>TB2:<br> 
       Apoye al equipo con las entregas respectivas para este entreganle y para la elaboracion del sprint 2, en el cual nos encargamos principalmente de la integracion front y back, generar un prototipo wokwi funcional, entre otras tareas menores.<br>
+      <br>TF:<br> 
+      Apoye al equipo con las entregas respectivas para este entreganle y para la elaboracion del sprint 3, en el cual nos encargamos principalmente de la integracion final del front y back, terminar el iot fisico, entre otras tareas menores.<br>
 	</p>
       <p>Olivera Guerra, Santiago Mickelle <br> 
       TB1:<br> 
@@ -273,13 +293,17 @@ Me encargué de la elaboración de las historias de usuario (user stories) para 
 	    Ejecuté satisfactoriamente mis tareas mientras establecí una comunicación continua con mi equipo de trabajo para la coordinación efectiva de cambios y versiones.<br>
 	       TB2:<br>
       Colaboré en la elaboración de los endpoints del iot device  y en la detección de reservas con el LED, trabajando estrechamente con el resto del equipo para definir criterios de usabilidad claros.<br>
+      	       TG:<br>
+      Colaboré en la elaboración del iot fisico, trabajando estrechamente con el resto del equipo para definir criterios de usabilidad claros.<br>
       <p>Surco Reyes, Franco<br> 
       TB1:<br> 
       Apoye con el desarrollo de los diagramas del C4 Model (Landscape, Context, Container y Deployment) utilizando Structurizr. Esto nos ha permitido mapear estratégicamente los componentes clave que utilizaremos, garantizando una visión integral y compartida del sistema.<br>
       TP:<br> 
       Apoye con el desarrollo de una seccion del landing page, en la aplicacion web con la vista account y el logout.<br>
       TB2:<br>
-      Colaboré en la elaboración de las heurísticas y en la detección de problemas a resolver en fases posteriores, trabajando estrechamente con el resto del equipo para definir criterios de usabilidad claros.
+      Colaboré en la elaboración de las heurísticas y en la detección de problemas a resolver en fases posteriores, trabajando estrechamente con el resto del equipo para definir criterios de usabilidad claros.<br>
+      TF:<br>
+      Colaboré en la elaboración del iot fisico y en la detección de problemas a resolver en fases posteriores, trabajando estrechamente con el resto del equipo para definir criterios de usabilidad claros.
       </p>
     </td>
     <td>Liderazgo Colaborativo y Enfoque Interdisciplinario
@@ -299,6 +323,8 @@ objetivos.</td>
       Como líder de equipo, organicé y coordiné al grupo para la correcta entrega de la documentación, asignando a cada miembro las responsabilidades de carga de archivos y estableciendo plazos claros. Paralelamente, me centré en el desarrollo de la programación, implementando funcionalidades clave y resolviendo retos técnicos. Además, revisé y validé que toda la información estuviera completa y alineada con los requisitos antes de enviar los documentos necesarios, garantizando así la calidad y puntualidad de las entregas.<br>
       TB2:<br> 
       En mi rol como líder de equipo, me encargué de organizar y coordinar al grupo para asegurar la entrega adecuada de la documentación, asignando tareas específicas relacionadas con la carga de archivos y definiendo plazos concretos. Al mismo tiempo, participé activamente en el desarrollo del código, implementando funcionalidades esenciales y resolviendo desafíos técnicos. También realicé la revisión y validación final de la documentación, verificando que toda la información estuviera completa y cumpliera con los requisitos establecidos, asegurando así entregas de calidad y en el tiempo previsto.<br>
+      TF:<br> 
+      En mi rol como líder de equipo, me encargué de organizar y coordinar al grupo para asegurar la entrega adecuada de la documentación, asignando tareas específicas relacionadas con la carga de archivos y definiendo plazos concretos. Al mismo tiempo, participé activamente en el desarrollo del iot fisico. También realicé la revisión y validación final de la documentación, verificando que toda la información estuviera completa y cumpliera con los requisitos establecidos, asegurando así entregas de calidad y en el tiempo previsto.<br>
       </p>
       <p>Arrunátegui Aguilar, Josué David<br> 
       TB1:<br> 
@@ -307,7 +333,9 @@ objetivos.</td>
       Fomenté un entorno colaborativo al coordinar con los distintos miembros del equipo la elaboración y revisión de la documentación de los capítulos 5 y 6, asegurando que todos comprendieran su estructura y aportaran los contenidos necesarios. Establecí metas claras para el desarrollo de la landing page y la pantalla Home del frontend, organizando las tareas de diseño, maquetado e integración de componentes para que se cumplieran dentro del plazo establecido. Gracias a esta planificación y al trabajo conjunto, logramos integrar de manera efectiva la documentación técnica y las interfaces principales en el entregable final, cumpliendo con los objetivos de usabilidad y facilitando una comunicación fluida entre diseñadores y desarrolladores.
       </p>
 	TB2:<br> 
-      Contribuí activamente a la creación de un entorno colaborativo al liderar la implementación de funcionalidades clave en la aplicación móvil. Establecí metas claras para los componentes que desarrollé y planifiqué su integración de forma coordinada con el backend y otros módulos del sistema. Esta planificación, junto con una comunicación abierta con los demás miembros del equipo, permitió cumplir con los objetivos técnicos establecidos para la entrega, asegurando la calidad del avance y fomentando un ambiente inclusivo donde todos pudieron aportar y resolver dudas de manera conjunta.
+      Contribuí activamente a la creación de un entorno colaborativo al liderar la implementación de funcionalidades clave en la aplicación móvil. Establecí metas claras para los componentes que desarrollé y planifiqué su integración de forma coordinada con el backend y otros módulos del sistema. Esta planificación, junto con una comunicación abierta con los demás miembros del equipo, permitió cumplir con los objetivos técnicos establecidos para la entrega, asegurando la calidad del avance y fomentando un ambiente inclusivo donde todos pudieron aportar y resolver dudas de manera conjunta.<br>
+      TF:<br> 
+      Contribuí activamente a la creación de un entorno colaborativo al liderar la implementación de funcionalidades clave en la aplicación móvil y el iot fisico. Establecí metas claras para los componentes que desarrollé y planifiqué su integración de forma coordinada con el backend y otros módulos del sistema. Esta planificación, junto con una comunicación abierta con los demás miembros del equipo, permitió cumplir con los objetivos técnicos establecidos para la entrega, asegurando la calidad del avance y fomentando un ambiente inclusivo donde todos pudieron aportar y resolver dudas de manera conjunta.
 	<br>
       <p>Chero Eme, Eduardo Andre<br> 
       TB1:<br> 
@@ -316,7 +344,9 @@ objetivos.</td>
 	    TP:<br>
 	    Para el desarrollo de las funcionalidades de login, registro y recuperación de contraseñas, promoví un entorno de colaboración e inclusión, donde cada integrante del equipo pudo expresar sus ideas y aportar desde su experiencia. Establecimos objetivos claros y realizamos una planificación conjunta que permitió dividir tareas de manera equitativa y eficiente. Esta estrategia nos ayudó a cumplir con los plazos establecidos y a integrar de manera exitosa las funcionalidades en el sistema, fomentando un ambiente de respeto y apoyo mutuo.<br>
       TB2:<br>
-      Contribuí activamente a crear un entorno colaborativo e inclusivo al participar en la planificación y definición de metas claras para el sprint, distribuyendo responsabilidades según las capacidades del equipo. Establecí los entregables del backend (endpoints para usuarios, prendas y tiendas), estimando tiempos de implementación y asegurando su alineación con los objetivos del producto. En el área de IoT, planifiqué y ejecuté la simulación del edge utilizando Wokwi y ESP32, logrando transmitir datos hacia el backend. En paralelo, implementé partes funcionales de la aplicación móvil que interactúan con la API desarrollada, permitiendo visualizar el flujo completo de datos. Gracias a esta planificación y coordinación, se cumplieron los objetivos técnicos del sprint y se avanzó de manera sólida hacia un MVP funcional.
+      Contribuí activamente a crear un entorno colaborativo e inclusivo al participar en la planificación y definición de metas claras para el sprint, distribuyendo responsabilidades según las capacidades del equipo. Establecí los entregables del backend (endpoints para usuarios, prendas y tiendas), estimando tiempos de implementación y asegurando su alineación con los objetivos del producto. En el área de IoT, planifiqué y ejecuté la simulación del edge utilizando Wokwi y ESP32, logrando transmitir datos hacia el backend. En paralelo, implementé partes funcionales de la aplicación móvil que interactúan con la API desarrollada, permitiendo visualizar el flujo completo de datos. Gracias a esta planificación y coordinación, se cumplieron los objetivos técnicos del sprint y se avanzó de manera sólida hacia un MVP funcional.<br>
+      TF:<br>
+      Contribuí activamente a crear un entorno colaborativo e inclusivo al participar en la planificación y definición de metas claras para el sprint 3, distribuyendo responsabilidades según las capacidades del equipo. Establecí los entregables del backend (endpoints para usuarios, prendas y tiendas) e iot fisico, estimando tiempos de implementación y asegurando su alineación con los objetivos del producto. En el área de IoT, planifiqué la reunion para el desarrollo del iot fisico. En paralelo, implementé partes funcionales de la aplicación móvil que interactúan con la API desarrollada, permitiendo visualizar el flujo completo de datos. Gracias a esta planificación y coordinación, se cumplieron los objetivos técnicos del sprint y se avanzó de manera sólida hacia un MVP funcional.
       </p>
       <p>Cortes Hidalgo, Nicolas Andres <br> 
       TB1:<br> 
@@ -325,22 +355,28 @@ objetivos.</td>
       Durante esta entrega, logre organizar de manera adecuada al equipo para coordinar la realización del sprint 1 de forma efectiva, además, apoye en la documentación del informe.<br>
 	      <br>TB2:<br> 
       Apoye en la integración del frontend y backend, asegurando un correcto despliegue de la aplicación, asegurandonos de que para esta entrega sea 100% funciona a traves de un enlace web.<br>
+      	      <br>TF:<br> 
+      Apoye en la integración del iot fisico, asegurandonos de que para esta entrega sea 100% funcional para la presentacion.<br>
       </p>
       <p>Olivera Guerra, Santiago Mickelle <br> 
       TB1:<br> 
       Durante la primera entrega, me encargué de los layers para los principales Bounded Context: User, Inventory, Device y ERP, para planificar unn correcto desarrollo de Backend siguiendo respetando el core del negocio y aplicando ddd correctamente. <br>
       </p>
 	TP:<br>
-	    Para el desarrollo de las funcionalidades de search y productos, promoví un entorno de colaboración e inclusión. Establecimos objetivos claros y realizamos una planificación conjunta que permitió dividir tareas de manera equitativa y eficiente. Esta estrategia nos ayudó a cumplir con los plazos establecidos y a integrar de manera exitosa las funcionalidades en el sistema, fomentando un ambiente de respeto y apoyo mutuo.<br><br>
+	    Para el desarrollo de las funcionalidades de search y productos, promoví un entorno de colaboración e inclusión. Establecimos objetivos claros y realizamos una planificación conjunta que permitió dividir tareas de manera equitativa y eficiente. Esta estrategia nos ayudó a cumplir con los plazos establecidos y a integrar de manera exitosa las funcionalidades en el sistema, fomentando un ambiente de respeto y apoyo mutuo.<br>
 	      TB2:<br>
-      En esta entrega, identifiqué los problemas en el backend respecto algunos endpoints relacionados. Para cada hallazgo, evalué su impacto en la experiencia de usuario y establecí un orden de prioridad que nos permitirá enfocar los esfuerzos de mejora. Este diagnóstico detallado servirá de base para las próximas iteraciones de diseño, garantizando soluciones más intuitivas y alineadas con las necesidades reales de nuestros usuarios.
+      En esta entrega, identifiqué los problemas en el backend respecto algunos endpoints relacionados. Para cada hallazgo, evalué su impacto en la experiencia de usuario y establecí un orden de prioridad que nos permitirá enfocar los esfuerzos de mejora. Este diagnóstico detallado servirá de base para las próximas iteraciones de diseño, garantizando soluciones más intuitivas y alineadas con las necesidades reales de nuestros usuarios.<br>
+      	      TF:<br>
+      En esta entrega, identifiqué los problemas que se tuvieron para el desarrollo del iot fisico. Para cada hallazgo, evalué su impacto y establecí un orden de prioridad que nos permitirá enfocar los esfuerzos de mejora. Para cada hallazgo, evalué su impacto en la experiencia de usuario y establecí un orden de prioridad que nos permitirá enfocar los esfuerzos de mejora. Este diagnóstico detallado servirá de base para las próximas iteraciones de diseño, garantizando soluciones más intuitivas y alineadas con las necesidades reales de nuestros usuarios.
       <p>Surco Reyes, Franco <br> 
       TB1:<br> 
 	  	Durante la primera entrega, contribui mapeando estrategicamente los componente tecnologicos que utilizaremos para nuestro proyecto, para luego definir la arquitectura del sistema con claridad. <br>
       TP:<br> 
       Para el desarrollo de la aplicacion web y landing page se mantuvo comunicacion con el equipo.<br>
       TB2:<br>
-      En esta entrega, identifiqué los problemas heurísticos detectados a partir de las entrevistas de validación con cada segmento objetivo. Para cada hallazgo, evalué su impacto en la experiencia de usuario y establecí un orden de prioridad que nos permitirá enfocar los esfuerzos de mejora. Este diagnóstico detallado servirá de base para las próximas iteraciones de diseño, garantizando soluciones más intuitivas y alineadas con las necesidades reales de nuestros usuarios.
+      En esta entrega, identifiqué los problemas heurísticos detectados a partir de las entrevistas de validación con cada segmento objetivo. Para cada hallazgo, evalué su impacto en la experiencia de usuario y establecí un orden de prioridad que nos permitirá enfocar los esfuerzos de mejora. Este diagnóstico detallado servirá de base para las próximas iteraciones de diseño, garantizando soluciones más intuitivas y alineadas con las necesidades reales de nuestros usuarios.<br>
+      TF:<br> 
+      En esta entrega, identifiqué los problemas que tuvimos para el despleigue del backend y en el apoyo del iot fisico. Para cada hallazgo, evalué su impacto en la experiencia de usuario y establecí un orden de prioridad que nos permitirá enfocar los esfuerzos de mejora. Este diagnóstico detallado servirá de base para las próximas iteraciones de diseño, garantizando soluciones más intuitivas y alineadas con las necesidades reales de nuestros usuarios.<br>
       </p>
     </td>
     <td>El equipo consolidó un ambiente colaborativo e inclusivo, con comunicación efectiva a través de WhatsApp y Discord. Las reuniones frecuentes permitieron una coordinación fluida y resolución oportuna de dudas. Cada integrante contribuyó activamente, estableciendo metas claras y distribuyendo responsabilidades de forma equitativa. El apoyo mutuo y la capacidad para corregir errores fueron claves para cumplir los plazos y alcanzar los objetivos del proyecto de manera eficiente.</td>
@@ -2633,6 +2669,482 @@ Insights IOT_device(wokwi)
 
 Insights IoT_Edge
 <img src="assets/insights/insig-iot-edge.PNG" alt="Logo" width="1000"/>
+
+
+### 6.2.3. Sprint 3
+#### 6.2.3.1. Sprint Planning 3
+| Sprint #                           | 3 |
+|------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Sprint Planning Background         ||
+| Date                               | 2025-06-28 |
+| Time                               | 08:00 PM|
+| Location                           | Reunión virtual usando la plataforma zoom|
+| Prepared By                        | Chero Emé, Eduardo André|
+| Attendees                          | Nicolás Cortés / Franco Surco / Josue Arrunategui / Eduardo Chero / Piero Marquez / Santiago Olivera |
+| Sprint 2 Review Summary        | En el segundo sprint desplegar la segunda version del Frontend y la primera version del backend|
+| Sprint 2 Retrospective Summary | Se completo las correcciones con respecto al segundo sprint |
+| Sprint Goal & User Stories         ||
+| Sprint 3 Goal                      | **Nos centramos en** la entrega de las versiones avanzandas de la aplicación móvil y el backend, así como la primera version del dispositivo IoT a utilizar<br><br> **Creemos que** esto proporcionará a los consumidores y a las tiendas de ropa una forma mucho más eficiente para localizar sus prendas deseadas<br><br> **Esto se confirmará cuando** los usuarios puedan empezar a usar la app móvil para detectar las prendas que estos deseen comprar |
+| Sprint n Velocity                  | 16 |
+| Sum of Story Points                | 13  |
+
+#### 6.2.3.2. Aspect Leaders and Collaborators
+Todos los miembros del equipo fueron parte de la planificación y desarrollo del sprint 3. Los miembros responsables fueron:
+
+- Arrunátegui Aguilar, Josué David
+- Chero Eme, Eduardo Andre
+- Cortes Hidalgo, Nicolas Andres
+- Olivera Guerra, Santiago Mickelle
+- Stefano Máquez, Piero 
+- Surco Reyes, Franco
+#### 6.2.3.3. Sprint Backlog 3.
+
+<table border="1" cellpadding="8" cellspacing="0">
+    <thead>
+        <tr>
+            <th colspan="4">Sprint 3</th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <th colspan="2">User Story</th>
+            <th colspan="2">Work-Item /Task</th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Estimation(Hours)</th>
+            <th>Assigned To</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tr>
+            <td rowspan="3">US03</td>
+            <td rowspan="3">Búsqueda rápida en la app</td>
+            <td>Tasks-16</td>
+            <td>Diseño del buscador</td>
+            <td>Diseñar la interfaz del campo de búsqueda en la app.</td>
+            <td>2h Hours</td>
+            <td>Josué Arrunátegui</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>Tasks-17</td>
+            <td>Lógica de búsqueda</td>
+            <td>Implementar la lógica de filtrado por nombre o código.</td>
+            <td>3 Hours</td>
+            <td>Josué Arrunátegui</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>Tasks-18</td>
+            <td>	Integración backend</td>
+            <td>Conectar la búsqueda con la base de datos y mostrar resultados.</td>
+            <td>2 Hours</td>
+            <td>Josué Arrunátegui</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="3">US06</td>
+            <td rowspan="3">Diseño del buscador</td>
+            <td>Tasks-19</td>
+            <td>Endpoint de stock</td>
+            <td>Crear endpoint para consultar stock actualizado.</td>
+            <td>2h Hours</td>
+            <td>Nicolas Cortes</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>Tasks-20</td>
+            <td>LUI de stock</td>
+            <td>Diseñar componente visual para mostrar el stock.</td>
+            <td>2 Hours</td>
+            <td>Nicolas Cortes</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>Tasks-21</td>
+            <td>Actualización en tiempo real</td>
+            <td>Usar WebSocket o polling para reflejar cambios de stock en la app.</td>
+            <td>2 Hours</td>
+            <td>Santiago Olivera</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="3">US16</td>
+            <td rowspan="3">Inicio de Sesión</td>
+            <td>Tasks-19</td>
+            <td>Pantalla de login</td>
+            <td>Diseñar e implementar la pantalla de inicio de sesión.</td>
+            <td>2h Hours</td>
+            <td>Santiago Olivera</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>Tasks-20</td>
+            <td>Autenticación segura</td>
+            <td>Integrar login seguro con backend (JWT o tokens).</td>
+            <td>3 Hours</td>
+            <td>Eduardo Chero</td>
+            <td>Done</td>
+        </tr>
+       <tr>
+            <td rowspan="3">US17</td>
+            <td rowspan="3">Cerrar Sesión</td>
+            <td>Tasks-21</td>
+            <td>Botón de logout</td>
+            <td>Agregar botón visible para cerrar sesión.</td>
+            <td>2h Hours</td>
+            <td>Eduardo Chero</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>Tasks-22</td>
+            <td>Invalidez de sesión</td>
+            <td>Invalida token o elimina sesión en el backend.</td>
+            <td>3 Hours</td>
+            <td>Franco Surco</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>Tasks-23</td>
+            <td>Redirección segura</td>
+            <td>Redirigir al usuario a la pantalla de inicio tras cerrar sesión.</td>
+            <td>2 Hours</td>
+            <td>Franco Surco</td>
+            <td>Done</td>
+        </tr>
+               <tr>
+            <td rowspan="3">US23</td>
+            <td rowspan="3">Configuración de Perfil</td>
+            <td>Tasks-24</td>
+            <td>Formulario de perfil</td>
+            <td>Diseñar pantalla para configurar el perfil inicial.</td>
+            <td>2h Hours</td>
+            <td>Piero Marquez</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>Tasks-25</td>
+            <td>Guardado de datos</td>
+            <td>Implementar lógica para guardar nombre, avatar y preferencias.</td>
+            <td>3 Hours</td>
+            <td>Piero Marquez</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>Tasks-26</td>
+            <td>Validación de campos</td>
+            <td>Validar campos obligatorios y mostrar errores claros.</td>
+            <td>2 Hours</td>
+            <td>Piero Marquez</td>
+            <td>Done</td>
+        </tr>  
+    </tbody>
+</table>
+
+
+#### 6.2.3.4. Development Evidence for Sprint Review
+
+<table border="1" cellpadding="8" cellspacing="0">
+    <thead>
+        <tr>
+            <th>Repository</th>
+            <th>Branch</th>
+            <th>Commit ID</th>
+            <th>Commit Message</th>
+            <th>Commit Message Body</th>
+            <th>Commit Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>App_Web</td>
+            <td>main</td>
+            <td>d000f0bd4d985193568baf888762318e49aa3902</td>
+            <td>Integrated front and backend</td>
+            <td>-</td>
+            <td>Jun 20, 2025</td>
+        </tr>
+        <tr>
+            <td>App_Web</td>
+            <td>main</td>
+            <td>b100aeb38fde8068684b52e52043171191ef8f54</td>
+            <td>Merge pull request #6 from ProdTrackers/feature/location</td>
+            <td>-</td>
+            <td>Jun 20, 2025</td>
+        </tr>
+        <tr>
+            <td>App_Web</td>
+            <td>main</td>
+            <td>80f72aa4eac1cbf80621038c4fe993a5dae14fe1</td>
+            <td>Update location.component.ts</td>
+            <td>-</td>
+            <td>Jun 20, 2025</td>
+        </tr>
+        <tr>
+            <td>App_Web</td>
+            <td>main</td>
+            <td>e6b3669564eafeb447853faf40f20352d15970ae</td>
+            <td>Merge pull request #7 from ProdTrackers/feature/location</td>
+            <td>-</td>
+            <td>Jun 20, 2025</td>
+        </tr>
+        <tr>
+            <td>backend</td>
+            <td>main</td>
+            <td>c3370028c22a679907f2ac01b924bc3eb98f8a63</td>
+            <td>feat: add inventory relationship to Store entity and update DTO mappings</td>
+            <td>-</td>
+            <td>Jun 9, 2025</td>
+        </tr>
+        <tr>
+            <td>backend</td>
+            <td>main</td>
+            <td>f4e08f8211381d6b060646bdb9027e4e445a8401</td>
+            <td>feat: add iotDevice mapping to InventoryResponseDTO and update InventoryMapper</td>
+            <td>-</td>
+            <td>Jun 9, 2025</td>
+        </tr>
+        <tr>
+            <td>backend</td>
+            <td>main</td>
+            <td>f8c1bbadae55456e1919414fab6073bd330f7ea0</td>
+            <td>feat: add API endpoints guide to README for user, store, inventory, reservation, and IoT device management</td>
+            <td>-</td>
+            <td>Jun 9, 2025</td>
+        </tr> 
+        <tr>
+            <td>Movil</td>
+            <td>main</td>
+            <td>da64e608b6f4978458b70c1390f11dfc603b03db</td>
+            <td>Refactor: Update LocateProductScreen to use FlutterMap and Bloc</td>
+            <td>-</td>
+            <td>Jun 20, 2025</td>
+        </tr>
+        <tr>
+            <td>Movil</td>
+            <td>main</td>
+            <td>ab26986214db7c0765c7e40879af3c66e731eadb</td>
+            <td>feat: Integrate geolocator plugin</td>
+            <td>-</td>
+            <td>Jun 20, 2025</td>
+        </tr>
+        <tr>
+            <td>Movil</td>
+            <td>main</td>
+            <td>c8da59f195d79be3f12a4322b7edd03780d3f9f1</td>
+            <td>feat: Request location permissions in AndroidManifest</td>
+            <td>-</td>
+            <td>Jun 20, 2025</td>
+        </tr>
+         <tr>
+            <td>Movil</td>
+            <td>main</td>
+            <td>109f79db7cd7c2cde7c4520f6d86275a6756c120</td>
+            <td>feat: Implement user location and distance display on product map</td>
+            <td>-</td>
+            <td>Jun 20, 2025</td>
+        </tr>
+         <tr>
+            <td>IoT-device-simulator</td>
+            <td>main</td>
+            <td>67c6c5abcf2005812265235251c9ffad49553d5d</td>
+            <td>Initial commit</td>
+            <td>-</td>
+            <td>Jun 20, 2025</td>
+        </tr>
+         <tr>
+            <td>IoT-device-simulator</td>
+            <td>main</td>
+            <td>fbe03ea9fc7be7512b1087d10ef35aa669442771</td>
+            <td>ADD: Wokwi files</td>
+            <td>-</td>
+            <td> Jun 20, 2025</td>
+        </tr>
+          <tr>
+            <td>IoT-device-simulator</td>
+            <td>main</td>
+            <td>d9a3ed0d02dbb78cd9e480a8625955ed3422588e</td>
+            <td>Update README.md</td>
+            <td>-</td>
+            <td> Jun 20, 2025</td>
+        </tr>
+          <tr>
+            <td>iot_edge</td>
+            <td>main</td>
+            <td>2c9fefbce11d14c39d186dced56b0b816faa0b4e</td>
+            <td>Add BackendClient class to handle backend communication and data transmission</td>
+            <td>-</td>
+            <td>Jun 14, 2025</td>
+        </tr>
+        <tr>
+            <td>iot_edge</td>
+            <td>main</td>
+            <td>7b55d21845d02d03e1983256ee6aace8c00c422d</td>
+            <td>Add route for receiving device data and processing it</td>
+            <td>-</td>
+            <td>Jun 14, 2025</td>
+        </tr>
+    </tbody>
+</table>
+
+#### 6.2.3.5. Testing Suite Evidence for Sprint Review
+
+| Repository               | Branch | Commit ID                                |
+|--------------------------|--------|------------------------------------------|
+| ProdTrackers/landing-page | main   | a3414c1fc5852586d44badf1c5450a4d27b3a716 |
+
+Tablero de commits del repositorio de la App Web:
+
+| Repository           | Branch                 | Commit ID                                |
+|----------------------|------------------------|------------------------------------------|
+| ProdTrackers/Frontend | feature/section-login  | 3052d03442c7f7f676c0e097127a27aeddf8fcbd |
+|                      | feature/section-signup | c2b9a1f6637a081b3f41504006a1c8ebc28ac4ae |
+
+Tablero de commits del repositorio del Backend:
+
+| Repository              | Branch | Commit ID                                |
+|-------------------------|--------|------------------------------------------|
+| ProdTrackers/LockItemApi | main   | 0bdb6f0582c2401cb26c0a96304e6b2959717258 |
+
+Tablero de commits del repositorio del dispositivo IoT:
+
+| Repository              | Branch | Commit ID                                |
+|-------------------------|--------|------------------------------------------|
+| ProdTrackers/LockItemIoT | main   | 04ffac8d4f0bd47438e0c2be1e4cb2172eefbfea |
+
+#### 6.2.3.6. Execution Evidence for Sprint Review
+
+**Aplication Web**
+
+ - Vista Home
+   
+   Pantalla de home donde se puede ver todas las prendas registradas y un filtro por tienda:
+   
+  <img src="assets/web/web1.png">
+
+ - Elección de producto
+   
+   Se a seleccionado un producto que en este caso es una prenda tipo vestido que nos da la información del color, talla y precio con un boton para localizar :
+   
+ <img src="assets/web/web2.png">
+
+ - Visualización de la ubicación de la prenda
+   
+   Despues de darle al boton de "Locate" la web te manda a una pantalla mas personalizada sobre la prenda mostrandote mediante un mapa en que tienda esta y en que dirección.
+   
+ <img src="assets/web/web3.png">
+
+ **Aplication Mobile**
+
+  - Vista Login
+   
+   Pantalla de login donde el usuario puede iniciar sesion:
+
+   <img src="assets/mobile/mobile1.png">
+
+  - Vista Stores
+   
+   Pantalla de Stores donde el usuario podra ver todas las tiendas disponibles registradas:
+
+   <img src="assets/mobile/mobile2.png">
+
+  - Vista Search
+   
+   Pantalla Search donde el usuario podra buscar cualquier tipo de prenda mediante el nombre de la misma:
+
+   <img src="assets/mobile/mobile3.png">
+
+  - Vista Account
+   
+   Pantalla Account donde el usuario podra ver su información personal y podra cerrar su sesión en ese dispositivo:
+
+   <img src="assets/mobile/mobile4.png">
+
+  - Tienda Tonoto
+   
+   Pantalla donde se muestran los vestidos que tiene la tienda tonoto:
+
+   <img src="assets/mobile/mobile5.png">
+
+  - Información de una prenda
+   
+   Pantalla donde despues de seleccionar una prenda se puede ver su información como el color, la talla, el precio, la disponibilidad en tienda y un boton para pasar a localizar la prenda dentro de una tienda:
+
+   <img src="assets/mobile/mobile6.png">
+
+  - Localización
+   
+   Pantalla de localización que aparece despues de presionar el boton de "Localizar" donde marca en un mapa la distancia del usuario con la de la prenda:
+
+   <img src="assets/mobile/mobile6.png">
+
+
+#### 6.2.3.7. Services Documentation Evidence for Sprint Review
+En esta sección, se detalla la documentación de los Endpoints creados y actualizados durante el Sprint 2. Se presenta un resumen de los logros alcanzados en la documentación de los Web Services para este Sprint. La sección incluye una tabla que muestra las acciones implementadas para cada Endpoint
+
+**Usando la herramienta Swagger se pudo documentar, visualizar y consumir nuestros servicios**
+
+La imagen muestra la interfaz de Swagger utilizada en LockItem para documentar los Endpoints de su API. Swagger proporciona una plataforma interactiva y eficiente para visualizar, documentar y consumir servicios web, lo que facilita tanto el desarrollo como el mantenimiento de la API.
+
+<img src="assets/swagger/Swagger1.PNG" alt="Logo" width="1000"/>
+<img src="assets/swagger/Swagger2.PNG" alt="Logo" width="1000"/>
+
+#### 6.2.3.8 Software Deployment Evidence for Sprint Review
+En esta seccion, se muestran imagenes del proceso y deployment de los componentes desarrollados en el sprint 2.
+
+**Aplication Web**
+
+<img src="assets/chapter-VI/deploy-log.jpeg" alt="Logo" width="1000"/>
+
+**Backend**
+<img src="assets/deploy/deploy-backend.png" alt="Logo" width="1000"/>
+
+**Base de datos**
+<img src="assets/deploy/deploy-db.png" alt="Logo" width="1000"/>
+
+#### 6.2.3.9 Team Collaboration Insights during Sprint
+Para el desarrollo del web application, hemos usado un repositorio en GitHub en el
+cual, hemos implementado de manera grupal el desarrollo de mejoras al frontend, finalización del backend, finalización del mobile y primera version del dispositivo IOT. Esto se evidencia en los
+diferentes commits
+realizados en el repositorio, los cuales fueron realizados mediante distintas ramas
+features para luego unirlas en la rama develop. En las siguientes capturas de pantalla
+se puede demostrar el trabajo colaborativo del sprint 2:
+
+Insights de la Landing Page:
+
+<img src="assets/chapter-VI/Evidence-Landing.jpeg" alt="Logo" width="1000"/>
+
+Insights de la Aplicacion Web:
+
+<img src="assets/chapter-VI/Evidence-Web.jpeg" alt="Logo" width="1000"/>
+
+Insights del Backend
+
+<img src="assets/insights/insig-backend.PNG" alt="Logo" width="1000"/>
+
+Insights del Mobile
+
+<img src="assets/insights/insig-mobile.PNG" alt="Logo" width="1000"/>
+
+Insights IOT_device(wokwi)
+
+<img src="assets/insights/insig-wokwi.PNG" alt="Logo" width="1000"/>
+
+Insights IoT_Edge
+<img src="assets/insights/insig-iot-edge.PNG" alt="Logo" width="1000"/>
+
+
 
 ## 6.3 Validations Interviews
 En esta parte, el equipo presenta la documentación y descripción de las entrevistas de validación llevadas a cabo a en este sprint. Estas entrevistas recogen la interacción de usuarios pertenecientes al público objetivo con la landing page y las aplicaciones. Se incluye el diseño de las entrevistas, el registro de cada sesión y las evaluaciones basadas en criterios heurísticos, utilizando el formato de evaluación definido para el proyecto.
