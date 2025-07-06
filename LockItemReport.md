@@ -3097,6 +3097,11 @@ Tablero de commits del repositorio del dispositivo IoT:
    <img src="assets/mobile/mobile6.png">
 
 
+ **Iot Fisico**
+
+   <img src="assets/iot-1.png">
+   <img src="assets/iot-2.png">
+
 #### 6.2.3.7. Services Documentation Evidence for Sprint Review
 En esta sección, se detalla la documentación de los Endpoints creados y actualizados durante el Sprint 3. Se presenta un resumen de los logros alcanzados en la documentación de los Web Services para este Sprint. La sección incluye una tabla que muestra las acciones implementadas para cada Endpoint
 
@@ -3134,15 +3139,15 @@ Insights de la Landing Page:
 
 Insights de la Aplicacion Web:
 
-<img src="assets/chapter-VI/Evidence-Web.jpeg" alt="Logo" width="1000"/>
+<img src="assets/insights-web.png" alt="Logo" width="1000"/>
 
 Insights del Backend
 
-<img src="assets/insights/insig-backend.PNG" alt="Logo" width="1000"/>
+<img src="assets/insights-backend.png" alt="Logo" width="1000"/>
 
 Insights del Mobile
 
-<img src="assets/insights/insig-mobile.PNG" alt="Logo" width="1000"/>
+<img src="assets/insights-movil.png" alt="Logo" width="1000"/>
 
 Insights IOT_device(wokwi)
 
