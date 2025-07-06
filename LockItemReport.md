@@ -3065,6 +3065,13 @@ Tablero de commits del repositorio del dispositivo IoT:
 
    <img src="assets/mobile/mobile3.png">
 
+
+  <img src="assets/search-1.png">
+
+
+  <img src="assets/search-2.png">
+
+
   - Vista Account
    
    Pantalla Account donde el usuario podra ver su información personal y podra cerrar su sesión en ese dispositivo:
@@ -3091,7 +3098,7 @@ Tablero de commits del repositorio del dispositivo IoT:
 
 
 #### 6.2.3.7. Services Documentation Evidence for Sprint Review
-En esta sección, se detalla la documentación de los Endpoints creados y actualizados durante el Sprint 2. Se presenta un resumen de los logros alcanzados en la documentación de los Web Services para este Sprint. La sección incluye una tabla que muestra las acciones implementadas para cada Endpoint
+En esta sección, se detalla la documentación de los Endpoints creados y actualizados durante el Sprint 3. Se presenta un resumen de los logros alcanzados en la documentación de los Web Services para este Sprint. La sección incluye una tabla que muestra las acciones implementadas para cada Endpoint
 
 **Usando la herramienta Swagger se pudo documentar, visualizar y consumir nuestros servicios**
 
@@ -3101,7 +3108,7 @@ La imagen muestra la interfaz de Swagger utilizada en LockItem para documentar l
 <img src="assets/swagger/Swagger2.PNG" alt="Logo" width="1000"/>
 
 #### 6.2.3.8 Software Deployment Evidence for Sprint Review
-En esta seccion, se muestran imagenes del proceso y deployment de los componentes desarrollados en el sprint 2.
+En esta seccion, se muestran imagenes del proceso y deployment de los componentes desarrollados en el sprint 3.
 
 **Aplication Web**
 
@@ -3119,7 +3126,7 @@ cual, hemos implementado de manera grupal el desarrollo de mejoras al frontend, 
 diferentes commits
 realizados en el repositorio, los cuales fueron realizados mediante distintas ramas
 features para luego unirlas en la rama develop. En las siguientes capturas de pantalla
-se puede demostrar el trabajo colaborativo del sprint 2:
+se puede demostrar el trabajo colaborativo del sprint 3:
 
 Insights de la Landing Page:
 
