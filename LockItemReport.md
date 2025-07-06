@@ -42,6 +42,7 @@ ___
 | 3.1     | 05/06/2025 | Josué Arrunátegui    | Se edito el sprint 2
 | 3.2    | 15/06/2025 | Piero Márquez   | Se empezo agrego el punto 6.3
 | 3.3    | 19/06/2025 | Santiago Olivera   | Se empezo agrego el punto 6.4 Video About-the-Product
+| 3.4    | 04/07/2025 | Piero Márquez  | Se empezo agrego el sprint 3
 ---
 
 # Project Report Collaboration Insights
@@ -59,6 +60,7 @@ TP: El equipo ha cumplido con éxito los puntos solicitados para la entrega. Dur
 
 TB2: El equipo ha cumplido con éxito los puntos solicitados para la entrega. Durante el proceso de desarrollo del backend y el iot no hubo muchos problemas ya que el equipo esta acostumbrado a estos proyectos pero en la codificación del wokwi y el iot_edge se tuvieron algunas dificultades al ser nuevas tecnologias a la que el equipo no esta acostumbrado pero se logro con exito una primera versión para esta entrega.
 
+TF: El equipo cumplio con exito los ultimos puntos del trabajo final sobre el sprint 3, concluyendo con el desarrollo en su totalidad del web, mobile, edge y el ensamblaje del dispositivo IoT fisico y funcional.
 ### Analiticos para el TB1
 
 <img src="assets\project-report-tb1.PNG">
@@ -1100,33 +1102,27 @@ Segmento de los empleados de tiendas de ropa:
 | US03          | Búsqueda rápida en la app                     | Como cliente, quiero utilizar una función de búsqueda rápida para encontrar prendas en la app.                                           | Escenario 1: Búsqueda rápida de prenda. DADO que ingreso el nombre de la prenda en la búsqueda, CUANDO selecciono buscar, ENTONCES los resultados aparecen en menos de 3 segundos.<br/>Escenario 2: DADO que realizo una búsqueda reciente, CUANDO accedo al historial de búsqueda, ENTONCES puedo reutilizar términos anteriores para agilizar la consulta.                                       | EP01                      |
 | US04          | Mapas interactivos de la tienda               | Como cliente, quiero ver un mapa interactivo de la tienda en la app para dirigirme directamente a la prenda deseada.                     | Escenario 1: Usar el mapa interactivo. DADO que busco la ubicación de una prenda, CUANDO selecciono la prenda en la app, ENTONCES el mapa me guía directamente a su ubicación.<br/>Escenario 2: DADO que consulto el mapa desde la sección de favoritos, CUANDO selecciono una prenda guardada, ENTONCES el mapa me dirige a su ubicación actual.                                                  | EP01                      |
 | US05          | Reserva de prendas                            | Como cliente, quiero reservar prendas a través de la app antes de llegar a la tienda.                                                    | Escenario 1: Reservar una prenda. DADO que encuentro la prenda que quiero, CUANDO selecciono la opción de reservar, ENTONCES la prenda queda reservada bajo mi nombre y recibo una confirmación.<br/>Escenario 2: DADO que reservo una prenda, CUANDO cancelo la reserva antes del tiempo límite, ENTONCES la prenda vuelve a estar disponible para otros usuarios.                                | EP01                      |
-| US06          | Monitor de stock en tiempo real               | Como encargado de inventario, necesito ver el stock actualizado en tiempo real.                                                          | Escenario 1: Verificar stock en tiempo real. DADO que accedo al panel de control de inventario, CUANDO consulto el stock de una prenda, ENTONCES veo el número actualizado de unidades disponibles.<br/>Escenario 2: DADO que un producto fue vendido, CUANDO accedo al panel minutos después, ENTONCES el stock se refleja actualizado sin demora.                                                | EP02                      |
-| US07          | Alertas de stock bajo                         | Como encargado de inventario, quiero recibir alertas cuando el stock de ciertas prendas sea bajo.                                        | Escenario 1: Recibir alerta de stock bajo. DADO que el stock de una prenda específica baja del mínimo establecido, CUANDO esto sucede, ENTONCES recibo una alerta en la interfaz de la app.<br/>Escenario 2: DADO que configuro un umbral personalizado para una prenda, CUANDO su stock baja de ese umbral, ENTONCES recibo una alerta ajustada a mi configuración                                | EP02                      |
-| US08          | Seguimiento de prendas robadas                | Como encargado de seguridad, quiero rastrear las prendas que han sido robadas o perdidas.                                                | Escenario 1: Rastrear una prenda robada. DADO que se reporta una prenda como robada, CUANDO consulto el sistema, ENTONCES puedo ver el último lugar donde fue detectada por los sensores.<br/>Escenario 2: DADO que reviso el historial de eventos de una prenda robada, CUANDO analizo su trayectoria, ENTONCES puedo identificar puntos críticos donde desapareció.                              | EP02                      |
-| US09          | Reportes de inventario                        | Como gerente de tienda, quiero generar reportes automáticos de inventario para análisis periódicos.                                      | Escenario 1: Generar un reporte de inventario. DADO que es fin de mes, CUANDO selecciono generar reporte de inventario, ENTONCES el sistema produce un reporte detallado que puedo exportar.<br/>Escenario 2: DADO que configuro reportes automáticos semanales, CUANDO llega la fecha programada, ENTONCES recibo el reporte sin necesidad de generarlo manualmente.                              | EP02                      |
-| US10          | Integración con sistemas ERP                  | Como CTO (Chief Technology Officer), quiero que la app se integre con los sistemas ERP existentes para mejorar la gestión de inventario. | Escenario 1: Integrar con ERP. DADO que necesito sincronizar los datos de inventario, CUANDO configuro la integración con el ERP, ENTONCES la app se sincroniza sin errores y soporta las funciones principales del ERP.<br/>Escenario 2: DADO que hay cambios en el ERP, CUANDO estos se sincronizan, ENTONCES los datos se reflejan correctamente en la app sin inconsistencias.                 | EP02                      |
-| US11          | Implementación de hardware IoT                | Como técnico, necesito instalar y configurar el hardware IoT sin interrumpir las ventas diarias.                                         | Escenario 1: Instalar hardware IoT. DADO que el hardware ha llegado, CUANDO lo instalo durante el horario de menor afluencia, ENTONCES la instalación se completa sin afectar las operaciones de venta.<br/>Escenario 2: DADO que se completa una instalación, CUANDO ejecuto pruebas de conectividad, ENTONCES todos los sensores responden con estado “activo”.                                  | EP03                      |
-| US12          | Pruebas de sistema en la tienda               | Como ingeniero de pruebas, quiero realizar pruebas de sistema en un entorno de tienda real.                                              | Escenario 1: Probar el sistema en la tienda. DADO que el sistema está instalado, CUANDO realizo pruebas funcionales, ENTONCES todas las funciones operan como se espera sin fallos.<br/>Escenario 2: DADO que ejecuto pruebas de estrés, CUANDO simulo múltiples búsquedas y reservas, ENTONCES el sistema mantiene rendimiento óptimo.                                                            | EP03                      |
-| US13          | Soporte técnico continuo                      | Como gerente de tienda, quiero garantizar un soporte técnico continuo para la solución IoT.                                              | Escenario 1: Obtener soporte técnico. DADO que encuentro un problema técnico, CUANDO contacto al soporte, ENTONCES recibo asistencia en menos de 2 horas.<br/>Escenario 2: DADO que recibo soporte, CUANDO se resuelve un incidente, ENTONCES recibo una notificación con detalles del procedimiento aplicado                                                                                      | EP03                      |
-| US14          | Capacitación del personal                     | Como gerente de RRHH, quiero que el personal reciba capacitación sobre cómo usar la tecnología IoT.                                      | Escenario 1: Capacitar al personal. DADO que nuevo hardware ha sido instalado, CUANDO organizo una sesión de capacitación, ENTONCES el personal demuestra comprensión y eficiencia en el uso del sistema.<br/>Escenario 2: DADO que se realiza una sesión de capacitación, CUANDO aplico una prueba de conocimiento al personal, ENTONCES al menos el 90% responde correctamente.                  | EP03                      |
-| US15          | Evaluación de impacto tecnológico             | Como CTO, quiero evaluar el impacto de la tecnología IoT en las operaciones diarias de la tienda.                                        | Escenario 1: Evaluar el impacto tecnológico. DADO que la tecnología ha sido implementada por un trimestre, CUANDO reviso los reportes de rendimiento, ENTONCES veo mejoras cuantificables en la eficiencia operativa.<br/>Escenario 2: DADO que reviso los indicadores de productividad, CUANDO los comparo con datos previos a la implementación, ENTONCES identifico mejoras medibles.           | EP03                      |
-| US16          | Inicio de Sesión Seguro                       | Como usuario, quiero iniciar sesión de manera segura para proteger mi cuenta y datos personales.                                         | Escenario 1: Iniciar sesión con seguridad. DADO que ingreso mi usuario y contraseña, CUANDO selecciono iniciar sesión, ENTONCES debo recibir una confirmación de acceso seguro.<br/>Escenario 2: DADO que ingresomi correo o contraseña incorrecto, CUANDO inicio sesión, ENTONCES se notifica que el acceso fue denegado.                                                                         | EP04                      |
-| US17          | Cerrar Sesión                                 | Como usuario, quiero poder cerrar sesión de manera segura para asegurar que mi cuenta no quede accesible a otros.                        | Escenario 1: Cerrar sesión de forma segura. DADO que he terminado de usar la aplicación, CUANDO selecciono cerrar sesión, ENTONCES mi sesión debe terminarse y la app debe cerrarse.<br/>Escenario 2: DADO que cierro sesión, CUANDO vuelvo a abrir la app, ENTONCES debo iniciar sesión de nuevo para acceder a la información.                                                                   | EP04                      |
-| US18          | Gestión de Privacidad de Datos                | Como usuario, quiero gestionar mis preferencias de privacidad para controlar cómo se usan mis datos personales.                          | Escenario 1: Ajustar preferencias de privacidad. DADO que accedo a la configuración de mi cuenta, CUANDO modifico mis preferencias de privacidad, ENTONCES los cambios deben guardarse y respetarse.<br/>Escenario 2: DADO que configuro la privacidad para no compartir datos con terceros, CUANDO reviso el registro de uso, ENTONCES no aparecen eventos de uso externo.                        | EP04                      |
-| US19          | Verificación de Seguridad en Cambios Críticos | Como usuario, quiero que se verifiquen los cambios críticos mediante autenticación adicional para aumentar la seguridad.                 | Escenario 1: Verificar cambios críticos. DADO que intento cambiar información sensible (como mi contraseña), CUANDO envío el cambio, ENTONCES debo ser verificado a través de un segundo factor antes de aplicar el cambio.<br/>Escenario 2: DADO que intento desactivar la autenticación en dos pasos, CUANDO confirmo la acción, ENTONCES el sistema exige verificación con token actual.        | EP04                      |
-| US20          | Alertas de Seguridad                          | Como usuario, quiero recibir alertas de seguridad si se detecta actividad sospechosa en mi cuenta.                                       | Escenario 1: Recibir alertas de actividad sospechosa. DADO que se detecta un intento de inicio de sesión inusual, CUANDO esto ocurre, ENTONCES debo recibir una alerta inmediata para tomar medidas.<br/>Escenario 2: DADO que reviso mis alertas, CUANDO detecto una actividad que no reconozco, ENTONCES puedo reportarla desde la app para su análisis.                                         | EP04                      |
-| US21          | Personalización de notificaciones             | Como usuario, quiero personalizar las notificaciones que recibo para mejorar mi experiencia de uso.                                      | Escenario 1: Ajustar notificaciones. DADO que quiero controlar las alertas que recibo, CUANDO modifico mis preferencias en la app, ENTONCES las notificaciones se ajustan según mis especificaciones.<br/>Escenario 2: DADO que configuro recibir solo notificaciones de disponibilidad, CUANDO hay promociones activas, ENTONCES no recibo alertas no deseadas.                                   | EP05                      |
-| US22          | Temas y colores de la app                     | Como usuario, quiero cambiar los temas y colores de la app para que se ajuste a mis preferencias visuales.                               | Escenario 1: Cambiar tema de la app. DADO que deseo personalizar la interfaz, CUANDO selecciono un nuevo tema en la configuración, ENTONCES la app refleja mi elección inmediatamente.<br/>Escenario 2: DADO que selecciono el modo oscuro, CUANDO cierro y vuelvo a abrir la app, ENTONCES el tema se mantiene activo.                                                                            | EP05                      |
-| US23          | Configuración de perfil                       | Como usuario nuevo, quiero configurar mi perfil fácilmente para comenzar a usar la app rápidamente.                                      | Escenario 1: Configurar perfil. DADO que estoy configurando mi perfil por primera vez, CUANDO ingreso mi información básica, ENTONCES la app guarda mi perfil sin errores.<br/>Escenario 2: DADO que termino la configuración inicial, CUANDO ingreso nuevamente, ENTONCES mi perfil está disponible con todos los datos guardados.                                                                | EP05                      |
-| US24          | Favoritos y listas de deseos                  | Como cliente, quiero guardar prendas en favoritos o listas de deseos para acceder a ellas rápidamente en futuras visitas.                | Escenario 1: Añadir prendas a favoritos. DADO que encuentro una prenda que me gusta, CUANDO la añado a mi lista de deseos, ENTONCES puedo acceder a ella rápidamente desde mi perfil.<br/>Escenario 2: DADO que actualizo mi lista de deseos, CUANDO una prenda cambia de estado (disponible/agotada), ENTONCES recibo una notificación si está en mi lista.                                       | EP05                      |
-| US25 | Feedback y valoraciones                       | Como usuario, quiero dejar feedback y valorar la app para compartir mi experiencia con otros usuarios.                                   | Escenario 1: Dejar feedback. DADO que he usado la app y quiero compartir mi experiencia, CUANDO escribo una reseña y la califico, ENTONCES otros usuarios pueden ver mi feedback en la app.<br/>Escenario 2: DADO que publico una reseña, CUANDO otro usuario la marca como útil, ENTONCES recibo una notificación y mi valoración gana visibilidad.                                               | EP05                      |
-| US26 | Detección de prenda fuera de lugar              | Como sistema, quiero detectar automáticamente cuando una prenda ha sido movida de su ubicación original para notificar al personal de tienda.     | DADO que un sensor detecta un cambio de ubicación no autorizado, CUANDO esto ocurre, ENTONCES se genera una alerta en el panel interno del staff y se registra el evento.<br/>Escenario 2: DADO que una prenda fue movida sin autorización, CUANDO se devuelve a su sitio original, ENTONCES se actualiza el estado y se registra el retorno.                                                      | EP02              |
-| US27 | Notificación al personal por prenda movida      | Como trabajador de tienda, quiero recibir notificaciones inmediatas cuando una prenda esté fuera de su lugar para poder reubicarla.               | DADO que una prenda está mal ubicada, CUANDO se genera una alerta, ENTONCES los trabajadores reciben una notificación push o en pantalla en tiempo real.    <br/>Escenario 2: DADO que recibo una alerta, CUANDO ya otro trabajador atendió el evento, ENTONCES la app indica que ya fue resuelto para evitar duplicidad.                                                                          | EP01              |
-| US28 | Registro de eventos de sensores                 | Como administrador del sistema, quiero que todos los eventos generados por los sensores se registren para auditoría y análisis posteriores.       | DADO que un sensor genera un evento, CUANDO esto sucede, ENTONCES el evento se guarda en una bitácora con timestamp, ID de prenda y tipo de evento.<br/>Escenario 2: DADO que se registra un evento, CUANDO reviso la bitácora, ENTONCES puedo filtrar por tipo de evento, fecha y prenda.                                                                                                         | EP02              |
-| US29 | Dashboard de monitoreo de estado de sensores    | Como encargado técnico, quiero visualizar un dashboard con el estado de todos los sensores para detectar fallos o desconexiones rápidamente.      | DADO que accedo al panel técnico, CUANDO reviso el estado, ENTONCES puedo ver sensores activos, inactivos, batería baja o fallos de comunicación.<br/>Escenario 2: DADO que hay sensores inactivos, CUANDO intento reiniciarlos desde el panel, ENTONCES se registra el intento y el resultado.                                                                                                    | EP03              |
-| US30 | Gestión de mantenimiento preventivo             | Como encargado de soporte técnico, quiero programar mantenimientos periódicos para evitar fallos inesperados del sistema.                         | DADO que configuro mantenimientos, CUANDO llega la fecha programada, ENTONCES el sistema alerta al equipo para realizar chequeos de hardware y software.<br/>Escenario 2: DADO que una tarea de mantenimiento fue ejecutada, CUANDO finaliza el procedimiento, ENTONCES se actualiza el historial con fecha y responsable.                                                                         | EP03              |
-| US31 | Escalabilidad del backend para múltiples tiendas| Como arquitecto backend, quiero que el sistema soporte múltiples tiendas con instancias independientes para garantizar rendimiento y escalabilidad.| DADO que se agregan nuevas tiendas, CUANDO se configura una nueva instancia, ENTONCES se crea un espacio aislado con su propia base de datos y flujos de eventos.<br/>Escenario 2: DADO que se detecta alta carga en una instancia, CUANDO se escala horizontalmente, ENTONCES el balanceador de carga distribuye correctamente el tráfico.                                                        | EP03              |
-| US32 | Control de concurrencia de reservas             | Como backend, quiero evitar condiciones de carrera en la reserva de prendas para mantener la consistencia del inventario.                         | DADO que dos usuarios intentan reservar la misma prenda, CUANDO se procesa la reserva, ENTONCES solo uno debe obtener confirmación y el otro recibe notificación de que ya no está disponible.<br/>Escenario 2: DADO que un usuario pierde la reserva por timeout, CUANDO intenta nuevamente, ENTONCES el sistema valida si la prenda sigue disponible antes de procesar.                          | EP02              |
+| US06          | Monitor de stock en tiempo real               | Como vendedor, necesito ver el stock actualizado en tiempo real.                                                          | Escenario 1: Verificar stock en tiempo real. DADO que accedo al panel de control de inventario, CUANDO consulto el stock de una prenda, ENTONCES veo el número actualizado de unidades disponibles.<br/>Escenario 2: DADO que un producto fue vendido, CUANDO accedo al panel minutos después, ENTONCES el stock se refleja actualizado sin demora.                                                | EP02                      |
+| US07          | Alertas de stock bajo                         | Como vendedor, quiero recibir alertas cuando el stock de ciertas prendas sea bajo.                                        | Escenario 1: Recibir alerta de stock bajo. DADO que el stock de una prenda específica baja del mínimo establecido, CUANDO esto sucede, ENTONCES recibo una alerta en la interfaz de la app.<br/>Escenario 2: DADO que configuro un umbral personalizado para una prenda, CUANDO su stock baja de ese umbral, ENTONCES recibo una alerta ajustada a mi configuración                                | EP02                      |
+| US08          | Seguimiento de prendas robadas                | Como vendedor, quiero rastrear las prendas que han sido robadas o perdidas.                                                | Escenario 1: Rastrear una prenda robada. DADO que se reporta una prenda como robada, CUANDO consulto el sistema, ENTONCES puedo ver el último lugar donde fue detectada por los sensores.<br/>Escenario 2: DADO que reviso el historial de eventos de una prenda robada, CUANDO analizo su trayectoria, ENTONCES puedo identificar puntos críticos donde desapareció.                              | EP02                      |
+| US09          | Filtrar prendas por categoría y talla                        | Como comprador desde la app web, quiero filtrar las prendas por categoría y talla para encontrar más fácilmente lo que estoy buscando.                                      | Escenario 1:DADO que estoy navegando por el catálogo,CUANDO selecciono una categoría y una talla,ENTONCES solo se muestran las prendas que coinciden con esos filtros.<br/>Escenario 2: DADO que tengo filtros activos,CUANDO los elimino,ENTONCES vuelvo a ver el catálogo completo sin restricciones.                              | EP01                      |
+| US10          | Visualizar detalles de una prenda                | Como comprador desde la app móvil, quiero ver los detalles de una prenda para decidir si me interesa comprarla o reservarla.                                         | Escenario 1: DADO que encuentro una prenda que me interesa,CUANDO la selecciono,ENTONCES puedo ver su precio, colores disponibles, tallas y descripción.<br/>Escenario 2: DDADO que accedo al detalle de una prenda,CUANDO esta está agotada,ENTONCES se me muestra un mensaje indicando que no está disponible por el momento.                                  | EP01                      |
+| US11          | Búsqueda por nombre de prenda               | Como comprador desde la app web, quiero buscar prendas escribiendo su nombre para encontrarlas más rápidamente.                                              | Escenario 1: DADO que ingreso el nombre de una prenda,CUANDO presiono el botón de buscar,ENTONCES se me muestran los resultados coincidentes.<br/>Escenario 2: DADO que realizo una búsqueda reciente,CUANDO vuelvo a ingresar al buscador,ENTONCES puedo ver el historial de términos utilizados.                                                            | EP01                      |
+| US12          | Ver ubicación de prenda en mapa                      | Como comprador desde la app móvil, quiero ver la ubicación de una prenda en el mapa de la tienda para dirigirme fácilmente hacia ella.                                              | Escenario 1: DADO que selecciono una prenda,CUANDO presiono la opción "ver en mapa",ENTONCES se me muestra su ubicación dentro de la tienda.<br/>Escenario 2: DADO que tengo varias prendas guardadas,CUANDO accedo a su ubicación desde favoritos,ENTONCES el mapa me muestra la ubicación actualizada de cada una.                                                                                      | EP01                      |
+| US13          | Visualizar prendas similares             | Como comprador desde la app móvil, quiero ver prendas similares a las que consulto para comparar estilos y tomar una mejor decisión.                                        | Escenario 1: DADO que estoy viendo el detalle de una prenda,CUANDO desplazo hacia abajo,ENTONCES se me muestran otras prendas similares.<br/>Escenario 2: DADO que selecciono una prenda similar,CUANDO accedo a su ficha,ENTONCES se abre su vista de detalles con información completa.           | EP03                      |
+| US14          | Inicio de Sesión Seguro                       | Como usuario, quiero iniciar sesión de manera segura para proteger mi cuenta y datos personales.                                         | Escenario 1: Iniciar sesión con seguridad. DADO que ingreso mi usuario y contraseña, CUANDO selecciono iniciar sesión, ENTONCES debo recibir una confirmación de acceso seguro.<br/>Escenario 2: DADO que ingresomi correo o contraseña incorrecto, CUANDO inicio sesión, ENTONCES se notifica que el acceso fue denegado.                                                                         | EP04                      |
+| US15          | Cerrar Sesión                                 | Como usuario, quiero poder cerrar sesión de manera segura para asegurar que mi cuenta no quede accesible a otros.                        | Escenario 1: Cerrar sesión de forma segura. DADO que he terminado de usar la aplicación, CUANDO selecciono cerrar sesión, ENTONCES mi sesión debe terminarse y la app debe cerrarse.<br/>Escenario 2: DADO que cierro sesión, CUANDO vuelvo a abrir la app, ENTONCES debo iniciar sesión de nuevo para acceder a la información.                                                                   | EP04                      |
+| US16          | Gestión de Privacidad de Datos                | Como usuario, quiero gestionar mis preferencias de privacidad para controlar cómo se usan mis datos personales.                          | Escenario 1: Ajustar preferencias de privacidad. DADO que accedo a la configuración de mi cuenta, CUANDO modifico mis preferencias de privacidad, ENTONCES los cambios deben guardarse y respetarse.<br/>Escenario 2: DADO que configuro la privacidad para no compartir datos con terceros, CUANDO reviso el registro de uso, ENTONCES no aparecen eventos de uso externo.                        | EP04                      |
+| US17          | Verificación de Seguridad en Cambios Críticos | Como usuario, quiero que se verifiquen los cambios críticos mediante autenticación adicional para aumentar la seguridad.                 | Escenario 1: Verificar cambios críticos. DADO que intento cambiar información sensible (como mi contraseña), CUANDO envío el cambio, ENTONCES debo ser verificado a través de un segundo factor antes de aplicar el cambio.<br/>Escenario 2: DADO que intento desactivar la autenticación en dos pasos, CUANDO confirmo la acción, ENTONCES el sistema exige verificación con token actual.        | EP04                      |
+| US18          | Alertas de Seguridad                          | Como usuario, quiero recibir alertas de seguridad si se detecta actividad sospechosa en mi cuenta.                                       | Escenario 1: Recibir alertas de actividad sospechosa. DADO que se detecta un intento de inicio de sesión inusual, CUANDO esto ocurre, ENTONCES debo recibir una alerta inmediata para tomar medidas.<br/>Escenario 2: DADO que reviso mis alertas, CUANDO detecto una actividad que no reconozco, ENTONCES puedo reportarla desde la app para su análisis.                                         | EP04                      |
+| US19          | Configuración de perfil                       | Como usuario nuevo, quiero configurar mi perfil fácilmente para comenzar a usar la app rápidamente.                                      | Escenario 1: Configurar perfil. DADO que estoy configurando mi perfil por primera vez, CUANDO ingreso mi información básica, ENTONCES la app guarda mi perfil sin errores.<br/>Escenario 2: DADO que termino la configuración inicial, CUANDO ingreso nuevamente, ENTONCES mi perfil está disponible con todos los datos guardados.                                                                | EP05                      |
+| US20          | Favoritos                  | Como cliente, quiero guardar prendas en favoritos para acceder a ellas rápidamente en futuras visitas.                | Escenario 1: Añadir prendas a favoritos. DADO que encuentro una prenda que me gusta, CUANDO la añado a mis favoritos, ENTONCES puedo acceder a ella rápidamente desde mi perfil.<br/>Escenario 2: DADO que actualizo mis favoritos, CUANDO una prenda cambia de estado (disponible/agotada), ENTONCES recibo una notificación si está en mi lista.                                       | EP05                      |
+| US21 | Feedback y valoraciones                       | Como usuario, quiero dejar feedback y valorar la app para compartir mi experiencia con otros usuarios.                                   | Escenario 1: Dejar feedback. DADO que he usado la app y quiero compartir mi experiencia, CUANDO escribo una reseña y la califico, ENTONCES otros usuarios pueden ver mi feedback en la app.<br/>Escenario 2: DADO que publico una reseña, CUANDO otro usuario la marca como útil, ENTONCES recibo una notificación y mi valoración gana visibilidad.                                               | EP05                      |
+| US22 | Detección de prenda fuera de lugar              | Como sistema, quiero detectar automáticamente cuando una prenda ha sido movida de su ubicación original para notificar al personal de tienda.     | DADO que un sensor detecta un cambio de ubicación no autorizado, CUANDO esto ocurre, ENTONCES se genera una alerta en el panel interno del staff y se registra el evento.<br/>Escenario 2: DADO que una prenda fue movida sin autorización, CUANDO se devuelve a su sitio original, ENTONCES se actualiza el estado y se registra el retorno.                                                      | EP02              |
+| US23 | Notificación al personal por prenda movida      | Como trabajador de tienda, quiero recibir notificaciones inmediatas cuando una prenda esté fuera de su lugar para poder reubicarla.               | DADO que una prenda está mal ubicada, CUANDO se genera una alerta, ENTONCES los trabajadores reciben una notificación push o en pantalla en tiempo real.    <br/>Escenario 2: DADO que recibo una alerta, CUANDO ya otro trabajador atendió el evento, ENTONCES la app indica que ya fue resuelto para evitar duplicidad.                                                                          | EP01              |
+| US24 | Registro de eventos de sensores                 | Como administrador del sistema, quiero que todos los eventos generados por los sensores se registren para auditoría y análisis posteriores.       | DADO que un sensor genera un evento, CUANDO esto sucede, ENTONCES el evento se guarda en una bitácora con timestamp, ID de prenda y tipo de evento.<br/>Escenario 2: DADO que se registra un evento, CUANDO reviso la bitácora, ENTONCES puedo filtrar por tipo de evento, fecha y prenda.                                                                                                         | EP02              |
+| US25 | Guardar prendas como favoritas             | Como comprador desde la app web, quiero guardar una prenda como favorita para poder revisarla después fácilmente.                         |Escenario 1: DADO que estoy viendo una prenda,CUANDO presiono el botón de "favorito",ENTONCES esta se guarda en mi lista personal.<br/>Escenario 2: DADO que tengo prendas favoritas guardadas,CUANDO accedo a mi perfil,ENTONCES puedo verlas todas agrupadas en una sección especial.                                                                         | EP05              |
+
 
 ## 3.3. Impact Mapping
 
@@ -2676,7 +2672,7 @@ Insights IoT_Edge
 | Sprint #                           | 3 |
 |------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Sprint Planning Background         ||
-| Date                               | 2025-06-28 |
+| Date                               | 2025-07-04 |
 | Time                               | 08:00 PM|
 | Location                           | Reunión virtual usando la plataforma zoom|
 | Prepared By                        | Chero Emé, Eduardo André|
@@ -2728,127 +2724,166 @@ Todos los miembros del equipo fueron parte de la planificación y desarrollo del
         </tr>
     </thead>
     <tr>
-            <td rowspan="3">US03</td>
-            <td rowspan="3">Búsqueda rápida en la app</td>
-            <td>Tasks-16</td>
-            <td>Diseño del buscador</td>
-            <td>Diseñar la interfaz del campo de búsqueda en la app.</td>
-            <td>2h Hours</td>
-            <td>Josué Arrunátegui</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td>Tasks-17</td>
-            <td>Lógica de búsqueda</td>
-            <td>Implementar la lógica de filtrado por nombre o código.</td>
-            <td>3 Hours</td>
-            <td>Josué Arrunátegui</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td>Tasks-18</td>
-            <td>	Integración backend</td>
-            <td>Conectar la búsqueda con la base de datos y mostrar resultados.</td>
-            <td>2 Hours</td>
-            <td>Josué Arrunátegui</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td rowspan="3">US06</td>
-            <td rowspan="3">Diseño del buscador</td>
-            <td>Tasks-19</td>
-            <td>Endpoint de stock</td>
-            <td>Crear endpoint para consultar stock actualizado.</td>
-            <td>2h Hours</td>
-            <td>Nicolas Cortes</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td>Tasks-20</td>
-            <td>LUI de stock</td>
-            <td>Diseñar componente visual para mostrar el stock.</td>
-            <td>2 Hours</td>
-            <td>Nicolas Cortes</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td>Tasks-21</td>
-            <td>Actualización en tiempo real</td>
-            <td>Usar WebSocket o polling para reflejar cambios de stock en la app.</td>
-            <td>2 Hours</td>
-            <td>Santiago Olivera</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td rowspan="3">US16</td>
-            <td rowspan="3">Inicio de Sesión</td>
-            <td>Tasks-19</td>
-            <td>Pantalla de login</td>
-            <td>Diseñar e implementar la pantalla de inicio de sesión.</td>
-            <td>2h Hours</td>
-            <td>Santiago Olivera</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td>Tasks-20</td>
-            <td>Autenticación segura</td>
-            <td>Integrar login seguro con backend (JWT o tokens).</td>
-            <td>3 Hours</td>
-            <td>Eduardo Chero</td>
-            <td>Done</td>
-        </tr>
-       <tr>
-            <td rowspan="3">US17</td>
-            <td rowspan="3">Cerrar Sesión</td>
-            <td>Tasks-21</td>
-            <td>Botón de logout</td>
-            <td>Agregar botón visible para cerrar sesión.</td>
-            <td>2h Hours</td>
-            <td>Eduardo Chero</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td>Tasks-22</td>
-            <td>Invalidez de sesión</td>
-            <td>Invalida token o elimina sesión en el backend.</td>
-            <td>3 Hours</td>
-            <td>Franco Surco</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td>Tasks-23</td>
-            <td>Redirección segura</td>
-            <td>Redirigir al usuario a la pantalla de inicio tras cerrar sesión.</td>
-            <td>2 Hours</td>
-            <td>Franco Surco</td>
-            <td>Done</td>
-        </tr>
-               <tr>
-            <td rowspan="3">US23</td>
-            <td rowspan="3">Configuración de Perfil</td>
-            <td>Tasks-24</td>
-            <td>Formulario de perfil</td>
-            <td>Diseñar pantalla para configurar el perfil inicial.</td>
-            <td>2h Hours</td>
-            <td>Piero Marquez</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td>Tasks-25</td>
-            <td>Guardado de datos</td>
-            <td>Implementar lógica para guardar nombre, avatar y preferencias.</td>
-            <td>3 Hours</td>
-            <td>Piero Marquez</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td>Tasks-26</td>
-            <td>Validación de campos</td>
-            <td>Validar campos obligatorios y mostrar errores claros.</td>
-            <td>2 Hours</td>
-            <td>Piero Marquez</td>
-            <td>Done</td>
-        </tr>  
+    <td rowspan="3">US09</td>
+    <td rowspan="3">Filtrar prendas por categoría y talla</td>
+    <td>Tasks-27</td>
+    <td>Diseño de filtros</td>
+    <td>Diseñar los filtros de categoría y talla en el catálogo web.</td>
+    <td>2h Hours</td>
+    <td>Nicolas Cortes</td>
+    <td>Done</td>
+</tr>
+<tr>
+    <td>Tasks-28</td>
+    <td>Implementación de lógica</td>
+    <td>Programar los filtros para aplicar criterios seleccionados.</td>
+    <td>2 Hours</td>
+    <td>Nicolas Cortes</td>
+    <td>Done</td>
+</tr>
+<tr>
+    <td>Tasks-29</td>
+    <td>Integración con el backend</td>
+    <td>Conectar filtros al API para obtener resultados filtrados.</td>
+    <td>2 Hours</td>
+    <td>Santiago Olivera</td>
+    <td>Done</td>
+</tr>
+
+<tr>
+    <td rowspan="3">US10</td>
+    <td rowspan="3">Visualizar detalles de una prenda</td>
+    <td>Tasks-30</td>
+    <td>Diseño de la vista de detalle</td>
+    <td>Crear la interfaz móvil para mostrar detalles de una prenda.</td>
+    <td>2h Hours</td>
+    <td>Santiago Olivera</td>
+    <td>Done</td>
+</tr>
+<tr>
+    <td>Tasks-31</td>
+    <td>Obtención de datos</td>
+    <td>Programar lógica para obtener los datos de la prenda desde la API.</td>
+    <td>3 Hours</td>
+    <td>Eduardo Chero</td>
+    <td>Done</td>
+</tr>
+<tr>
+    <td>Tasks-32</td>
+    <td>Validación de disponibilidad</td>
+    <td>Mostrar mensaje si la prenda está agotada o no disponible.</td>
+    <td>2h Hours</td>
+    <td>Eduardo Chero</td>
+    <td>Done</td>
+</tr>
+
+<tr>
+    <td rowspan="3">US11</td>
+    <td rowspan="3">Búsqueda por nombre de prenda</td>
+    <td>Tasks-33</td>
+    <td>Diseño de barra de búsqueda</td>
+    <td>Diseñar el campo de búsqueda para la app web.</td>
+    <td>2h Hours</td>
+    <td>Piero Márquez</td>
+    <td>Done</td>
+</tr>
+<tr>
+    <td>Tasks-34</td>
+    <td>Función de búsqueda</td>
+    <td>Implementar lógica de búsqueda por nombre en base de datos.</td>
+    <td>3 Hours</td>
+    <td>Piero Márquez</td>
+    <td>Done</td>
+</tr>
+<tr>
+    <td>Tasks-35</td>
+    <td>Historial de términos</td>
+    <td>Guardar y mostrar búsquedas recientes realizadas por el usuario.</td>
+    <td>2h Hours</td>
+    <td>Piero Márquez</td>
+    <td>Done</td>
+</tr>
+
+<tr>
+    <td rowspan="3">US12</td>
+    <td rowspan="3">Ver ubicación de prenda en mapa</td>
+    <td>Tasks-36</td>
+    <td>Diseño de vista de mapa</td>
+    <td>Crear el componente móvil para mostrar el mapa dentro de tienda.</td>
+    <td>2h Hours</td>
+    <td>Franco Surco</td>
+    <td>Done</td>
+</tr>
+<tr>
+    <td>Tasks-37</td>
+    <td>Marcador de prenda</td>
+    <td>Indicar ubicación exacta de la prenda seleccionada en el mapa.</td>
+    <td>3 Hours</td>
+    <td>Franco Surco</td>
+    <td>Done</td>
+</tr>
+<tr>
+    <td>Tasks-39</td>
+    <td>Acceso desde favoritos</td>
+    <td>Permitir ver ubicación de prendas guardadas desde favoritos.</td>
+    <td>2h Hours</td>
+    <td>Franco Surco</td>
+    <td>Done</td>
+</tr>
+
+<tr>
+    <td rowspan="3">US13</td>
+    <td rowspan="3">Visualizar prendas similares</td>
+    <td>Tasks-40</td>
+    <td>Interfaz de recomendaciones</td>
+    <td>Diseñar la sección de prendas similares al ver el detalle de una prenda.</td>
+    <td>2h Hours</td>
+    <td>Josué Arrunátegui</td>
+    <td>Done</td>
+</tr>
+<tr>
+    <td>Tasks-41</td>
+    <td>Lógica de recomendación</td>
+    <td>Implementar función para sugerir productos similares según categoría.</td>
+    <td>3 Hours</td>
+    <td>Josué Arrunátegui</td>
+    <td>Done</td>
+</tr>
+<tr>
+    <td>Tasks-42</td>
+    <td>Navegación a detalle</td>
+    <td>Permitir acceder al detalle desde una prenda sugerida.</td>
+    <td>2h Hours</td>
+    <td>Josué Arrunátegui</td>
+    <td>Done</td>
+</tr>
+
+<tr>
+    <td rowspan="3">US25</td>
+    <td rowspan="3">Guardar prendas como favoritas</td>
+    <td>Tasks-43</td>
+    <td>Botón de favoritos</td>
+    <td>Agregar botón para guardar prenda en lista de favoritos.</td>
+    <td>2h Hours</td>
+    <td>Santiago Olivera</td>
+    <td>Done</td>
+</tr>
+<tr>
+    <td>Tasks-44</td>
+    <td>Gestión de favoritos</td>
+    <td>Permitir guardar, eliminar y consultar favoritos desde el perfil.</td>
+    <td>3 Hours</td>
+    <td>Eduardo Chero</td>
+    <td>Done</td>
+</tr>
+<tr>
+    <td>Tasks-45</td>
+    <td>Persistencia en base de datos</td>
+    <td>Guardar los favoritos en la base de datos del usuario registrado.</td>
+    <td>2h Hours</td>
+    <td>Nicolas Cortes</td>
+    <td>Done</td>
+</tr>
     </tbody>
 </table>
 
